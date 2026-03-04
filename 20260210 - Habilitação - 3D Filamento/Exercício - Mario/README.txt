@@ -1,0 +1,4 @@
+8-Bit Classic Mario by jakejake on Thingiverse: https://www.thingiverse.com/thing:2153014
+
+Summary:
+This Retro Mario figure was modeled from a Nintendo Wii U Amiibo Mario Figure. I really liked the look, so I designed a version that could be 3d printed.Check out my process for designing this thing hereTake a look below for some additional information if you decide to print.YOUR PRINTER SHOULD HAVE DECENT ACCURACY TO PRINT THIS. This model has a large number of tightly arranged parts with just enough gap to interlock. If your side walls are wavy or have a big "elephant foot" effect, parts might not fit or a tolerance stack up could produce bad results.           
