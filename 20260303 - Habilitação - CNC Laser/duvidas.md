@@ -13,4 +13,11 @@ A máquina corta foamboars (XPS expandido)
         XPS 20mm: Potência menor, velocidade similar. 
 
 
+# Materiais
 
+Chapa de PS Poliestireno Cristal Transparente Espessura 3mm Medida 100x50cm
+    https://www.lojadopoli.com/poliestireno-ps/espessura-3mm/chapa-de-ps-poliestireno-cristal-transparente-espessura-3mm-medida-100x50cm
+
+Chapa, Placa de Acrilico Transparente e Opaco:wq
+
+    https://www.lojadopoli.com/chapa-placa-de-acrilico?loja=499339&palavra_busca=&filtrar_marca=&order=1&categoria=117
