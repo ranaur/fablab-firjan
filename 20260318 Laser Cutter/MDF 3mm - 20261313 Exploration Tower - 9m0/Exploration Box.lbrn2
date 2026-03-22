@@ -32,6 +32,7 @@
         <maxPower2 Value="20"/>
         <speed Value="18"/>
         <dotTime Value="1"/>
+        <subname Value="CUT"/>
         <priority Value="2"/>
         <tabCount Value="1"/>
         <tabCountMax Value="1"/>
@@ -53,6 +54,7 @@
         <speed Value="100"/>
         <dotTime Value="1"/>
         <angle Value="90"/>
+        <subname Value="DRAW"/>
         <priority Value="0"/>
         <tabCount Value="1"/>
         <tabCountMax Value="1"/>
