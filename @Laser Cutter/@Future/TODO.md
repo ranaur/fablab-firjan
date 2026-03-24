@@ -18,3 +18,12 @@
 # Desenhar
 [ ] Pesquisar árvore do Advento
 [ ] Desenho para as meninas (fazer stencils para elas desenharem?)
+
+# Baixar/ver
+
+https://3axis.co/download/ro6eqq1x/
+Asterix - https://3axis.co/asterix-dxf-file/joenl8o6/
+Peppa Pig - https://3axis.co/laser-cut-peppa-pig-dxf-file/078yxlno/
+Obelix - https://3axis.co/obelix-dxf-file/eo4mkdoj/
+https://www.behance.net/gallery/219336429/Wood-Laser-Cut-Ideas
+
