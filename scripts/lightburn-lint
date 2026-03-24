@@ -1,0 +1,373 @@
+#!/bin/bash
+#
+# lightburn-lint - Lightburn Project validator
+#
+# AUTHOR:
+#   Gustavo Schoenaker
+#
+# VERSION:
+#   1.0.0
+#
+# LICENSE:
+#   MIT
+#
+SCRIPT=$(basename "$0")
+
+global_help_text="Validates and verify Lightburn project files"
+
+# Printing ######################################################################
+function output() {
+    if [ ! -z "$OUTPUT" ] ; then
+        echo "$@" >> "$OUTPUT"
+    else
+        echo "$@"
+    fi
+}
+
+function warning() {
+    echo WARNING: "$@" > /dev/stderr
+}
+
+function info() {
+    if [ ! -z "$VERBOSE" ] ; then
+        echo "INFO:" "$@"
+    fi
+}
+
+function error() {
+    # asserts that last argument is a number
+    [ -n "${@: -1}" ] && [ "${@: -1}" -eq "${@: -1}" ] 2>/dev/null
+    if [ $? -ne 0 ]; then
+        error "$@" -1
+    fi
+
+    # if there is text, prints it
+    if [ $# -gt 1 ] ; then
+        echo ERROR: ${@:1:$#-1} > /dev/stderr
+    fi
+
+    # exits
+    exit ${@: -1} 
+}
+
+# Argument Parsing ##############################################################
+function show_help_options() {
+    for long_option in "${!long_options[@]}"
+    do
+        short_option=""
+        for so in "${!short_options[@]}"
+        do
+            if [ ."${short_options[$so]}" == ."$long_option" ] ; then
+                short_option="$so|"
+                break
+            fi
+        done
+        help_text="${help_options[$long_option]}"
+        [ -z "$help_text" ] && continue # help_text="undocumented option"
+
+        echo "    $short_option$long_option => $help_text"
+    done
+}
+
+function show_help_commands() {
+    for cmd in $(declare -F | grep "^declare -f cmd_" | cut -c 16-)
+    do
+        help_text="$(cmd_$cmd --help command-description)"
+        [ -z "$help_text" ] && help_text="undocumented command"
+        echo "    $cmd => $help_text"
+    done
+}
+
+function process_options() {
+    #[ -z "${long_options[@]}" ] && error "Internal bug. Variable long_options not set." -1
+    #[ -z "${short_options[@]}" ] && error "Internal bug. Variable short_options not set." -1
+    n_parameters=$#
+	while [ : ]; do
+		if [ "${1:0:1}" == - ] ; then # is an option --option ou -o
+            # is a short option (i.e. -c) , map the corresponding longoption (i.e. --continue)
+            if [ "${1:1:1}" != - ] ; then  
+                if printf '%s\0' "${!short_options[@]}" | grep -Fxqz -- "$1"; then
+                    option=${short_options[$1]}
+                else
+                    error "Invalid short command option $1. Use help for avaliable options." -1
+                fi
+            else
+                option="$1"
+            fi
+
+            # long_options must have 0 (parameters) or 1 (parameters)
+            if printf '%s\0' "${!long_options[@]}" | grep -Fxqz -- "$option"; then
+                case ${long_options[$option]} in
+                    0)
+                        options[$option]=true
+                        shift 1
+                        ;;
+                    1)
+                        if [ $# -eq 1 ] ; then
+                            error "Missing value for command option $1. Use help for syntax." -1
+                        fi
+
+                        options[$option]=$2
+                        shift 2
+                        ;;
+                    *)
+                        error "Internal bug. Invalid ivalues for long_option[$option]." -1
+                        ;;
+                esac    
+            else
+                error "Invalid command option $1. Use help for avaliable options." -1
+            fi
+        else # first positional parameter return number of parameters that must shift
+            return $(($n_parameters - $#))
+        fi
+    done
+}
+
+function process_help() {
+    if [ ! -z "${options[--help]}" ] ; then
+        if [ "$1" = "command-description" ] ; then
+            echo $command_description
+            return 1
+        fi
+        shift
+		1>&2 cat << __EOF__
+$(usage)
+
+$command_text
+
+Command Options:
+$(show_help_options)
+
+__EOF__
+		return 1
+    fi
+    return 0
+}
+
+function usage() {
+	cat << __USAGE__
+usage: $SCRIPT [global options] ${COMMAND:=command} ${command_parameters:="[command options and arguments]"}
+__USAGE__
+}
+
+function global_help() {
+    if [ "$1" == "--short" ] ; then
+        shift
+	    1>&2 cat << __SHORT_HELP__
+$(usage)
+
+$@
+
+For the list of avaliable commands type: $(basename "${BASH_SOURCE[0]}") help 
+For detailed help for a command type: $(basename "${BASH_SOURCE[0]}") [command] --help 
+__SHORT_HELP__
+		exit 1
+    fi
+
+    if [ "$(type -t "cmd_$1")" == "function" ] ; then
+		cmd_$1 --help
+		exit $?
+	fi
+
+
+	cat << __EOF__
+$(usage)
+
+$global_help_text
+
+Global Options:
+$(show_help_options)
+
+Where COMMAND is:
+$(show_help_commands)
+
+Try "$SCRIPT COMMAND help" for help on each command
+
+__EOF__
+	exit 1
+}
+
+# ##############################################################################
+# Main command functions
+# ##############################################################################
+if type xidel >& /dev/null ; then
+    XIDEL="$(which xidel)"
+else
+    error "xidel not found!"
+fi
+
+# XQuery functions
+function query_xpath() {
+    xidel "$1" --extract "$2" --output-encoding utf-8 --printed-node-format=text --input-format=xml --output-format=adhoc --silent
+}
+
+function cmd_help() {
+    command_description="general command help"
+    command_text="User command --help to see the help of each command"
+    declare -A long_options=([--help]=0)
+    declare -A short_options=([-h]=--help)
+    declare -A help_options=( \
+        [--help]="this message" \
+    )
+    options+=( \
+        [--name]="" \
+    )
+    process_options "$@" || shift $?
+    process_help "$@" || exit $?
+
+    FILES=("$@")
+
+    global_help
+
+    return 0
+}
+
+function cmd_cutsettings() {
+    command_description="shows the parameters of every layer"
+    command_text="$command_description"
+    declare -A long_options=([--help]=0)
+    declare -A short_options=([-h]=--help)
+    declare -A help_options=( \
+        [--help]="this message" \
+    )
+    options+=( \
+    )
+    process_options "$@" || shift $?
+    process_help "$@" || exit $?
+
+    FILE="$1"
+
+    while read name ; do
+        name=$(echo $name | xargs)
+        output "*** Layer: $name"
+        type="$(get_layer_type "$FILE" $name)"
+        index="$(get_layer_value "$FILE" $name index)"
+        minPower="$(get_layer_value "$FILE" $name minPower)"
+        maxPower="$(get_layer_value "$FILE" $name maxPower)"
+        maxPower2="$(get_layer_value "$FILE" $name maxPower2)"
+        speed="$(get_layer_value "$FILE" $name speed)"
+        doOutput="$(get_layer_value "$FILE" $name doOutput)" && doOutput=${doOutput:-1}
+
+        cat << __OUT__
+type=$type
+index=$index
+name=$name
+minPower=$minPower
+maxPower=$maxPower
+maxPower2=$maxPower2
+speed=$speed
+doOutput=$doOutput
+__OUT__
+    done < <(cmd_layers "$FILE")
+
+    return 0
+}
+function cmd_layers() {
+    command_description="list cut layers of the file"
+    command_text="Prints all layers in the file"
+    declare -A long_options=([--help]=0)
+    declare -A short_options=([-h]=--help)
+    declare -A help_options=( \
+        [--help]="this message" \
+    )
+    options+=( \
+    )
+    process_options "$@" || shift $?
+    process_help "$@" || exit $?
+
+    FILES=("$@")
+
+    for file in "${FILES[@]}" ; do
+        query_xpath "$file" "//LightBurnProject/CutSetting/name/@Value"
+    done
+
+    return 0
+}
+function get_layer_type() {
+    query_xpath "$1" 'string(//LightBurnProject/CutSetting/name[@Value="'"$2"'"]/../@type)'
+}
+
+function get_layer_value() {
+    query_xpath "$1" 'string(//LightBurnProject/CutSetting/name[@Value="'"$2"'"]/../'"$3"'/@Value)'
+}
+
+# Global Parameters #############################################################
+declare -A long_options=([--help]=0 [--verbose]=0)
+declare -A short_options=([-h]=--help [-v]=--verbose)
+declare -A help_options=([--help]="help message" [--verbose]="be more verbose on messages")
+declare -A options=([--help]="" [--verbose]="")
+process_options "$@" || shift $?
+
+[ ! -z "${options[--help]}" ] && global_help
+VERBOSE="${options[--verbose]}"
+CONFIG=$(realpath "${options[--config]}")
+CONFIG_DIR=$(dirname "$CONFIG")
+
+#echo VERBOSE:"${options[--verbose]}"
+#echo HELP:"${options[--help]}"
+#echo $# parameters: "$@"
+#show_help_options
+
+source usage
+
+COMMAND="$1"
+shift
+
+declare -a commands=($(declare -F | grep "^declare -f cmd_" | cut -c 16-))
+
+# execute known commands
+if printf '%s\0' "${commands[@]}" | grep -q -F -x -z -- "$COMMAND" ; then
+	cmd_$COMMAND "$@"
+	exit $?
+fi
+
+case $COMMAND in
+_complete)
+    error "COMPLETE NOT IMPLEMENTED YET!"
+    SCRIPTFUNCTION=$(echo "$SCRIPT" | tr "-" "_")
+    cat << __COMPLETE
+function _$SCRIPTFUNCTION() {
+    declare -la commands
+
+    case \${#COMP_WORDS[@]} in
+    0|1)
+        ;;
+    2)
+        possibilities+=(${commands[@]})
+        ;;
+    3)
+        case \${COMP_WORDS[1]} in
+        step)
+            possibilities+=( )
+            ;;
+        esac
+        ;;
+    *)
+        case \${COMP_WORDS[1]} in
+        *)
+            ;;
+        esac
+    esac
+    for pbl in "\${possibilities[@]}"
+    do
+        if case \$pbl in ""|"\$2"*) true;; *) false;; esac; then
+            COMPREPLY+=(\$pbl)
+        fi
+    done
+    unset possibilities
+}
+complete -F _$SCRIPTFUNCTION $SCRIPT
+
+__COMPLETE
+    exit 0
+    ;;
+"")
+    global_help --short "ERROR: must pass a command"
+	;;
+*)
+    global_help --short "ERROR: unknown command $COMMAND"
+	;;
+esac
+
+exit 1
+
