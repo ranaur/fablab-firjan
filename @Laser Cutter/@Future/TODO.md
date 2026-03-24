@@ -2,6 +2,7 @@
 
 [ ] Colocar o Logo Ranaur nos objetos
 [ ] Ver coisas para imprimir no @Inbox
+[ ] Testar com corte de fita Crepe
 
 # MDF
 [ ] Fazer o fundo dos dois double Counters em MDF
