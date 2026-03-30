@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "target": "ESNext",
+    "module": "commonjs",          // Essential for modern Node.js ESM
+    "moduleResolution": "NodeNext", // Ensures TypeScript finds modules correctly
+    "lib": ["ESNext"],      // Add "DOM" if you are working in a browser
+    
+    /* Strictness & Safety */
+    "strict": true,                // Enables all strict type-checking
+    "skipLibCheck": true,          // Faster builds by skipping .d.ts checking
+    "esModuleInterop": true,       // Helps with importing CommonJS libraries
+    "forceConsistentCasingInFileNames": true,
+
+    /* Output Settings */
+    "outDir": "./dist",            // Where compiled files go
+    "rootDir": "./src",            // Where your source code lives
+    "sourceMap": true,             // Helpful for debugging
+    "noEmit": false                // Set to true if only using TS for linting
+  },
+  "include": ["src/**/*"],         // Only compile files in the src folder
+  "exclude": ["node_modules"]
+}
