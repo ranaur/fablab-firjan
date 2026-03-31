@@ -7,6 +7,7 @@
 # MDF
 [ ] Fazer o fundo dos dois double Counters em MDF
 [ ] Imprimir outras caixas ../20260323 Laser Cutter/ 'WHITE MDF - 1 - 20260315 USB Cable boxes - 11m34'
+[ ] Fazer o qr code num MDF e ver se queima irregular.
 
 # Acrílico
 [ ] Rodar o teste do MyCard template para o acrílico e decidir se faz ele de acrílico ou de MDF
