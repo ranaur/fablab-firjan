@@ -5,6 +5,8 @@
 
 # sources to watch
 
+https://medium.com/@mlightcad/autocad-shx-font-online-viewer-c5d2d165dd85
+
 https://github.com/ixmilia/shx
 https://github.com/diwi/diewald_shapeFileReader/blob/master/diewald_shapeFileReader/src/diewald_shapeFile/files/shx/SHX_File.java
 https://github.com/yzylovepmn/YFonts.SHX
