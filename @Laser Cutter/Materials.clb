@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary DisplayName="Materials">
+    <Material name="MDF">
+        <Entry Thickness="3.0000" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/MDF 3mm"/>
+                <minPower Value="80"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="18"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Engrave">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Engrave"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Fill">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Fill"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Comment">
+            <CutSetting type="Offset">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Comment"/>
+                <minPower Value="0"/>
+                <maxPower Value="0"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
