@@ -5,7 +5,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="MDF/3.0000/MDF 3mm"/>
+                <LinkPath Value="MDF/3.0000/Cut"/>
                 <minPower Value="80"/>
                 <maxPower Value="80"/>
                 <maxPower2 Value="20"/>
