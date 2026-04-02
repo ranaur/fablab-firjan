@@ -1,0 +1,2 @@
+https://boxes.hackerspace-bamberg.de/SlidingLidBox?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&x=200&y=200&h=100&outside=0&bottom_edge=F&rail=1.5&margin_t=0.1&margin_s=0.05&lid_type=hole&hole_length=40&hole_width=20&hole_radius=10&thickness=3.0&burn=0.1&format=svg&labels=0&labels=1&reference=100.0&tabs=0.0&qr_code=0&qr_code=1&inner_corners=loop&spacing=0.5&debug=0&language=en&render=0
+
