@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="225.70mm"
+   viewBox="0.0 0.0 919.80 225.70"
+   width="919.80mm"
+   version="1.1"
+   id="svg155"
+   sodipodi:docname="TrayLayout - 2mm - modified.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs155" />
+  <sodipodi:namedview
+     id="namedview155"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.5"
+     inkscape:cx="-48"
+     inkscape:cy="241"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3">
+    <sodipodi:guide
+       position="78.790928,103.4"
+       orientation="0,1"
+       id="guide155"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <!--
+TrayLayout - Generate a typetray from a layout file.
+
+
+This is a two step process. This is step 2.
+Edit the layout text graphics to adjust your tray.
+Put in the sizes for each column and row. You can replace the hyphens and
+vertical bars representing the walls with a space character to remove the walls.
+You can replace the space characters representing the floor by a "X" to remove the floor for this compartment.
+
+
+
+Created with Boxes.py (https://boxes.hackerspace-bamberg.de/)
+Creation date: 2026-03-19 21:42:48
+Command line (remove spaces between dashes): boxes TrayLayout - -h=50 - -outside=0 '- -sx=35*6' - -sy=50:20:10 '- -layout= ,> 35.00mm\n | ,> 35.00mm\n | | ,> 35.00mm\n | | | ,> 35.00mm\n | | | | ,> 35.00mm\n | | | | | ,> 35.00mm\n+-+-+-+-+-+-+\n|   |   |   |  50.00mm\n+-+-+-+-+-+-+\n|     |     |  20.00mm\n+-+-+-+-+-+-+\n|           |  10.00mm\n+-+-+-+-+-+-+\n' - -thickness=2 - -spacing=0.5
+Url: https://boxes.hackerspace-bamberg.de/TrayLayout?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Lid_handle=none&Lid_style=none&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&h=50&hi=0.0&outside=0&sx=35*6&sy=50%3A20%3A10&layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&thickness=2&burn=0.1&format=svg&labels=0&labels=1&reference=100.0&tabs=0.0&qr_code=0&inner_corners=loop&spacing=0.5&debug=0&language=en&render=2
+Url short: https://boxes.hackerspace-bamberg.de/TrayLayout?h=50&outside=0&sx=35*6&sy=50%3A20%3A10&layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&thickness=2&spacing=0.5
+SettingsUrl: https://boxes.hackerspace-bamberg.de/TrayLayout?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Lid_handle=none&Lid_style=none&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&h=50&hi=0.0&outside=0&sx=35*6&sy=50%3A20%3A10&layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&thickness=2&burn=0.1&format=svg&labels=0&labels=1&reference=100.0&tabs=0.0&qr_code=0&inner_corners=loop&spacing=0.5&debug=0&language=en&render=2
+SettingsUrl short: https://boxes.hackerspace-bamberg.de/TrayLayout?h=50&outside=0&sx=35*6&sy=50%3A20%3A10&layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&thickness=2&spacing=0.5
+-->
+  <title
+     id="title1">TrayLayout</title>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:title>Tray - TrayLayout</dc:title>
+        <dc:date>2026-03-19 21:42:48</dc:date>
+        <dc:source>https://boxes.hackerspace-bamberg.de/TrayLayout?FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Lid_handle=none&amp;Lid_style=none&amp;Lid_handle_height=8.0&amp;Lid_height=4.0&amp;Lid_play=0.1&amp;h=50&amp;hi=0.0&amp;outside=0&amp;sx=35*6&amp;sy=50%3A20%3A10&amp;layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&amp;thickness=2&amp;burn=0.1&amp;format=svg&amp;labels=0&amp;labels=1&amp;reference=100.0&amp;tabs=0.0&amp;qr_code=0&amp;inner_corners=loop&amp;spacing=0.5&amp;debug=0&amp;language=en&amp;render=2</dc:source>
+        <dc:source>https://boxes.hackerspace-bamberg.de/TrayLayout?h=50&amp;outside=0&amp;sx=35*6&amp;sy=50%3A20%3A10&amp;layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&amp;thickness=2&amp;spacing=0.5</dc:source>
+        <dc:description>Generate a typetray from a layout file.
+
+This is a two step process. This is step 2.
+Edit the layout text graphics to adjust your tray.
+Put in the sizes for each column and row. You can replace the hyphens and
+vertical bars representing the walls with a space character to remove the walls.
+You can replace the space characters representing the floor by a &quot;X&quot; to remove the floor for this compartment.
+
+
+Created with Boxes.py (https://boxes.hackerspace-bamberg.de/)
+Command line: boxes TrayLayout --FingerJoint_style=rectangular --FingerJoint_surroundingspaces=2.0 --FingerJoint_bottom_lip=0.0 --FingerJoint_edge_width=1.0 --FingerJoint_extra_length=0.0 --FingerJoint_finger=2.0 --FingerJoint_play=0.0 --FingerJoint_space=2.0 --FingerJoint_width=1.0 --Lid_handle=none --Lid_style=none --Lid_handle_height=8.0 --Lid_height=4.0 --Lid_play=0.1 --h=50 --hi=0.0 --outside=0 '--sx=35*6' --sy=50:20:10 '--layout= ,&gt; 35.00mm\n | ,&gt; 35.00mm\n | | ,&gt; 35.00mm\n | | | ,&gt; 35.00mm\n | | | | ,&gt; 35.00mm\n | | | | | ,&gt; 35.00mm\n+-+-+-+-+-+-+\n|   |   |   |  50.00mm\n+-+-+-+-+-+-+\n|     |     |  20.00mm\n+-+-+-+-+-+-+\n|           |  10.00mm\n+-+-+-+-+-+-+\n' --thickness=2 --burn=0.1 --format=svg --labels=0 --labels=1 --reference=100.0 --tabs=0.0 --qr_code=0 --inner_corners=loop --spacing=0.5 --debug=0
+Command line short: boxes TrayLayout --h=50 --outside=0 '--sx=35*6' --sy=50:20:10 '--layout= ,&gt; 35.00mm\n | ,&gt; 35.00mm\n | | ,&gt; 35.00mm\n | | | ,&gt; 35.00mm\n | | | | ,&gt; 35.00mm\n | | | | | ,&gt; 35.00mm\n+-+-+-+-+-+-+\n|   |   |   |  50.00mm\n+-+-+-+-+-+-+\n|     |     |  20.00mm\n+-+-+-+-+-+-+\n|           |  10.00mm\n+-+-+-+-+-+-+\n' --thickness=2 --spacing=0.5
+Url: https://boxes.hackerspace-bamberg.de/TrayLayout?FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Lid_handle=none&amp;Lid_style=none&amp;Lid_handle_height=8.0&amp;Lid_height=4.0&amp;Lid_play=0.1&amp;h=50&amp;hi=0.0&amp;outside=0&amp;sx=35*6&amp;sy=50%3A20%3A10&amp;layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&amp;thickness=2&amp;burn=0.1&amp;format=svg&amp;labels=0&amp;labels=1&amp;reference=100.0&amp;tabs=0.0&amp;qr_code=0&amp;inner_corners=loop&amp;spacing=0.5&amp;debug=0&amp;language=en&amp;render=2
+Url short: https://boxes.hackerspace-bamberg.de/TrayLayout?h=50&amp;outside=0&amp;sx=35*6&amp;sy=50%3A20%3A10&amp;layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&amp;thickness=2&amp;spacing=0.5
+SettingsUrl: https://boxes.hackerspace-bamberg.de/TrayLayout?FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Lid_handle=none&amp;Lid_style=none&amp;Lid_handle_height=8.0&amp;Lid_height=4.0&amp;Lid_play=0.1&amp;h=50&amp;hi=0.0&amp;outside=0&amp;sx=35*6&amp;sy=50%3A20%3A10&amp;layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&amp;thickness=2&amp;burn=0.1&amp;format=svg&amp;labels=0&amp;labels=1&amp;reference=100.0&amp;tabs=0.0&amp;qr_code=0&amp;inner_corners=loop&amp;spacing=0.5&amp;debug=0&amp;language=en&amp;render=2
+SettingsUrl short: https://boxes.hackerspace-bamberg.de/TrayLayout?h=50&amp;outside=0&amp;sx=35*6&amp;sy=50%3A20%3A10&amp;layout=+%2C%3E+35.00mm%0D%0A+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A+%7C+%7C+%7C+%7C+%7C+%2C%3E+35.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++%7C+++%7C+++%7C++50.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++%7C+++++%7C++20.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A%7C+++++++++++%7C++10.00mm%0D%0A%2B-%2B-%2B-%2B-%2B-%2B-%2B%0D%0A&amp;thickness=2&amp;spacing=0.5
+</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 1">
+    <g
+       id="p-0"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <path
+         d="M 10.100 215.700 H 110.100 V 205.700 H 10.100 V 215.700 Z"
+         stroke="rgb(0,0,0)"
+         stroke-width="0.20"
+         id="path1" />
+      <text
+         dominant-baseline="hanging"
+         font-size="6px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 60.100 207.700 )"
+         id="text1">100.0mm, burn:0.10mm</text>
+    </g>
+    <g
+       id="p-1"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 29.600 198.400 )"
+         id="text2">x 1/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 66.600 198.400 )"
+         id="text3">x 2/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 103.600 198.400 )"
+         id="text4">x 3/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 140.600 198.400 )"
+         id="text5">x 4/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 177.600 198.400 )"
+         id="text6">x 5/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 214.600 198.400 )"
+         id="text7">x 6/1</text>
+      <path
+         d="m 12.1,202.5 h 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -6.9 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -224 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 H 12 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 H 12 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 H 12 c 0.1,0 0,-0.1 0,0 v 6.9 c 0,0.055 0.045,0.1 0.1,0.1 z"
+         stroke="#000000"
+         stroke-width="0.2"
+         id="path7"
+         sodipodi:nodetypes="sssssssssssssssssssssssssccssssssssssssssssssssssssccssssssssssssssssssssssssccssssssssssssssssssssssssccssssssssssssssssssssssssccssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss" />
+      <path
+         d="M 86.000 193.400 V 195.300 C 86.000 195.400 86.100 195.300 86.000 195.300 H 84.200 C 84.100 195.300 84.200 195.400 84.200 195.300 V 191.500 C 84.200 191.400 84.100 191.500 84.200 191.500 H 86.000 C 86.100 191.500 86.000 191.400 86.000 191.500 V 193.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path8" />
+      <path
+         d="M 86.000 185.400 V 187.300 C 86.000 187.400 86.100 187.300 86.000 187.300 H 84.200 C 84.100 187.300 84.200 187.400 84.200 187.300 V 183.500 C 84.200 183.400 84.100 183.500 84.200 183.500 H 86.000 C 86.100 183.500 86.000 183.400 86.000 183.500 V 185.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path9" />
+      <path
+         d="M 160.000 193.400 V 195.300 C 160.000 195.400 160.100 195.300 160.000 195.300 H 158.200 C 158.100 195.300 158.200 195.400 158.200 195.300 V 191.500 C 158.200 191.400 158.100 191.500 158.200 191.500 H 160.000 C 160.100 191.500 160.000 191.400 160.000 191.500 V 193.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path13" />
+      <path
+         d="M 160.000 185.400 V 187.300 C 160.000 187.400 160.100 187.300 160.000 187.300 H 158.200 C 158.100 187.300 158.200 187.400 158.200 187.300 V 183.500 C 158.200 183.400 158.100 183.500 158.200 183.500 H 160.000 C 160.100 183.500 160.000 183.400 160.000 183.500 V 185.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path14" />
+    </g>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text17"
+       x="254.8"
+       y="198.39999">x 1/2</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text18"
+       x="291.79999"
+       y="198.39999">x 2/2</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text19"
+       x="328.79999"
+       y="198.39999">x 3/2</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text20"
+       x="365.79999"
+       y="198.39999">x 4/2</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text21"
+       x="402.79999"
+       y="198.39999">x 5/2</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text22"
+       x="439.79999"
+       y="198.39999">x 6/2</text>
+    <path
+       d="m 237.3,202.5 h 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -6.9 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -6.9 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -220 c -0.055,0 -0.1,0.045 -0.1,0.1 v 6.9 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 6.9 c 0,0.055 0.045,0.1 0.1,0.1 z"
+       stroke="#000000"
+       stroke-width="0.2"
+       id="path22"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 311.2,193.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path23"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 311.2,185.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path24"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 311.2,177.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path25"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 348.2,193.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path28"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 348.2,185.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path29"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 348.2,177.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path30"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 348.2,169.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path31"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 348.2,161.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path32"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 385.2,193.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path33"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 385.2,185.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path34"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 385.2,177.4 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path35"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <g
+       id="p-3"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 480.000 198.400 )"
+         id="text37">x 1/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 517.000 198.400 )"
+         id="text38">x 2/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 554.000 198.400 )"
+         id="text39">x 3/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 591.000 198.400 )"
+         id="text40">x 4/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 628.000 198.400 )"
+         id="text41">x 5/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 665.000 198.400 )"
+         id="text42">x 6/3</text>
+      <path
+         d="M 462.500 202.500 H 469.900 C 470.000 202.500 469.900 202.400 469.900 202.500 V 204.400 C 469.900 204.455 469.945 204.500 470.000 204.500 H 474.000 C 474.055 204.500 474.100 204.455 474.100 204.400 V 202.500 C 474.100 202.400 474.000 202.500 474.100 202.500 H 477.900 C 478.000 202.500 477.900 202.400 477.900 202.500 V 204.400 C 477.900 204.455 477.945 204.500 478.000 204.500 H 482.000 C 482.055 204.500 482.100 204.455 482.100 204.400 V 202.500 C 482.100 202.400 482.000 202.500 482.100 202.500 H 485.900 C 486.000 202.500 485.900 202.400 485.900 202.500 V 204.400 C 485.900 204.455 485.945 204.500 486.000 204.500 H 490.000 C 490.055 204.500 490.100 204.455 490.100 204.400 V 202.500 C 490.100 202.400 490.000 202.500 490.100 202.500 H 497.500 H 499.500 H 506.900 C 507.000 202.500 506.900 202.400 506.900 202.500 V 204.400 C 506.900 204.455 506.945 204.500 507.000 204.500 H 511.000 C 511.055 204.500 511.100 204.455 511.100 204.400 V 202.500 C 511.100 202.400 511.000 202.500 511.100 202.500 H 514.900 C 515.000 202.500 514.900 202.400 514.900 202.500 V 204.400 C 514.900 204.455 514.945 204.500 515.000 204.500 H 519.000 C 519.055 204.500 519.100 204.455 519.100 204.400 V 202.500 C 519.100 202.400 519.000 202.500 519.100 202.500 H 522.900 C 523.000 202.500 522.900 202.400 522.900 202.500 V 204.400 C 522.900 204.455 522.945 204.500 523.000 204.500 H 527.000 C 527.055 204.500 527.100 204.455 527.100 204.400 V 202.500 C 527.100 202.400 527.000 202.500 527.100 202.500 H 534.500 H 536.500 H 543.900 C 544.000 202.500 543.900 202.400 543.900 202.500 V 204.400 C 543.900 204.455 543.945 204.500 544.000 204.500 H 548.000 C 548.055 204.500 548.100 204.455 548.100 204.400 V 202.500 C 548.100 202.400 548.000 202.500 548.100 202.500 H 551.900 C 552.000 202.500 551.900 202.400 551.900 202.500 V 204.400 C 551.900 204.455 551.945 204.500 552.000 204.500 H 556.000 C 556.055 204.500 556.100 204.455 556.100 204.400 V 202.500 C 556.100 202.400 556.000 202.500 556.100 202.500 H 559.900 C 560.000 202.500 559.900 202.400 559.900 202.500 V 204.400 C 559.900 204.455 559.945 204.500 560.000 204.500 H 564.000 C 564.055 204.500 564.100 204.455 564.100 204.400 V 202.500 C 564.100 202.400 564.000 202.500 564.100 202.500 H 571.500 H 573.500 H 580.900 C 581.000 202.500 580.900 202.400 580.900 202.500 V 204.400 C 580.900 204.455 580.945 204.500 581.000 204.500 H 585.000 C 585.055 204.500 585.100 204.455 585.100 204.400 V 202.500 C 585.100 202.400 585.000 202.500 585.100 202.500 H 588.900 C 589.000 202.500 588.900 202.400 588.900 202.500 V 204.400 C 588.900 204.455 588.945 204.500 589.000 204.500 H 593.000 C 593.055 204.500 593.100 204.455 593.100 204.400 V 202.500 C 593.100 202.400 593.000 202.500 593.100 202.500 H 596.900 C 597.000 202.500 596.900 202.400 596.900 202.500 V 204.400 C 596.900 204.455 596.945 204.500 597.000 204.500 H 601.000 C 601.055 204.500 601.100 204.455 601.100 204.400 V 202.500 C 601.100 202.400 601.000 202.500 601.100 202.500 H 608.500 H 610.500 H 617.900 C 618.000 202.500 617.900 202.400 617.900 202.500 V 204.400 C 617.900 204.455 617.945 204.500 618.000 204.500 H 622.000 C 622.055 204.500 622.100 204.455 622.100 204.400 V 202.500 C 622.100 202.400 622.000 202.500 622.100 202.500 H 625.900 C 626.000 202.500 625.900 202.400 625.900 202.500 V 204.400 C 625.900 204.455 625.945 204.500 626.000 204.500 H 630.000 C 630.055 204.500 630.100 204.455 630.100 204.400 V 202.500 C 630.100 202.400 630.000 202.500 630.100 202.500 H 633.900 C 634.000 202.500 633.900 202.400 633.900 202.500 V 204.400 C 633.900 204.455 633.945 204.500 634.000 204.500 H 638.000 C 638.055 204.500 638.100 204.455 638.100 204.400 V 202.500 C 638.100 202.400 638.000 202.500 638.100 202.500 H 645.500 H 647.500 H 654.900 C 655.000 202.500 654.900 202.400 654.900 202.500 V 204.400 C 654.900 204.455 654.945 204.500 655.000 204.500 H 659.000 C 659.055 204.500 659.100 204.455 659.100 204.400 V 202.500 C 659.100 202.400 659.000 202.500 659.100 202.500 H 662.900 C 663.000 202.500 662.900 202.400 662.900 202.500 V 204.400 C 662.900 204.455 662.945 204.500 663.000 204.500 H 667.000 C 667.055 204.500 667.100 204.455 667.100 204.400 V 202.500 C 667.100 202.400 667.000 202.500 667.100 202.500 H 670.900 C 671.000 202.500 670.900 202.400 670.900 202.500 V 204.400 C 670.900 204.455 670.945 204.500 671.000 204.500 H 675.000 C 675.055 204.500 675.100 204.455 675.100 204.400 V 202.500 C 675.100 202.400 675.000 202.500 675.100 202.500 H 682.500 C 682.555 202.500 682.600 202.455 682.600 202.400 V 195.500 C 682.600 195.400 682.500 195.500 682.600 195.500 H 684.500 C 684.555 195.500 684.600 195.455 684.600 195.400 V 191.400 C 684.600 191.345 684.555 191.300 684.500 191.300 H 682.600 C 682.500 191.300 682.600 191.400 682.600 191.300 V 187.500 C 682.600 187.400 682.500 187.500 682.600 187.500 H 684.500 C 684.555 187.500 684.600 187.455 684.600 187.400 V 183.400 C 684.600 183.345 684.555 183.300 684.500 183.300 H 682.600 C 682.500 183.300 682.600 183.400 682.600 183.300 V 179.500 C 682.600 179.400 682.500 179.500 682.600 179.500 H 684.500 C 684.555 179.500 684.600 179.455 684.600 179.400 V 175.400 C 684.600 175.345 684.555 175.300 684.500 175.300 H 682.600 C 682.500 175.300 682.600 175.400 682.600 175.300 V 171.500 C 682.600 171.400 682.500 171.500 682.600 171.500 H 684.500 C 684.555 171.500 684.600 171.455 684.600 171.400 V 167.400 C 684.600 167.345 684.555 167.300 684.500 167.300 H 682.600 C 682.500 167.300 682.600 167.400 682.600 167.300 V 163.500 C 682.600 163.400 682.500 163.500 682.600 163.500 H 684.500 C 684.555 163.500 684.600 163.455 684.600 163.400 V 159.400 C 684.600 159.345 684.555 159.300 684.500 159.300 H 682.600 C 682.500 159.300 682.600 159.400 682.600 159.300 V 152.400 C 682.600 152.345 682.555 152.300 682.500 152.300 H 462.500 C 462.445 152.300 462.400 152.345 462.400 152.400 V 159.300 C 462.400 159.400 462.500 159.300 462.400 159.300 H 460.500 C 460.445 159.300 460.400 159.345 460.400 159.400 V 163.400 C 460.400 163.455 460.445 163.500 460.500 163.500 H 462.400 C 462.500 163.500 462.400 163.400 462.400 163.500 V 167.300 C 462.400 167.400 462.500 167.300 462.400 167.300 H 460.500 C 460.445 167.300 460.400 167.345 460.400 167.400 V 171.400 C 460.400 171.455 460.445 171.500 460.500 171.500 H 462.400 C 462.500 171.500 462.400 171.400 462.400 171.500 V 175.300 C 462.400 175.400 462.500 175.300 462.400 175.300 H 460.500 C 460.445 175.300 460.400 175.345 460.400 175.400 V 179.400 C 460.400 179.455 460.445 179.500 460.500 179.500 H 462.400 C 462.500 179.500 462.400 179.400 462.400 179.500 V 183.300 C 462.400 183.400 462.500 183.300 462.400 183.300 H 460.500 C 460.445 183.300 460.400 183.345 460.400 183.400 V 187.400 C 460.400 187.455 460.445 187.500 460.500 187.500 H 462.400 C 462.500 187.500 462.400 187.400 462.400 187.500 V 191.300 C 462.400 191.400 462.500 191.300 462.400 191.300 H 460.500 C 460.445 191.300 460.400 191.345 460.400 191.400 V 195.400 C 460.400 195.455 460.445 195.500 460.500 195.500 H 462.400 C 462.500 195.500 462.400 195.400 462.400 195.500 V 202.400 C 462.400 202.455 462.445 202.500 462.500 202.500 Z"
+         stroke="rgb(0,0,0)"
+         stroke-width="0.20"
+         id="path42" />
+      <path
+         d="M 573.400 193.400 V 195.300 C 573.400 195.400 573.500 195.300 573.400 195.300 H 571.600 C 571.500 195.300 571.600 195.400 571.600 195.300 V 191.500 C 571.600 191.400 571.500 191.500 571.600 191.500 H 573.400 C 573.500 191.500 573.400 191.400 573.400 191.500 V 193.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path43" />
+      <path
+         d="M 573.400 185.400 V 187.300 C 573.400 187.400 573.500 187.300 573.400 187.300 H 571.600 C 571.500 187.300 571.600 187.400 571.600 187.300 V 183.500 C 571.600 183.400 571.500 183.500 571.600 183.500 H 573.400 C 573.500 183.500 573.400 183.400 573.400 183.500 V 185.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path44" />
+      <path
+         d="M 573.400 177.400 V 179.300 C 573.400 179.400 573.500 179.300 573.400 179.300 H 571.600 C 571.500 179.300 571.600 179.400 571.600 179.300 V 175.500 C 571.600 175.400 571.500 175.500 571.600 175.500 H 573.400 C 573.500 175.500 573.400 175.400 573.400 175.500 V 177.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path45" />
+      <path
+         d="M 573.400 169.400 V 171.300 C 573.400 171.400 573.500 171.300 573.400 171.300 H 571.600 C 571.500 171.300 571.600 171.400 571.600 171.300 V 167.500 C 571.600 167.400 571.500 167.500 571.600 167.500 H 573.400 C 573.500 167.500 573.400 167.400 573.400 167.500 V 169.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path46" />
+      <path
+         d="M 573.400 161.400 V 163.300 C 573.400 163.400 573.500 163.300 573.400 163.300 H 571.600 C 571.500 163.300 571.600 163.400 571.600 163.300 V 159.500 C 571.600 159.400 571.500 159.500 571.600 159.500 H 573.400 C 573.500 159.500 573.400 159.400 573.400 159.500 V 161.400 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path47" />
+    </g>
+    <g
+       id="p-4"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 705.200 198.400 )"
+         id="text47">x 1/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 742.200 198.400 )"
+         id="text48">x 2/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 779.200 198.400 )"
+         id="text49">x 3/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 816.200 198.400 )"
+         id="text50">x 4/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 853.200 198.400 )"
+         id="text51">x 5/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 890.200 198.400 )"
+         id="text52">x 6/4</text>
+      <path
+         d="M 687.700 202.500 H 695.100 C 695.200 202.500 695.100 202.400 695.100 202.500 V 204.400 C 695.100 204.455 695.145 204.500 695.200 204.500 H 699.200 C 699.255 204.500 699.300 204.455 699.300 204.400 V 202.500 C 699.300 202.400 699.200 202.500 699.300 202.500 H 703.100 C 703.200 202.500 703.100 202.400 703.100 202.500 V 204.400 C 703.100 204.455 703.145 204.500 703.200 204.500 H 707.200 C 707.255 204.500 707.300 204.455 707.300 204.400 V 202.500 C 707.300 202.400 707.200 202.500 707.300 202.500 H 711.100 C 711.200 202.500 711.100 202.400 711.100 202.500 V 204.400 C 711.100 204.455 711.145 204.500 711.200 204.500 H 715.200 C 715.255 204.500 715.300 204.455 715.300 204.400 V 202.500 C 715.300 202.400 715.200 202.500 715.300 202.500 H 722.700 H 724.700 H 732.100 C 732.200 202.500 732.100 202.400 732.100 202.500 V 204.400 C 732.100 204.455 732.145 204.500 732.200 204.500 H 736.200 C 736.255 204.500 736.300 204.455 736.300 204.400 V 202.500 C 736.300 202.400 736.200 202.500 736.300 202.500 H 740.100 C 740.200 202.500 740.100 202.400 740.100 202.500 V 204.400 C 740.100 204.455 740.145 204.500 740.200 204.500 H 744.200 C 744.255 204.500 744.300 204.455 744.300 204.400 V 202.500 C 744.300 202.400 744.200 202.500 744.300 202.500 H 748.100 C 748.200 202.500 748.100 202.400 748.100 202.500 V 204.400 C 748.100 204.455 748.145 204.500 748.200 204.500 H 752.200 C 752.255 204.500 752.300 204.455 752.300 204.400 V 202.500 C 752.300 202.400 752.200 202.500 752.300 202.500 H 759.700 H 761.700 H 769.100 C 769.200 202.500 769.100 202.400 769.100 202.500 V 204.400 C 769.100 204.455 769.145 204.500 769.200 204.500 H 773.200 C 773.255 204.500 773.300 204.455 773.300 204.400 V 202.500 C 773.300 202.400 773.200 202.500 773.300 202.500 H 777.100 C 777.200 202.500 777.100 202.400 777.100 202.500 V 204.400 C 777.100 204.455 777.145 204.500 777.200 204.500 H 781.200 C 781.255 204.500 781.300 204.455 781.300 204.400 V 202.500 C 781.300 202.400 781.200 202.500 781.300 202.500 H 785.100 C 785.200 202.500 785.100 202.400 785.100 202.500 V 204.400 C 785.100 204.455 785.145 204.500 785.200 204.500 H 789.200 C 789.255 204.500 789.300 204.455 789.300 204.400 V 202.500 C 789.300 202.400 789.200 202.500 789.300 202.500 H 796.700 H 798.700 H 806.100 C 806.200 202.500 806.100 202.400 806.100 202.500 V 204.400 C 806.100 204.455 806.145 204.500 806.200 204.500 H 810.200 C 810.255 204.500 810.300 204.455 810.300 204.400 V 202.500 C 810.300 202.400 810.200 202.500 810.300 202.500 H 814.100 C 814.200 202.500 814.100 202.400 814.100 202.500 V 204.400 C 814.100 204.455 814.145 204.500 814.200 204.500 H 818.200 C 818.255 204.500 818.300 204.455 818.300 204.400 V 202.500 C 818.300 202.400 818.200 202.500 818.300 202.500 H 822.100 C 822.200 202.500 822.100 202.400 822.100 202.500 V 204.400 C 822.100 204.455 822.145 204.500 822.200 204.500 H 826.200 C 826.255 204.500 826.300 204.455 826.300 204.400 V 202.500 C 826.300 202.400 826.200 202.500 826.300 202.500 H 833.700 H 835.700 H 843.100 C 843.200 202.500 843.100 202.400 843.100 202.500 V 204.400 C 843.100 204.455 843.145 204.500 843.200 204.500 H 847.200 C 847.255 204.500 847.300 204.455 847.300 204.400 V 202.500 C 847.300 202.400 847.200 202.500 847.300 202.500 H 851.100 C 851.200 202.500 851.100 202.400 851.100 202.500 V 204.400 C 851.100 204.455 851.145 204.500 851.200 204.500 H 855.200 C 855.255 204.500 855.300 204.455 855.300 204.400 V 202.500 C 855.300 202.400 855.200 202.500 855.300 202.500 H 859.100 C 859.200 202.500 859.100 202.400 859.100 202.500 V 204.400 C 859.100 204.455 859.145 204.500 859.200 204.500 H 863.200 C 863.255 204.500 863.300 204.455 863.300 204.400 V 202.500 C 863.300 202.400 863.200 202.500 863.300 202.500 H 870.700 H 872.700 H 880.100 C 880.200 202.500 880.100 202.400 880.100 202.500 V 204.400 C 880.100 204.455 880.145 204.500 880.200 204.500 H 884.200 C 884.255 204.500 884.300 204.455 884.300 204.400 V 202.500 C 884.300 202.400 884.200 202.500 884.300 202.500 H 888.100 C 888.200 202.500 888.100 202.400 888.100 202.500 V 204.400 C 888.100 204.455 888.145 204.500 888.200 204.500 H 892.200 C 892.255 204.500 892.300 204.455 892.300 204.400 V 202.500 C 892.300 202.400 892.200 202.500 892.300 202.500 H 896.100 C 896.200 202.500 896.100 202.400 896.100 202.500 V 204.400 C 896.100 204.455 896.145 204.500 896.200 204.500 H 900.200 C 900.255 204.500 900.300 204.455 900.300 204.400 V 202.500 C 900.300 202.400 900.200 202.500 900.300 202.500 H 907.700 C 907.755 202.500 907.800 202.455 907.800 202.400 V 195.500 C 907.800 195.400 907.700 195.500 907.800 195.500 H 909.700 C 909.755 195.500 909.800 195.455 909.800 195.400 V 191.400 C 909.800 191.345 909.755 191.300 909.700 191.300 H 907.800 C 907.700 191.300 907.800 191.400 907.800 191.300 V 187.500 C 907.800 187.400 907.700 187.500 907.800 187.500 H 909.700 C 909.755 187.500 909.800 187.455 909.800 187.400 V 183.400 C 909.800 183.345 909.755 183.300 909.700 183.300 H 907.800 C 907.700 183.300 907.800 183.400 907.800 183.300 V 179.500 C 907.800 179.400 907.700 179.500 907.800 179.500 H 909.700 C 909.755 179.500 909.800 179.455 909.800 179.400 V 175.400 C 909.800 175.345 909.755 175.300 909.700 175.300 H 907.800 C 907.700 175.300 907.800 175.400 907.800 175.300 V 171.500 C 907.800 171.400 907.700 171.500 907.800 171.500 H 909.700 C 909.755 171.500 909.800 171.455 909.800 171.400 V 167.400 C 909.800 167.345 909.755 167.300 909.700 167.300 H 907.800 C 907.700 167.300 907.800 167.400 907.800 167.300 V 163.500 C 907.800 163.400 907.700 163.500 907.800 163.500 H 909.700 C 909.755 163.500 909.800 163.455 909.800 163.400 V 159.400 C 909.800 159.345 909.755 159.300 909.700 159.300 H 907.800 C 907.700 159.300 907.800 159.400 907.800 159.300 V 152.400 C 907.800 152.345 907.755 152.300 907.700 152.300 H 687.700 C 687.645 152.300 687.600 152.345 687.600 152.400 V 159.300 C 687.600 159.400 687.700 159.300 687.600 159.300 H 685.700 C 685.645 159.300 685.600 159.345 685.600 159.400 V 163.400 C 685.600 163.455 685.645 163.500 685.700 163.500 H 687.600 C 687.700 163.500 687.600 163.400 687.600 163.500 V 167.300 C 687.600 167.400 687.700 167.300 687.600 167.300 H 685.700 C 685.645 167.300 685.600 167.345 685.600 167.400 V 171.400 C 685.600 171.455 685.645 171.500 685.700 171.500 H 687.600 C 687.700 171.500 687.600 171.400 687.600 171.500 V 175.300 C 687.600 175.400 687.700 175.300 687.600 175.300 H 685.700 C 685.645 175.300 685.600 175.345 685.600 175.400 V 179.400 C 685.600 179.455 685.645 179.500 685.700 179.500 H 687.600 C 687.700 179.500 687.600 179.400 687.600 179.500 V 183.300 C 687.600 183.400 687.700 183.300 687.600 183.300 H 685.700 C 685.645 183.300 685.600 183.345 685.600 183.400 V 187.400 C 685.600 187.455 685.645 187.500 685.700 187.500 H 687.600 C 687.700 187.500 687.600 187.400 687.600 187.500 V 191.300 C 687.600 191.400 687.700 191.300 687.600 191.300 H 685.700 C 685.645 191.300 685.600 191.345 685.600 191.400 V 195.400 C 685.600 195.455 685.645 195.500 685.700 195.500 H 687.600 C 687.700 195.500 687.600 195.400 687.600 195.500 V 202.400 C 687.600 202.455 687.645 202.500 687.700 202.500 Z"
+         stroke="rgb(0,0,0)"
+         stroke-width="0.20"
+         id="path52" />
+    </g>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text53"
+       x="37.099998"
+       y="145.2">y 1/1</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text54"
+       x="74.099998"
+       y="145.2">y 1/2</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text55"
+       x="91.099998"
+       y="145.2">y 1/3</text>
+    <path
+       d="M 12.1,149.3 H 19 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 H 27 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 H 35 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 H 43 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 H 51 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 6.9 2 3.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 H 76 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.9 2 2.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 2.9 2 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -2 -10 -2 -20 -2 v 21.2 c 0,0.66667 -1.333333,2 -2,2 H 24.8 10.1 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7 c 0,0.055 0.045,0.1 0.1,0.1 H 12 c 0.1,0 0,-0.1 0,0 v 4.6 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 H 12 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7 c 0,0.055 0.045,0.1 0.1,0.1 z"
+       stroke="#000000"
+       stroke-width="0.2"
+       id="path55"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cssssssssssssssssssssssssssssssssssssssssccssssssssssssssssccsssssssscssssssssssssssssssssssssssssssssssssssssssssccccccccssssssssssssssssssssc" />
+    <path
+       d="m 64,140.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 64 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path56"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 64,132.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 64 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path57"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 64,124.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 64 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path58"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 64,116.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 64 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path59"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 64,108.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 64 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path60"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 86,140.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 86 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path61"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 86,132.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 86 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path62"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 86,124.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 86 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path63"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 86,116.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 86 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path64"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 86,108.2 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 H 86 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path65"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <g
+       id="p-6"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 126.300 145.200 )"
+         id="text65">y 3/1</text>
+      <path
+         d="m 101.3,149.3 h 6.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 6.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -6.9 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 0.002,0.1 0,0 v -4.2 h -50.2 v 8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 6.9 c 0,0.055 0.045,0.1 0.1,0.1 z"
+         stroke="#000000"
+         stroke-width="0.2"
+         id="path66"
+         sodipodi:nodetypes="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssccssssssssssssssssss" />
+    </g>
+    <g
+       id="p-7"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 166.500 145.200 )"
+         id="text66">y 4/2</text>
+      <path
+         d="M 156.500 149.300 H 160.400 C 160.500 149.300 160.400 149.200 160.400 149.300 V 151.200 C 160.400 151.255 160.445 151.300 160.500 151.300 H 164.500 C 164.555 151.300 164.600 151.255 164.600 151.200 V 149.300 C 164.600 149.200 164.500 149.300 164.600 149.300 H 168.400 C 168.500 149.300 168.400 149.200 168.400 149.300 V 151.200 C 168.400 151.255 168.445 151.300 168.500 151.300 H 172.500 C 172.555 151.300 172.600 151.255 172.600 151.200 V 149.300 C 172.600 149.200 172.500 149.300 172.600 149.300 H 176.500 C 176.555 149.300 176.600 149.255 176.600 149.200 V 142.300 C 176.600 142.200 176.500 142.300 176.600 142.300 H 178.500 C 178.555 142.300 178.600 142.255 178.600 142.200 V 138.200 C 178.600 138.145 178.555 138.100 178.500 138.100 H 176.600 C 176.500 138.100 176.600 138.200 176.600 138.100 V 134.300 C 176.600 134.200 176.500 134.300 176.600 134.300 H 178.500 C 178.555 134.300 178.600 134.255 178.600 134.200 V 130.200 C 178.600 130.145 178.555 130.100 178.500 130.100 H 176.600 C 176.500 130.100 176.600 130.200 176.600 130.100 V 126.300 C 176.600 126.200 176.500 126.300 176.600 126.300 H 178.500 C 178.555 126.300 178.600 126.255 178.600 126.200 V 122.200 C 178.600 122.145 178.555 122.100 178.500 122.100 H 176.600 C 176.500 122.100 176.600 122.200 176.600 122.100 V 118.300 C 176.600 118.200 176.500 118.300 176.600 118.300 H 178.500 C 178.555 118.300 178.600 118.255 178.600 118.200 V 114.200 C 178.600 114.145 178.555 114.100 178.500 114.100 H 176.600 C 176.500 114.100 176.600 114.200 176.600 114.100 V 110.300 C 176.600 110.200 176.500 110.300 176.600 110.300 H 178.500 C 178.555 110.300 178.600 110.255 178.600 110.200 V 106.200 C 178.600 106.145 178.555 106.100 178.500 106.100 H 176.600 C 176.500 106.100 176.600 106.200 176.600 106.100 V 99.200 C 176.600 99.145 176.555 99.100 176.500 99.100 H 156.500 C 156.445 99.100 156.400 99.145 156.400 99.200 V 106.100 C 156.400 106.200 156.500 106.100 156.400 106.100 H 154.500 C 154.445 106.100 154.400 106.145 154.400 106.200 V 110.200 C 154.400 110.255 154.445 110.300 154.500 110.300 H 156.400 C 156.500 110.300 156.400 110.200 156.400 110.300 V 114.100 C 156.400 114.200 156.500 114.100 156.400 114.100 H 154.500 C 154.445 114.100 154.400 114.145 154.400 114.200 V 118.200 C 154.400 118.255 154.445 118.300 154.500 118.300 H 156.400 C 156.500 118.300 156.400 118.200 156.400 118.300 V 122.100 C 156.400 122.200 156.500 122.100 156.400 122.100 H 154.500 C 154.445 122.100 154.400 122.145 154.400 122.200 V 126.200 C 154.400 126.255 154.445 126.300 154.500 126.300 H 156.400 C 156.500 126.300 156.400 126.200 156.400 126.300 V 130.100 C 156.400 130.200 156.500 130.100 156.400 130.100 H 154.500 C 154.445 130.100 154.400 130.145 154.400 130.200 V 134.200 C 154.400 134.255 154.445 134.300 154.500 134.300 H 156.400 C 156.500 134.300 156.400 134.200 156.400 134.300 V 138.100 C 156.400 138.200 156.500 138.100 156.400 138.100 H 154.500 C 154.445 138.100 154.400 138.145 154.400 138.200 V 142.200 C 154.400 142.255 154.445 142.300 154.500 142.300 H 156.400 C 156.500 142.300 156.400 142.200 156.400 142.300 V 149.200 C 156.400 149.255 156.445 149.300 156.500 149.300 Z"
+         stroke="rgb(0,0,0)"
+         stroke-width="0.20"
+         id="path67" />
+    </g>
+    <g
+       id="p-8"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 206.700 145.200 )"
+         id="text67">y 5/1</text>
+      <path
+         d="m 181.7,149.3 h 6.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 6.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -6.9 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 v -4.2 h -50.2 v 4.2 c 0,0.1 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 6.9 c 0,0.055 0.045,0.1 0.1,0.1 z"
+         stroke="#000000"
+         stroke-width="0.2"
+         id="path68"
+         sodipodi:nodetypes="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssccssssssssssssssssssss" />
+    </g>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text68"
+       x="261.89999"
+       y="145.2">y 7/1</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text69"
+       x="298.89999"
+       y="145.2">y 7/2</text>
+    <text
+       dominant-baseline="hanging"
+       font-size="4px"
+       style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke-linecap:round;stroke-linejoin:round"
+       text-anchor="middle"
+       id="text70"
+       x="315.89999"
+       y="145.2">y 7/3</text>
+    <path
+       d="m 236.9,149.3 h 6.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 6.9 2 3.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.9 2 2.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 2.9 2 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 H 321 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 H 321 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 H 321 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 H 321 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 H 321 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -2 -10 -2 -20 -2 c 0,0 0,14.13333 0,21.2 0,0.66667 -1.26667,2 -1.9,2 -16.7,0 -50.1,0 -50.1,0 -0.055,0 -0.1,0.045 -0.1,0.1 v 7 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 4.6 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7 c 0,0.055 0.045,0.1 0.1,0.1 z"
+       stroke="#000000"
+       stroke-width="0.2"
+       id="path70"
+       sodipodi:nodetypes="cssssssssssssssssssssssssssssssssssssssssccssssssssssssssssccsssssssscsssssssssssssssssssssssssssssssssssssssssssscccccccssssssssssssssssssssc"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 288.8,140.2 v 1.9 c 0,0.1 0.1,0 0,0 H 287 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path71"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 288.8,132.2 v 1.9 c 0,0.1 0.1,0 0,0 H 287 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path72"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 288.8,124.2 v 1.9 c 0,0.1 0.1,0 0,0 H 287 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path73"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 288.8,116.2 v 1.9 c 0,0.1 0.1,0 0,0 H 287 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path74"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 288.8,108.2 v 1.9 c 0,0.1 0.1,0 0,0 H 287 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path75"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 310.8,140.2 v 1.9 c 0,0.1 0.1,0 0,0 H 309 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path76"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 310.8,132.2 v 1.9 c 0,0.1 0.1,0 0,0 H 309 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path77"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 310.8,124.2 v 1.9 c 0,0.1 0.1,0 0,0 H 309 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path78"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 310.8,116.2 v 1.9 c 0,0.1 0.1,0 0,0 H 309 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path79"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 310.8,108.2 v 1.9 c 0,0.1 0.1,0 0,0 H 309 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+       stroke="#0000ff"
+       stroke-width="0.2"
+       id="path80"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round" />
+    <g
+       id="p-10"
+       style="fill:none;stroke-linecap:round;stroke-linejoin:round">
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 29.600 92.100 )"
+         id="text80">x 1/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 66.600 92.100 )"
+         id="text81">x 2/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 103.600 92.100 )"
+         id="text82">x 3/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 140.600 92.100 )"
+         id="text83">x 4/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 177.600 92.100 )"
+         id="text84">x 5/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 214.600 92.100 )"
+         id="text85">x 6/4</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 29.600 80.100 )"
+         id="text86">x 1/3</text>
+      <path
+         d="M 12.100 98.200 H 19.600 C 19.655 98.200 19.700 98.155 19.700 98.100 V 96.200 C 19.700 96.100 19.600 96.200 19.700 96.200 H 23.500 C 23.600 96.200 23.500 96.100 23.500 96.200 V 98.100 C 23.500 98.155 23.545 98.200 23.600 98.200 H 27.600 C 27.655 98.200 27.700 98.155 27.700 98.100 V 96.200 C 27.700 96.100 27.600 96.200 27.700 96.200 H 31.500 C 31.600 96.200 31.500 96.100 31.500 96.200 V 98.100 C 31.500 98.155 31.545 98.200 31.600 98.200 H 35.600 C 35.655 98.200 35.700 98.155 35.700 98.100 V 96.200 C 35.700 96.100 35.600 96.200 35.700 96.200 H 39.500 C 39.600 96.200 39.500 96.100 39.500 96.200 V 98.100 C 39.500 98.155 39.545 98.200 39.600 98.200 H 47.100 M 10.000 96.100 V 98.100 C 10.000 98.155 10.045 98.200 10.100 98.200 H 12.100 M 49.100 98.200 H 56.600 C 56.655 98.200 56.700 98.155 56.700 98.100 V 96.200 C 56.700 96.100 56.600 96.200 56.700 96.200 H 60.500 C 60.600 96.200 60.500 96.100 60.500 96.200 V 98.100 C 60.500 98.155 60.545 98.200 60.600 98.200 H 64.600 C 64.655 98.200 64.700 98.155 64.700 98.100 V 96.200 C 64.700 96.100 64.600 96.200 64.700 96.200 H 68.500 C 68.600 96.200 68.500 96.100 68.500 96.200 V 98.100 C 68.500 98.155 68.545 98.200 68.600 98.200 H 72.600 C 72.655 98.200 72.700 98.155 72.700 98.100 V 96.200 C 72.700 96.100 72.600 96.200 72.700 96.200 H 76.500 C 76.600 96.200 76.500 96.100 76.500 96.200 V 98.100 C 76.500 98.155 76.545 98.200 76.600 98.200 H 84.100 M 47.100 98.200 H 49.100 M 86.100 98.200 H 93.600 C 93.655 98.200 93.700 98.155 93.700 98.100 V 96.200 C 93.700 96.100 93.600 96.200 93.700 96.200 H 97.500 C 97.600 96.200 97.500 96.100 97.500 96.200 V 98.100 C 97.500 98.155 97.545 98.200 97.600 98.200 H 101.600 C 101.655 98.200 101.700 98.155 101.700 98.100 V 96.200 C 101.700 96.100 101.600 96.200 101.700 96.200 H 105.500 C 105.600 96.200 105.500 96.100 105.500 96.200 V 98.100 C 105.500 98.155 105.545 98.200 105.600 98.200 H 109.600 C 109.655 98.200 109.700 98.155 109.700 98.100 V 96.200 C 109.700 96.100 109.600 96.200 109.700 96.200 H 113.500 C 113.600 96.200 113.500 96.100 113.500 96.200 V 98.100 C 113.500 98.155 113.545 98.200 113.600 98.200 H 121.100 M 84.100 98.200 H 86.100 M 123.100 98.200 H 130.600 C 130.655 98.200 130.700 98.155 130.700 98.100 V 96.200 C 130.700 96.100 130.600 96.200 130.700 96.200 H 134.500 C 134.600 96.200 134.500 96.100 134.500 96.200 V 98.100 C 134.500 98.155 134.545 98.200 134.600 98.200 H 138.600 C 138.655 98.200 138.700 98.155 138.700 98.100 V 96.200 C 138.700 96.100 138.600 96.200 138.700 96.200 H 142.500 C 142.600 96.200 142.500 96.100 142.500 96.200 V 98.100 C 142.500 98.155 142.545 98.200 142.600 98.200 H 146.600 C 146.655 98.200 146.700 98.155 146.700 98.100 V 96.200 C 146.700 96.100 146.600 96.200 146.700 96.200 H 150.500 C 150.600 96.200 150.500 96.100 150.500 96.200 V 98.100 C 150.500 98.155 150.545 98.200 150.600 98.200 H 158.100 M 121.100 98.200 H 123.100 M 160.100 98.200 H 167.600 C 167.655 98.200 167.700 98.155 167.700 98.100 V 96.200 C 167.700 96.100 167.600 96.200 167.700 96.200 H 171.500 C 171.600 96.200 171.500 96.100 171.500 96.200 V 98.100 C 171.500 98.155 171.545 98.200 171.600 98.200 H 175.600 C 175.655 98.200 175.700 98.155 175.700 98.100 V 96.200 C 175.700 96.100 175.600 96.200 175.700 96.200 H 179.500 C 179.600 96.200 179.500 96.100 179.500 96.200 V 98.100 C 179.500 98.155 179.545 98.200 179.600 98.200 H 183.600 C 183.655 98.200 183.700 98.155 183.700 98.100 V 96.200 C 183.700 96.100 183.600 96.200 183.700 96.200 H 187.500 C 187.600 96.200 187.500 96.100 187.500 96.200 V 98.100 C 187.500 98.155 187.545 98.200 187.600 98.200 H 195.100 M 158.100 98.200 H 160.100 M 197.100 98.200 H 204.600 C 204.655 98.200 204.700 98.155 204.700 98.100 V 96.200 C 204.700 96.100 204.600 96.200 204.700 96.200 H 208.500 C 208.600 96.200 208.500 96.100 208.500 96.200 V 98.100 C 208.500 98.155 208.545 98.200 208.600 98.200 H 212.600 C 212.655 98.200 212.700 98.155 212.700 98.100 V 96.200 C 212.700 96.100 212.600 96.200 212.700 96.200 H 216.500 C 216.600 96.200 216.500 96.100 216.500 96.200 V 98.100 C 216.500 98.155 216.545 98.200 216.600 98.200 H 220.600 C 220.655 98.200 220.700 98.155 220.700 98.100 V 96.200 C 220.700 96.100 220.600 96.200 220.700 96.200 H 224.500 C 224.600 96.200 224.500 96.100 224.500 96.200 V 98.100 C 224.500 98.155 224.545 98.200 224.600 98.200 H 232.100 H 234.100 C 234.155 98.200 234.200 98.155 234.200 98.100 V 96.100 M 195.100 98.200 H 197.100"
+         stroke="rgb(0,0,0)"
+         stroke-width="0.20"
+         id="path86" />
+      <path
+         d="M 21.600 86.000 H 19.700 C 19.600 86.000 19.700 86.100 19.700 86.000 V 84.200 C 19.700 84.100 19.600 84.200 19.700 84.200 H 23.500 C 23.600 84.200 23.500 84.100 23.500 84.200 V 86.000 C 23.500 86.100 23.600 86.000 23.500 86.000 H 21.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path87" />
+      <path
+         d="M 29.600 86.000 H 27.700 C 27.600 86.000 27.700 86.100 27.700 86.000 V 84.200 C 27.700 84.100 27.600 84.200 27.700 84.200 H 31.500 C 31.600 84.200 31.500 84.100 31.500 84.200 V 86.000 C 31.500 86.100 31.600 86.000 31.500 86.000 H 29.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path88" />
+      <path
+         d="M 37.600 86.000 H 35.700 C 35.600 86.000 35.700 86.100 35.700 86.000 V 84.200 C 35.700 84.100 35.600 84.200 35.700 84.200 H 39.500 C 39.600 84.200 39.500 84.100 39.500 84.200 V 86.000 C 39.500 86.100 39.600 86.000 39.500 86.000 H 37.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path89" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 66.600 80.100 )"
+         id="text89">x 2/3</text>
+      <path
+         d="M 58.600 86.000 H 56.700 C 56.600 86.000 56.700 86.100 56.700 86.000 V 84.200 C 56.700 84.100 56.600 84.200 56.700 84.200 H 60.500 C 60.600 84.200 60.500 84.100 60.500 84.200 V 86.000 C 60.500 86.100 60.600 86.000 60.500 86.000 H 58.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path90" />
+      <path
+         d="M 66.600 86.000 H 64.700 C 64.600 86.000 64.700 86.100 64.700 86.000 V 84.200 C 64.700 84.100 64.600 84.200 64.700 84.200 H 68.500 C 68.600 84.200 68.500 84.100 68.500 84.200 V 86.000 C 68.500 86.100 68.600 86.000 68.500 86.000 H 66.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path91" />
+      <path
+         d="M 74.600 86.000 H 72.700 C 72.600 86.000 72.700 86.100 72.700 86.000 V 84.200 C 72.700 84.100 72.600 84.200 72.700 84.200 H 76.500 C 76.600 84.200 76.500 84.100 76.500 84.200 V 86.000 C 76.500 86.100 76.600 86.000 76.500 86.000 H 74.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path92" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 103.600 80.100 )"
+         id="text92">x 3/3</text>
+      <path
+         d="M 95.600 86.000 H 93.700 C 93.600 86.000 93.700 86.100 93.700 86.000 V 84.200 C 93.700 84.100 93.600 84.200 93.700 84.200 H 97.500 C 97.600 84.200 97.500 84.100 97.500 84.200 V 86.000 C 97.500 86.100 97.600 86.000 97.500 86.000 H 95.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path93" />
+      <path
+         d="M 103.600 86.000 H 101.700 C 101.600 86.000 101.700 86.100 101.700 86.000 V 84.200 C 101.700 84.100 101.600 84.200 101.700 84.200 H 105.500 C 105.600 84.200 105.500 84.100 105.500 84.200 V 86.000 C 105.500 86.100 105.600 86.000 105.500 86.000 H 103.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path94" />
+      <path
+         d="M 111.600 86.000 H 109.700 C 109.600 86.000 109.700 86.100 109.700 86.000 V 84.200 C 109.700 84.100 109.600 84.200 109.700 84.200 H 113.500 C 113.600 84.200 113.500 84.100 113.500 84.200 V 86.000 C 113.500 86.100 113.600 86.000 113.500 86.000 H 111.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path95" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 140.600 80.100 )"
+         id="text95">x 4/3</text>
+      <path
+         d="M 132.600 86.000 H 130.700 C 130.600 86.000 130.700 86.100 130.700 86.000 V 84.200 C 130.700 84.100 130.600 84.200 130.700 84.200 H 134.500 C 134.600 84.200 134.500 84.100 134.500 84.200 V 86.000 C 134.500 86.100 134.600 86.000 134.500 86.000 H 132.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path96" />
+      <path
+         d="M 140.600 86.000 H 138.700 C 138.600 86.000 138.700 86.100 138.700 86.000 V 84.200 C 138.700 84.100 138.600 84.200 138.700 84.200 H 142.500 C 142.600 84.200 142.500 84.100 142.500 84.200 V 86.000 C 142.500 86.100 142.600 86.000 142.500 86.000 H 140.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path97" />
+      <path
+         d="M 148.600 86.000 H 146.700 C 146.600 86.000 146.700 86.100 146.700 86.000 V 84.200 C 146.700 84.100 146.600 84.200 146.700 84.200 H 150.500 C 150.600 84.200 150.500 84.100 150.500 84.200 V 86.000 C 150.500 86.100 150.600 86.000 150.500 86.000 H 148.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path98" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 177.600 80.100 )"
+         id="text98">x 5/3</text>
+      <path
+         d="M 169.600 86.000 H 167.700 C 167.600 86.000 167.700 86.100 167.700 86.000 V 84.200 C 167.700 84.100 167.600 84.200 167.700 84.200 H 171.500 C 171.600 84.200 171.500 84.100 171.500 84.200 V 86.000 C 171.500 86.100 171.600 86.000 171.500 86.000 H 169.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path99" />
+      <path
+         d="M 177.600 86.000 H 175.700 C 175.600 86.000 175.700 86.100 175.700 86.000 V 84.200 C 175.700 84.100 175.600 84.200 175.700 84.200 H 179.500 C 179.600 84.200 179.500 84.100 179.500 84.200 V 86.000 C 179.500 86.100 179.600 86.000 179.500 86.000 H 177.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path100" />
+      <path
+         d="M 185.600 86.000 H 183.700 C 183.600 86.000 183.700 86.100 183.700 86.000 V 84.200 C 183.700 84.100 183.600 84.200 183.700 84.200 H 187.500 C 187.600 84.200 187.500 84.100 187.500 84.200 V 86.000 C 187.500 86.100 187.600 86.000 187.500 86.000 H 185.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path101" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 214.600 80.100 )"
+         id="text101">x 6/3</text>
+      <path
+         d="M 206.600 86.000 H 204.700 C 204.600 86.000 204.700 86.100 204.700 86.000 V 84.200 C 204.700 84.100 204.600 84.200 204.700 84.200 H 208.500 C 208.600 84.200 208.500 84.100 208.500 84.200 V 86.000 C 208.500 86.100 208.600 86.000 208.500 86.000 H 206.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path102" />
+      <path
+         d="M 214.600 86.000 H 212.700 C 212.600 86.000 212.700 86.100 212.700 86.000 V 84.200 C 212.700 84.100 212.600 84.200 212.700 84.200 H 216.500 C 216.600 84.200 216.500 84.100 216.500 84.200 V 86.000 C 216.500 86.100 216.600 86.000 216.500 86.000 H 214.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path103" />
+      <path
+         d="M 222.600 86.000 H 220.700 C 220.600 86.000 220.700 86.100 220.700 86.000 V 84.200 C 220.700 84.100 220.600 84.200 220.700 84.200 H 224.500 C 224.600 84.200 224.500 84.100 224.500 84.200 V 86.000 C 224.500 86.100 224.600 86.000 224.500 86.000 H 222.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path104" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 29.600 58.100 )"
+         id="text104">x 1/2</text>
+      <path
+         d="M 21.600 64.000 H 19.700 C 19.600 64.000 19.700 64.100 19.700 64.000 V 62.200 C 19.700 62.100 19.600 62.200 19.700 62.200 H 23.500 C 23.600 62.200 23.500 62.100 23.500 62.200 V 64.000 C 23.500 64.100 23.600 64.000 23.500 64.000 H 21.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path105" />
+      <path
+         d="M 29.600 64.000 H 27.700 C 27.600 64.000 27.700 64.100 27.700 64.000 V 62.200 C 27.700 62.100 27.600 62.200 27.700 62.200 H 31.500 C 31.600 62.200 31.500 62.100 31.500 62.200 V 64.000 C 31.500 64.100 31.600 64.000 31.500 64.000 H 29.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path106" />
+      <path
+         d="M 37.600 64.000 H 35.700 C 35.600 64.000 35.700 64.100 35.700 64.000 V 62.200 C 35.700 62.100 35.600 62.200 35.700 62.200 H 39.500 C 39.600 62.200 39.500 62.100 39.500 62.200 V 64.000 C 39.500 64.100 39.600 64.000 39.500 64.000 H 37.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path107" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 66.600 58.100 )"
+         id="text107">x 2/2</text>
+      <path
+         d="M 58.600 64.000 H 56.700 C 56.600 64.000 56.700 64.100 56.700 64.000 V 62.200 C 56.700 62.100 56.600 62.200 56.700 62.200 H 60.500 C 60.600 62.200 60.500 62.100 60.500 62.200 V 64.000 C 60.500 64.100 60.600 64.000 60.500 64.000 H 58.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path108" />
+      <path
+         d="M 66.600 64.000 H 64.700 C 64.600 64.000 64.700 64.100 64.700 64.000 V 62.200 C 64.700 62.100 64.600 62.200 64.700 62.200 H 68.500 C 68.600 62.200 68.500 62.100 68.500 62.200 V 64.000 C 68.500 64.100 68.600 64.000 68.500 64.000 H 66.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path109" />
+      <path
+         d="M 74.600 64.000 H 72.700 C 72.600 64.000 72.700 64.100 72.700 64.000 V 62.200 C 72.700 62.100 72.600 62.200 72.700 62.200 H 76.500 C 76.600 62.200 76.500 62.100 76.500 62.200 V 64.000 C 76.500 64.100 76.600 64.000 76.500 64.000 H 74.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path110" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 103.600 58.100 )"
+         id="text110">x 3/2</text>
+      <path
+         d="M 95.600 64.000 H 93.700 C 93.600 64.000 93.700 64.100 93.700 64.000 V 62.200 C 93.700 62.100 93.600 62.200 93.700 62.200 H 97.500 C 97.600 62.200 97.500 62.100 97.500 62.200 V 64.000 C 97.500 64.100 97.600 64.000 97.500 64.000 H 95.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path111" />
+      <path
+         d="M 103.600 64.000 H 101.700 C 101.600 64.000 101.700 64.100 101.700 64.000 V 62.200 C 101.700 62.100 101.600 62.200 101.700 62.200 H 105.500 C 105.600 62.200 105.500 62.100 105.500 62.200 V 64.000 C 105.500 64.100 105.600 64.000 105.500 64.000 H 103.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path112" />
+      <path
+         d="M 111.600 64.000 H 109.700 C 109.600 64.000 109.700 64.100 109.700 64.000 V 62.200 C 109.700 62.100 109.600 62.200 109.700 62.200 H 113.500 C 113.600 62.200 113.500 62.100 113.500 62.200 V 64.000 C 113.500 64.100 113.600 64.000 113.500 64.000 H 111.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path113" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 140.600 58.100 )"
+         id="text113">x 4/2</text>
+      <path
+         d="M 132.600 64.000 H 130.700 C 130.600 64.000 130.700 64.100 130.700 64.000 V 62.200 C 130.700 62.100 130.600 62.200 130.700 62.200 H 134.500 C 134.600 62.200 134.500 62.100 134.500 62.200 V 64.000 C 134.500 64.100 134.600 64.000 134.500 64.000 H 132.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path114" />
+      <path
+         d="M 140.600 64.000 H 138.700 C 138.600 64.000 138.700 64.100 138.700 64.000 V 62.200 C 138.700 62.100 138.600 62.200 138.700 62.200 H 142.500 C 142.600 62.200 142.500 62.100 142.500 62.200 V 64.000 C 142.500 64.100 142.600 64.000 142.500 64.000 H 140.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path115" />
+      <path
+         d="M 148.600 64.000 H 146.700 C 146.600 64.000 146.700 64.100 146.700 64.000 V 62.200 C 146.700 62.100 146.600 62.200 146.700 62.200 H 150.500 C 150.600 62.200 150.500 62.100 150.500 62.200 V 64.000 C 150.500 64.100 150.600 64.000 150.500 64.000 H 148.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path116" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 177.600 58.100 )"
+         id="text116">x 5/2</text>
+      <path
+         d="M 169.600 64.000 H 167.700 C 167.600 64.000 167.700 64.100 167.700 64.000 V 62.200 C 167.700 62.100 167.600 62.200 167.700 62.200 H 171.500 C 171.600 62.200 171.500 62.100 171.500 62.200 V 64.000 C 171.500 64.100 171.600 64.000 171.500 64.000 H 169.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path117" />
+      <path
+         d="M 177.600 64.000 H 175.700 C 175.600 64.000 175.700 64.100 175.700 64.000 V 62.200 C 175.700 62.100 175.600 62.200 175.700 62.200 H 179.500 C 179.600 62.200 179.500 62.100 179.500 62.200 V 64.000 C 179.500 64.100 179.600 64.000 179.500 64.000 H 177.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path118" />
+      <path
+         d="M 185.600 64.000 H 183.700 C 183.600 64.000 183.700 64.100 183.700 64.000 V 62.200 C 183.700 62.100 183.600 62.200 183.700 62.200 H 187.500 C 187.600 62.200 187.500 62.100 187.500 62.200 V 64.000 C 187.500 64.100 187.600 64.000 187.500 64.000 H 185.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path119" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 214.600 58.100 )"
+         id="text119">x 6/2</text>
+      <path
+         d="M 206.600 64.000 H 204.700 C 204.600 64.000 204.700 64.100 204.700 64.000 V 62.200 C 204.700 62.100 204.600 62.200 204.700 62.200 H 208.500 C 208.600 62.200 208.500 62.100 208.500 62.200 V 64.000 C 208.500 64.100 208.600 64.000 208.500 64.000 H 206.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path120" />
+      <path
+         d="M 214.600 64.000 H 212.700 C 212.600 64.000 212.700 64.100 212.700 64.000 V 62.200 C 212.700 62.100 212.600 62.200 212.700 62.200 H 216.500 C 216.600 62.200 216.500 62.100 216.500 62.200 V 64.000 C 216.500 64.100 216.600 64.000 216.500 64.000 H 214.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path121" />
+      <path
+         d="M 222.600 64.000 H 220.700 C 220.600 64.000 220.700 64.100 220.700 64.000 V 62.200 C 220.700 62.100 220.600 62.200 220.700 62.200 H 224.500 C 224.600 62.200 224.500 62.100 224.500 62.200 V 64.000 C 224.500 64.100 224.600 64.000 224.500 64.000 H 222.600 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path122" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 29.600 12.100 )"
+         id="text122">x 1/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 66.600 12.100 )"
+         id="text123">x 2/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 103.600 12.100 )"
+         id="text124">x 3/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 140.600 12.100 )"
+         id="text125">x 4/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 177.600 12.100 )"
+         id="text126">x 5/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 1.000 0.000 0.000 1.000 214.600 12.100 )"
+         id="text127">x 6/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 16.100 91.100 )"
+         id="text128">y 1/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 16.100 74.100 )"
+         id="text129">y 1/2</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 16.100 37.100 )"
+         id="text130">y 1/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 53.100 91.100 )"
+         id="text131">y 2/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 53.100 74.100 )"
+         id="text132">y 2/2</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 53.100 37.100 )"
+         id="text133">y 2/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 90.100 91.100 )"
+         id="text134">y 3/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 90.100 74.100 )"
+         id="text135">y 3/2</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 90.100 37.100 )"
+         id="text136">y 3/1</text>
+      <path
+         d="M 47.100 10.000 H 39.600 C 39.545 10.000 39.500 10.045 39.500 10.100 V 12.000 C 39.500 12.100 39.600 12.000 39.500 12.000 H 35.700 C 35.600 12.000 35.700 12.100 35.700 12.000 V 10.100 C 35.700 10.045 35.655 10.000 35.600 10.000 H 31.600 C 31.545 10.000 31.500 10.045 31.500 10.100 V 12.000 C 31.500 12.100 31.600 12.000 31.500 12.000 H 27.700 C 27.600 12.000 27.700 12.100 27.700 12.000 V 10.100 C 27.700 10.045 27.655 10.000 27.600 10.000 H 23.600 C 23.545 10.000 23.500 10.045 23.500 10.100 V 12.000 C 23.500 12.100 23.600 12.000 23.500 12.000 H 19.700 C 19.600 12.000 19.700 12.100 19.700 12.000 V 10.100 C 19.700 10.045 19.655 10.000 19.600 10.000 H 12.100 H 10.100 C 10.045 10.000 10.000 10.045 10.000 10.100 V 12.100 M 84.100 10.000 H 76.600 C 76.545 10.000 76.500 10.045 76.500 10.100 V 12.000 C 76.500 12.100 76.600 12.000 76.500 12.000 H 72.700 C 72.600 12.000 72.700 12.100 72.700 12.000 V 10.100 C 72.700 10.045 72.655 10.000 72.600 10.000 H 68.600 C 68.545 10.000 68.500 10.045 68.500 10.100 V 12.000 C 68.500 12.100 68.600 12.000 68.500 12.000 H 64.700 C 64.600 12.000 64.700 12.100 64.700 12.000 V 10.100 C 64.700 10.045 64.655 10.000 64.600 10.000 H 60.600 C 60.545 10.000 60.500 10.045 60.500 10.100 V 12.000 C 60.500 12.100 60.600 12.000 60.500 12.000 H 56.700 C 56.600 12.000 56.700 12.100 56.700 12.000 V 10.100 C 56.700 10.045 56.655 10.000 56.600 10.000 H 49.100 M 47.100 10.000 H 49.100 M 121.100 10.000 H 113.600 C 113.545 10.000 113.500 10.045 113.500 10.100 V 12.000 C 113.500 12.100 113.600 12.000 113.500 12.000 H 109.700 C 109.600 12.000 109.700 12.100 109.700 12.000 V 10.100 C 109.700 10.045 109.655 10.000 109.600 10.000 H 105.600 C 105.545 10.000 105.500 10.045 105.500 10.100 V 12.000 C 105.500 12.100 105.600 12.000 105.500 12.000 H 101.700 C 101.600 12.000 101.700 12.100 101.700 12.000 V 10.100 C 101.700 10.045 101.655 10.000 101.600 10.000 H 97.600 C 97.545 10.000 97.500 10.045 97.500 10.100 V 12.000 C 97.500 12.100 97.600 12.000 97.500 12.000 H 93.700 C 93.600 12.000 93.700 12.100 93.700 12.000 V 10.100 C 93.700 10.045 93.655 10.000 93.600 10.000 H 86.100 M 84.100 10.000 H 86.100 M 158.100 10.000 H 150.600 C 150.545 10.000 150.500 10.045 150.500 10.100 V 12.000 C 150.500 12.100 150.600 12.000 150.500 12.000 H 146.700 C 146.600 12.000 146.700 12.100 146.700 12.000 V 10.100 C 146.700 10.045 146.655 10.000 146.600 10.000 H 142.600 C 142.545 10.000 142.500 10.045 142.500 10.100 V 12.000 C 142.500 12.100 142.600 12.000 142.500 12.000 H 138.700 C 138.600 12.000 138.700 12.100 138.700 12.000 V 10.100 C 138.700 10.045 138.655 10.000 138.600 10.000 H 134.600 C 134.545 10.000 134.500 10.045 134.500 10.100 V 12.000 C 134.500 12.100 134.600 12.000 134.500 12.000 H 130.700 C 130.600 12.000 130.700 12.100 130.700 12.000 V 10.100 C 130.700 10.045 130.655 10.000 130.600 10.000 H 123.100 M 121.100 10.000 H 123.100 M 195.100 10.000 H 187.600 C 187.545 10.000 187.500 10.045 187.500 10.100 V 12.000 C 187.500 12.100 187.600 12.000 187.500 12.000 H 183.700 C 183.600 12.000 183.700 12.100 183.700 12.000 V 10.100 C 183.700 10.045 183.655 10.000 183.600 10.000 H 179.600 C 179.545 10.000 179.500 10.045 179.500 10.100 V 12.000 C 179.500 12.100 179.600 12.000 179.500 12.000 H 175.700 C 175.600 12.000 175.700 12.100 175.700 12.000 V 10.100 C 175.700 10.045 175.655 10.000 175.600 10.000 H 171.600 C 171.545 10.000 171.500 10.045 171.500 10.100 V 12.000 C 171.500 12.100 171.600 12.000 171.500 12.000 H 167.700 C 167.600 12.000 167.700 12.100 167.700 12.000 V 10.100 C 167.700 10.045 167.655 10.000 167.600 10.000 H 160.100 M 158.100 10.000 H 160.100 M 232.100 10.000 H 224.600 C 224.545 10.000 224.500 10.045 224.500 10.100 V 12.000 C 224.500 12.100 224.600 12.000 224.500 12.000 H 220.700 C 220.600 12.000 220.700 12.100 220.700 12.000 V 10.100 C 220.700 10.045 220.655 10.000 220.600 10.000 H 216.600 C 216.545 10.000 216.500 10.045 216.500 10.100 V 12.000 C 216.500 12.100 216.600 12.000 216.500 12.000 H 212.700 C 212.600 12.000 212.700 12.100 212.700 12.000 V 10.100 C 212.700 10.045 212.655 10.000 212.600 10.000 H 208.600 C 208.545 10.000 208.500 10.045 208.500 10.100 V 12.000 C 208.500 12.100 208.600 12.000 208.500 12.000 H 204.700 C 204.600 12.000 204.700 12.100 204.700 12.000 V 10.100 C 204.700 10.045 204.655 10.000 204.600 10.000 H 197.100 M 234.200 12.100 V 10.100 C 234.200 10.045 234.155 10.000 234.100 10.000 H 232.100 M 195.100 10.000 H 197.100 M 10.000 86.100 V 89.100 C 10.000 89.155 10.045 89.200 10.100 89.200 H 12.000 C 12.100 89.200 12.000 89.100 12.000 89.200 V 93.000 C 12.000 93.100 12.100 93.000 12.000 93.000 H 10.100 C 10.045 93.000 10.000 93.045 10.000 93.100 V 96.100 M 10.000 84.100 V 86.100 M 10.000 64.100 V 68.100 C 10.000 68.155 10.045 68.200 10.100 68.200 H 12.000 C 12.100 68.200 12.000 68.100 12.000 68.200 V 72.000 C 12.000 72.100 12.100 72.000 12.000 72.000 H 10.100 C 10.045 72.000 10.000 72.045 10.000 72.100 V 76.100 C 10.000 76.155 10.045 76.200 10.100 76.200 H 12.000 C 12.100 76.200 12.000 76.100 12.000 76.200 V 80.000 C 12.000 80.100 12.100 80.000 12.000 80.000 H 10.100 C 10.045 80.000 10.000 80.045 10.000 80.100 V 84.100 M 10.000 62.100 V 64.100 M 10.000 12.100 V 19.100 C 10.000 19.155 10.045 19.200 10.100 19.200 H 12.000 C 12.100 19.200 12.000 19.100 12.000 19.200 V 23.000 C 12.000 23.100 12.100 23.000 12.000 23.000 H 10.100 C 10.045 23.000 10.000 23.045 10.000 23.100 V 27.100 C 10.000 27.155 10.045 27.200 10.100 27.200 H 12.000 C 12.100 27.200 12.000 27.100 12.000 27.200 V 31.000 C 12.000 31.100 12.100 31.000 12.000 31.000 H 10.100 C 10.045 31.000 10.000 31.045 10.000 31.100 V 35.100 C 10.000 35.155 10.045 35.200 10.100 35.200 H 12.000 C 12.100 35.200 12.000 35.100 12.000 35.200 V 39.000 C 12.000 39.100 12.100 39.000 12.000 39.000 H 10.100 C 10.045 39.000 10.000 39.045 10.000 39.100 V 43.100 C 10.000 43.155 10.045 43.200 10.100 43.200 H 12.000 C 12.100 43.200 12.000 43.100 12.000 43.200 V 47.000 C 12.000 47.100 12.100 47.000 12.000 47.000 H 10.100 C 10.045 47.000 10.000 47.045 10.000 47.100 V 51.100 C 10.000 51.155 10.045 51.200 10.100 51.200 H 12.000 C 12.100 51.200 12.000 51.100 12.000 51.200 V 55.000 C 12.000 55.100 12.100 55.000 12.000 55.000 H 10.100 C 10.045 55.000 10.000 55.045 10.000 55.100 V 62.100"
+         stroke="rgb(0,0,0)"
+         stroke-width="0.20"
+         id="path136" />
+      <path
+         d="M 86.000 53.100 V 55.000 C 86.000 55.100 86.100 55.000 86.000 55.000 H 84.200 C 84.100 55.000 84.200 55.100 84.200 55.000 V 51.200 C 84.200 51.100 84.100 51.200 84.200 51.200 H 86.000 C 86.100 51.200 86.000 51.100 86.000 51.200 V 53.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path137" />
+      <path
+         d="M 86.000 45.100 V 47.000 C 86.000 47.100 86.100 47.000 86.000 47.000 H 84.200 C 84.100 47.000 84.200 47.100 84.200 47.000 V 43.200 C 84.200 43.100 84.100 43.200 84.200 43.200 H 86.000 C 86.100 43.200 86.000 43.100 86.000 43.200 V 45.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path138" />
+      <path
+         d="M 86.000 37.100 V 39.000 C 86.000 39.100 86.100 39.000 86.000 39.000 H 84.200 C 84.100 39.000 84.200 39.100 84.200 39.000 V 35.200 C 84.200 35.100 84.100 35.200 84.200 35.200 H 86.000 C 86.100 35.200 86.000 35.100 86.000 35.200 V 37.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path139" />
+      <path
+         d="M 86.000 29.100 V 31.000 C 86.000 31.100 86.100 31.000 86.000 31.000 H 84.200 C 84.100 31.000 84.200 31.100 84.200 31.000 V 27.200 C 84.200 27.100 84.100 27.200 84.200 27.200 H 86.000 C 86.100 27.200 86.000 27.100 86.000 27.200 V 29.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path140" />
+      <path
+         d="M 86.000 21.100 V 23.000 C 86.000 23.100 86.100 23.000 86.000 23.000 H 84.200 C 84.100 23.000 84.200 23.100 84.200 23.000 V 19.200 C 84.200 19.100 84.100 19.200 84.200 19.200 H 86.000 C 86.100 19.200 86.000 19.100 86.000 19.200 V 21.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path141" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 127.100 91.100 )"
+         id="text141">y 4/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 127.100 74.100 )"
+         id="text142">y 4/2</text>
+      <path
+         d="M 123.000 78.100 V 80.000 C 123.000 80.100 123.100 80.000 123.000 80.000 H 121.200 C 121.100 80.000 121.200 80.100 121.200 80.000 V 76.200 C 121.200 76.100 121.100 76.200 121.200 76.200 H 123.000 C 123.100 76.200 123.000 76.100 123.000 76.200 V 78.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path142" />
+      <path
+         d="M 123.000 70.100 V 72.000 C 123.000 72.100 123.100 72.000 123.000 72.000 H 121.200 C 121.100 72.000 121.200 72.100 121.200 72.000 V 68.200 C 121.200 68.100 121.100 68.200 121.200 68.200 H 123.000 C 123.100 68.200 123.000 68.100 123.000 68.200 V 70.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path143" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 127.100 37.100 )"
+         id="text143">y 4/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 164.100 91.100 )"
+         id="text144">y 5/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 164.100 74.100 )"
+         id="text145">y 5/2</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 164.100 37.100 )"
+         id="text146">y 5/1</text>
+      <path
+         d="M 160.000 53.100 V 55.000 C 160.000 55.100 160.100 55.000 160.000 55.000 H 158.200 C 158.100 55.000 158.200 55.100 158.200 55.000 V 51.200 C 158.200 51.100 158.100 51.200 158.200 51.200 H 160.000 C 160.100 51.200 160.000 51.100 160.000 51.200 V 53.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path146" />
+      <path
+         d="M 160.000 45.100 V 47.000 C 160.000 47.100 160.100 47.000 160.000 47.000 H 158.200 C 158.100 47.000 158.200 47.100 158.200 47.000 V 43.200 C 158.200 43.100 158.100 43.200 158.200 43.200 H 160.000 C 160.100 43.200 160.000 43.100 160.000 43.200 V 45.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path147" />
+      <path
+         d="M 160.000 37.100 V 39.000 C 160.000 39.100 160.100 39.000 160.000 39.000 H 158.200 C 158.100 39.000 158.200 39.100 158.200 39.000 V 35.200 C 158.200 35.100 158.100 35.200 158.200 35.200 H 160.000 C 160.100 35.200 160.000 35.100 160.000 35.200 V 37.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path148" />
+      <path
+         d="M 160.000 29.100 V 31.000 C 160.000 31.100 160.100 31.000 160.000 31.000 H 158.200 C 158.100 31.000 158.200 31.100 158.200 31.000 V 27.200 C 158.200 27.100 158.100 27.200 158.200 27.200 H 160.000 C 160.100 27.200 160.000 27.100 160.000 27.200 V 29.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path149" />
+      <path
+         d="M 160.000 21.100 V 23.000 C 160.000 23.100 160.100 23.000 160.000 23.000 H 158.200 C 158.100 23.000 158.200 23.100 158.200 23.000 V 19.200 C 158.200 19.100 158.100 19.200 158.200 19.200 H 160.000 C 160.100 19.200 160.000 19.100 160.000 19.200 V 21.100 Z"
+         stroke="rgb(0,0,255)"
+         stroke-width="0.20"
+         id="path150" />
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 201.100 91.100 )"
+         id="text150">y 6/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 201.100 74.100 )"
+         id="text151">y 6/2</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 201.100 37.100 )"
+         id="text152">y 6/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 232.100 91.100 )"
+         id="text153">y 7/3</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 232.100 74.100 )"
+         id="text154">y 7/2</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4.0px"
+         style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+         text-anchor="middle"
+         transform="matrix( 0.000 1.000 -1.000 0.000 232.100 37.100 )"
+         id="text155">y 7/1</text>
+      <path
+         d="M 234.200 96.100 V 93.100 C 234.200 93.045 234.155 93.000 234.100 93.000 H 232.200 C 232.100 93.000 232.200 93.100 232.200 93.000 V 89.200 C 232.200 89.100 232.100 89.200 232.200 89.200 H 234.100 C 234.155 89.200 234.200 89.155 234.200 89.100 V 86.100 V 84.100 M 234.200 84.100 V 80.100 C 234.200 80.045 234.155 80.000 234.100 80.000 H 232.200 C 232.100 80.000 232.200 80.100 232.200 80.000 V 76.200 C 232.200 76.100 232.100 76.200 232.200 76.200 H 234.100 C 234.155 76.200 234.200 76.155 234.200 76.100 V 72.100 C 234.200 72.045 234.155 72.000 234.100 72.000 H 232.200 C 232.100 72.000 232.200 72.100 232.200 72.000 V 68.200 C 232.200 68.100 232.100 68.200 232.200 68.200 H 234.100 C 234.155 68.200 234.200 68.155 234.200 68.100 V 64.100 V 62.100 M 234.200 62.100 V 55.100 C 234.200 55.045 234.155 55.000 234.100 55.000 H 232.200 C 232.100 55.000 232.200 55.100 232.200 55.000 V 51.200 C 232.200 51.100 232.100 51.200 232.200 51.200 H 234.100 C 234.155 51.200 234.200 51.155 234.200 51.100 V 47.100 C 234.200 47.045 234.155 47.000 234.100 47.000 H 232.200 C 232.100 47.000 232.200 47.100 232.200 47.000 V 43.200 C 232.200 43.100 232.100 43.200 232.200 43.200 H 234.100 C 234.155 43.200 234.200 43.155 234.200 43.100 V 39.100 C 234.200 39.045 234.155 39.000 234.100 39.000 H 232.200 C 232.100 39.000 232.200 39.100 232.200 39.000 V 35.200 C 232.200 35.100 232.100 35.200 232.200 35.200 H 234.100 C 234.155 35.200 234.200 35.155 234.200 35.100 V 31.100 C 234.200 31.045 234.155 31.000 234.100 31.000 H 232.200 C 232.100 31.000 232.200 31.100 232.200 31.000 V 27.200 C 232.200 27.100 232.100 27.200 232.200 27.200 H 234.100 C 234.155 27.200 234.200 27.155 234.200 27.100 V 23.100 C 234.200 23.045 234.155 23.000 234.100 23.000 H 232.200 C 232.100 23.000 232.200 23.100 232.200 23.000 V 19.200 C 232.200 19.100 232.100 19.200 232.200 19.200 H 234.100 C 234.155 19.200 234.200 19.155 234.200 19.100 V 12.100"
+         stroke="rgb(0,0,0)"
+         stroke-width="0.20"
+         id="path155" />
+    </g>
+    <g
+       id="p-1-5"
+       style="fill:none;stroke:#00ff00;stroke-linecap:round;stroke-linejoin:round"
+       transform="translate(0,46)">
+      <text
+         dominant-baseline="hanging"
+         font-size="4px"
+         style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+         text-anchor="middle"
+         transform="translate(29.6,152.4)"
+         id="text2-1">x 1/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4px"
+         style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+         text-anchor="middle"
+         transform="translate(66.6,152.4)"
+         id="text3-7">x 2/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4px"
+         style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+         text-anchor="middle"
+         transform="translate(103.6,152.4)"
+         id="text4-1">x 3/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4px"
+         style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+         text-anchor="middle"
+         transform="translate(140.6,152.4)"
+         id="text5-1">x 4/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4px"
+         style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+         text-anchor="middle"
+         transform="translate(177.6,152.4)"
+         id="text6-5">x 5/1</text>
+      <text
+         dominant-baseline="hanging"
+         font-size="4px"
+         style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+         text-anchor="middle"
+         transform="translate(214.6,152.4)"
+         id="text7-2">x 6/1</text>
+      <path
+         d="m 12.1,156.5 h 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 2 7.4 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 7.4 c 0.055,0 0.1,-0.045 0.1,-0.1 V 149 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 V 141 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -7.4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -220 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7.4 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 H 12 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 H 12 c 0.1,0 0,-0.1 0,0 v 7.4 c 0,0.055 0.045,0.1 0.1,0.1 z"
+         stroke="#000000"
+         stroke-width="0.2"
+         id="path7-7"
+         style="stroke:#00ff00" />
+      <path
+         d="m 86,146.9 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 V 145 c 0,-0.1 -0.1,0 0,0 H 86 c 0.1,0 0,-0.1 0,0 z"
+         stroke="#0000ff"
+         stroke-width="0.2"
+         id="path8-6"
+         style="stroke:#00ff00" />
+      <path
+         d="m 86,138.9 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 V 137 c 0,-0.1 -0.1,0 0,0 H 86 c 0.1,0 0,-0.1 0,0 z"
+         stroke="#0000ff"
+         stroke-width="0.2"
+         id="path9-1"
+         style="stroke:#00ff00" />
+      <path
+         d="m 160,146.9 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 V 145 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+         stroke="#0000ff"
+         stroke-width="0.2"
+         id="path10-4"
+         style="stroke:#00ff00" />
+      <path
+         d="m 160,138.9 v 1.9 c 0,0.1 0.1,0 0,0 h -1.8 c -0.1,0 0,0.1 0,0 V 137 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+         stroke="#0000ff"
+         stroke-width="0.2"
+         id="path11-2"
+         style="stroke:#00ff00" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 2"
+     sodipodi:insensitive="true">
+    <g
+       id="g155"
+       transform="translate(152.28125,-108.45208)"
+       style="stroke:#00ff00">
+      <g
+         id="p-6-0"
+         style="fill:none;stroke:#00ff00;stroke-linecap:round;stroke-linejoin:round"
+         transform="translate(-152.28125,131.45208)">
+        <text
+           dominant-baseline="hanging"
+           font-size="4px"
+           style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+           text-anchor="middle"
+           transform="translate(126.3,122.2)"
+           id="text41-9">y 3/1</text>
+        <path
+           d="m 101.3,126.3 h 6.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 6.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7.4 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -7.4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -50 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7.4 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 7.4 c 0,0.055 0.045,0.1 0.1,0.1 z"
+           stroke="#000000"
+           stroke-width="0.2"
+           id="path42-4"
+           style="stroke:#00ff00" />
+      </g>
+      <g
+         id="p-8-8"
+         style="fill:none;stroke:#00ff00;stroke-linecap:round;stroke-linejoin:round"
+         transform="translate(-152.28125,131.45208)">
+        <text
+           dominant-baseline="hanging"
+           font-size="4px"
+           style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+           text-anchor="middle"
+           transform="translate(206.7,122.2)"
+           id="text43">y 5/1</text>
+        <path
+           d="m 181.7,126.3 h 6.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 6.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7.4 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -1.9 c -0.1,0 0,0.1 0,0 v -7.4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -50 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7.4 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 7.4 c 0,0.055 0.045,0.1 0.1,0.1 z"
+           stroke="#000000"
+           stroke-width="0.2"
+           id="path44-8"
+           style="stroke:#00ff00" />
+      </g>
+      <g
+         id="p-9-2"
+         style="fill:none;stroke:#00ff00;stroke-linecap:round;stroke-linejoin:round"
+         transform="translate(-152.28125,131.45208)">
+        <text
+           dominant-baseline="hanging"
+           font-size="4px"
+           style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+           text-anchor="middle"
+           transform="translate(261.9,122.2)"
+           id="text44">y 7/1</text>
+        <text
+           dominant-baseline="hanging"
+           font-size="4px"
+           style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+           text-anchor="middle"
+           transform="translate(298.9,122.2)"
+           id="text45">y 7/2</text>
+        <text
+           dominant-baseline="hanging"
+           font-size="4px"
+           style="font-style:normal;font-weight:normal;font-family:sans-serif;fill:#ff0000;stroke:#00ff00"
+           text-anchor="middle"
+           transform="translate(315.9,122.2)"
+           id="text46">y 7/3</text>
+        <path
+           d="m 236.9,126.3 h 6.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 6.9 2 3.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.8 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 3.9 2 2.9 c 0.1,0 0,-0.1 0,0 v 1.9 c 0,0.055 0.045,0.1 0.1,0.1 h 4 c 0.055,0 0.1,-0.045 0.1,-0.1 v -1.9 c 0,-0.1 -0.1,0 0,0 h 2.9 2 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7.5 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 H 321 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -4 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 H 321 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.9 c 0.055,0 0.1,-0.045 0.1,-0.1 v -7.5 c 0,-0.055 -0.045,-0.1 -0.1,-0.1 h -2 -10 -2 -20 -2 -50 -2 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7.5 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 4 c 0,0.055 0.045,0.1 0.1,0.1 h 1.9 c 0.1,0 0,-0.1 0,0 v 3.8 c 0,0.1 0.1,0 0,0 h -1.9 c -0.055,0 -0.1,0.045 -0.1,0.1 v 7.5 c 0,0.055 0.045,0.1 0.1,0.1 z"
+           stroke="#000000"
+           stroke-width="0.2"
+           id="path46-4"
+           style="stroke:#00ff00" />
+        <path
+           d="m 288.8,116.7 v 1.9 c 0,0.1 0.1,0 0,0 H 287 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+           stroke="#0000ff"
+           stroke-width="0.2"
+           id="path47-5"
+           style="stroke:#00ff00" />
+        <path
+           d="m 288.8,108.7 v 1.9 c 0,0.1 0.1,0 0,0 H 287 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+           stroke="#0000ff"
+           stroke-width="0.2"
+           id="path48"
+           style="stroke:#00ff00" />
+        <path
+           d="m 310.8,116.7 v 1.9 c 0,0.1 0.1,0 0,0 H 309 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+           stroke="#0000ff"
+           stroke-width="0.2"
+           id="path49"
+           style="stroke:#00ff00" />
+        <path
+           d="m 310.8,108.7 v 1.9 c 0,0.1 0.1,0 0,0 H 309 c -0.1,0 0,0.1 0,0 v -3.8 c 0,-0.1 -0.1,0 0,0 h 1.8 c 0.1,0 0,-0.1 0,0 z"
+           stroke="#0000ff"
+           stroke-width="0.2"
+           id="path50"
+           style="stroke:#00ff00" />
+      </g>
+    </g>
+  </g>
+</svg>
