@@ -1,0 +1,17 @@
+# Small box
+
+MTG card size: 63x88mm (interno)
+	com protetor (1mm): 65x90mm (interno)
+Altoids can: 97,5 x 62,5 x 20,5 (externo)
+
+69 x 94 x 25 (interno)
++3mm material (x2)
+* 75 x 105 x 35 (externo)
+
+# Box
+
+https://boxes.hackerspace-bamberg.de/UniversalBox?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2&FingerJoint_bottom_lip=0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2&FingerJoint_play=0&FingerJoint_space=2&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=2&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&Hinge_grip_percentage=0&Hinge_outset=0&Hinge_outset=1&Hinge_pinwidth=0.5&Hinge_axle=2.0&Hinge_grip_length=0&Hinge_hingestrength=1&CabinetHinge_bore=3.2&CabinetHinge_eyes_per_hinge=5&CabinetHinge_hinges=2&CabinetHinge_style=inside&CabinetHinge_eye=1.5&CabinetHinge_play=0.05&CabinetHinge_spacing=2.0&SlideOnLid_hole_width=0&SlideOnLid_second_pin=0&SlideOnLid_second_pin=1&SlideOnLid_spring=both&SlideOnLid_style=rectangular&SlideOnLid_surroundingspaces=2.0&SlideOnLid_bottom_lip=0.0&SlideOnLid_edge_width=1.0&SlideOnLid_extra_length=0.0&SlideOnLid_finger=3.0&SlideOnLid_play=0.05&SlideOnLid_space=2.0&SlideOnLid_width=1.0&Click_angle=5.0&Click_bottom_radius=0.1&Click_depth=3.0&RoundedTriangleEdge_height=50.0&RoundedTriangleEdge_r_hole=2.0&RoundedTriangleEdge_radius=30.0&RoundedTriangleEdge_outset=1.0&Mounting_d_head=6.5&Mounting_d_shaft=3.0&Mounting_margin=0.125&Mounting_num=2&Mounting_side=back&Mounting_style=straight+edge%2C+within&HandleEdge_height=20.0&HandleEdge_hole_height=75.0&HandleEdge_hole_width=40%3A40&HandleEdge_on_sides=0&HandleEdge_on_sides=1&HandleEdge_radius=10.0&HandleEdge_outset=1.0&Flex_stretch=1.05&Flex_connection=1.0&Flex_distance=0.5&Flex_width=5&Lid_handle=none&Lid_style=none&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&top_edge=E&bottom_edge=F&x=105&y=75&h=35&outside=0&outside=1&vertical_edges=finger+joints&thickness=3.0&burn=0.1&format=svg&labels=0&reference=100.0&tabs=0.0&qr_code=0&qr_code=1&inner_corners=loop&spacing=0.5&debug=0&language=en&render=0
+
+# TODO
+
+Acertar a tampa para gastar menos material (colocar uns pinos)

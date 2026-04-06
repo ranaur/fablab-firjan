@@ -1,1 +1,0 @@
-Cortei com  a parte branca para baixo e ficou ruim. Testar cortando com ela para cima.
