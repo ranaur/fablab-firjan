@@ -29,6 +29,7 @@ difference() {
         rotate([90, 0, 0])                               // lay text flat on cylinder wall
         linear_extrude(height = text_depth + 0.02)       // cut inward
         mirror([1, 0, 0])                                // correct mirroring for readability
+        rotate([0, 0, 90])
         text(
             str(i),
             size   = text_size,
