@@ -1,3 +1,46 @@
+# A fazer
+
+[ ] Testar fontes SFX
+[ ] Pintar o acrílico e "queimar" a tinta.
+[ ] Gravar no acrílico com o plástico e pintar depois (gravar só a linha, ou preenchendo)
+[ ] Gravar um contador de acrílico usando fonte fina e passando o lápis de cera
+[ ] Cortar o acrílico comprido vermelho (peças de 30mm, 25mm, 16mm)
+[ ] Fazer uma régua
+[ ] Fazer um paquímetro
+[ ] Testar corte de plástico imantado (simples e montado um no outro como sanduíche)
+[ ] Caixa com tampa deslizante caixa dupla e com pés pra encaixar (a caixa é dupla, a parede interna tem um chanfro para deslizar a tampa)
+[ ] Fazer caixinhas de acrílico
+[ ] Fazer o cubo do mario
+
+[ ] Ver https://cutmaker.co/generators
+
+OK Gabarito de corte de cartas (magic, usa e mini usa)
+OK Caixa de cartas
+OK Caixa para o exploration token
+Caixa para os tokens e miniatura
+Caixa dos players
+OK Game couters
+OK Peças redondas
+
+Tabuleiro do Elite (hexa)
+
+Testar XPS e Paraná
+
+# Referências
+
+## Cartas
+
+Inches 0 / 1.75 / 2.25 /2.5 /3.5 /5
+  mm   0 / 44.5 / 57 / 63.5 / 89 / 127
+
+US poker 2.5″ 3.5″ ≈ 63.5 × 88.9 mm
+Mini USA: 1.75″ × 2.5″ ≈ 44.5 × 63.5 mm
+Jumbo/large poker: 3.5″ × 5″ ≈ 88.9  x 127 mm
+
+## SoB Cards
+
+Monster/Player 130 x 195 mm
+
 # Antes
 
 ## No 2:
