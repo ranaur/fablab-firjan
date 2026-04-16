@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   sodipodi:docname="Moedas Mario.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71891835"
+     inkscape:cx="397.12437"
+     inkscape:cy="803.29011"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3"
+       transform="translate(8.8327138,-59.988847)">
+      <circle
+         style="fill:#d4aa00;stroke:#1a1a1a;stroke-width:0.264583"
+         id="path1"
+         cx="96.42379"
+         cy="127.70632"
+         r="46.371746" />
+      <circle
+         style="fill:#d4aa00;stroke:#1a1a1a;stroke-width:0.216423"
+         id="circle1"
+         cx="96.42379"
+         cy="127.70632"
+         r="37.931141" />
+      <rect
+         style="fill:#d4aa00;stroke:#1a1a1a;stroke-width:0.264583"
+         id="rect1"
+         width="12.14498"
+         height="51.892193"
+         x="90.351303"
+         y="101.76022" />
+    </g>
+    <circle
+       style="fill:#d4aa00;stroke:#1a1a1a;stroke-width:0.264583"
+       id="circle2"
+       cx="117.40148"
+       cy="236.2751"
+       r="46.371746" />
+    <circle
+       style="fill:#d4aa00;stroke:#1a1a1a;stroke-width:0.216423"
+       id="circle3"
+       cx="117.40148"
+       cy="236.2751"
+       r="37.931141" />
+    <path
+       sodipodi:type="star"
+       style="fill:#d4aa00;stroke:#1a1a1a;stroke-width:0.264583"
+       id="path3"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="-33.490707"
+       sodipodi:cy="116.66543"
+       sodipodi:r1="38.056839"
+       sodipodi:r2="19.028419"
+       sodipodi:arg1="0.91569032"
+       sodipodi:arg2="1.5440089"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -10.304833,146.84387 -22.676213,-11.15685 -22.046234,12.35514 3.603457,-25.01402 -18.563093,-17.14927 24.903272,-4.30266 10.573612,-22.953967 11.787612,22.354817 25.0979435,2.96294 -17.6181275,18.11871 z"
+       inkscape:transform-center-x="0.23380067"
+       inkscape:transform-center-y="-2.4740895"
+       transform="matrix(0.74225095,0,0,0.74225095,142.49563,152.1736)" />
+  </g>
+</svg>

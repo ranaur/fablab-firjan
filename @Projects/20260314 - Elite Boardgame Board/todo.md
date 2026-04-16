@@ -1,0 +1,1 @@
+Colocar o desenho do alvo no hexa.

@@ -12,3 +12,7 @@ Fabricados em MDF de 3mm e produzidos com corte e gravação a laser, os contado
 Perfeito para controlar vida, pontos, recursos ou qualquer marcador que seu jogo exigir. Esqueça anotações manuais e foque no que realmente importa: jogar!
 
 https://tudoalaser.com.br/loja/rpg/contadores/contador-de-vida-para-rpg-e-jogos-de-tabuleiro-modelo-de-2-e-3-digitos/?srsltid=AfmBOor0XWGEfzSWMYaj65TpBUIqRua6766Wwk0NekBg0EuCoBxmnyds
+
+# Outros
+
+https://www.etsy.com/pt/listing/1703205441/contador-de-vidas-download-digital-svg?dd_referrer=https%3A%2F%2Fwww.google.com%2F
