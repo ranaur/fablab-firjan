@@ -1,6 +1,6 @@
 [submodule "programs/lightburn-cli"]
-	path = programs/lightburn-cli
+	path = @Projects/20260331 - lightburn-cli
 	url = https://github.com/ranaur/lightburn-cli
 [submodule "20260403 Box.py/boxes"]
-	path = 20260403 Box.py/boxes
+	path = @Projects/20260403 - Box.py/boxes
 	url = https://github.com/florianfesti/boxes
