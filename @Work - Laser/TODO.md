@@ -1,10 +1,23 @@
+# Antes
+
+## No 2:
+	Regar o Lightburn do Lidbox
+	Ver as cores dos MDFs para fazer as "Caixas Empilháveis"
+	Refazer as Altoids can o fangbrim para acrílico
+	Fazer caixas de projetos que caibam um arduíno em MDF com o flatbrim
+	
+## Conferir todos os lightburns do diretório 3:
+	Vincular material
+	Conferir tamanho da placa
+	Colocar o Logo Ranaur nos objetos
+
 # Geral
 
 [ ] Colocar o Logo Ranaur nos objetos
 [ ] Ver coisas para imprimir no @Inbox
 [ ] Fazer o lightburn do teste de profundidade de 256 níveis
 
-## A fazer
+## A fazer (futuro)
 
 [ ] Caixas separadora da gaveta de lápis
 [ ] Caixas 6x1, 5x1, 4x1, 3x2, 2x1 (3x), 1x1 para a árvore de natal
@@ -13,7 +26,7 @@
 
 ## Preparação
 
-[ ] FAzer os testes de gradiente desde 100%
+[ ] Fazer os testes de gradiente desde 100%
 [ ] Fazer os testes com o 256 cores
 [ ] Testar o corte do "papel imantado". Um quadrado vazado de 5x5 cm (com 3mm de largura, ou seja, um furo quadrado de 4,7mm)
 
