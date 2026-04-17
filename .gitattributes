@@ -8,3 +8,4 @@
 /@Work[[:space:]]-[[:space:]]Filamento/Super[[:space:]]Mario/mario[[:space:]]kart[[:space:]]rosalina[[:space:]]-[[:space:]]5551181.zip filter=lfs diff=lfs merge=lfs -text
 /@Inbox/Lego[[:space:]]Man[[:space:]]Modular[[:space:]]_[[:space:]]Easy[[:space:]]Print[[:space:]]-[[:space:]]6687741.zip filter=lfs diff=lfs merge=lfs -text
 /@Work[[:space:]]-[[:space:]]Filamento/Super[[:space:]]Mario/mario+p1s_stls.zip filter=lfs diff=lfs merge=lfs -text
+*.cxdlp filter=lfs diff=lfs merge=lfs -text
