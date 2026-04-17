@@ -1,0 +1,2 @@
+Plataforma2.ctp__00.ctp filter=lfs diff=lfs merge=lfs -text
+*.ctp filter=lfs diff=lfs merge=lfs -text
