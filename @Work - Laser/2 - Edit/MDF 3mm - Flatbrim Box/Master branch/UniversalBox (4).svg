@@ -1,0 +1,801 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg height="389.00mm" viewBox="0.0 0.0 424.45 389.00" width="424.45mm" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--
+UniversalBox - Box with various options for different styles and lids
+
+Created with Boxes.py (https://boxes.hackerspace-bamberg.de/)
+Creation date: 2026-04-17 14:08:19
+Command line (remove spaces between dashes): boxes UniversalBox - -Lid_style=flatbrim - -x=85 - -y=60 - -h=60 - -qr_code=0 - -qr_code=1 - -spacing=0.5
+Url: http://127.0.0.8:8000/UniversalBox?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=0.0&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&Hinge_grip_percentage=0&Hinge_outset=0&Hinge_outset=1&Hinge_pinwidth=0.5&Hinge_axle=2.0&Hinge_grip_length=0&Hinge_hingestrength=1&CabinetHinge_bore=3.2&CabinetHinge_eyes_per_hinge=5&CabinetHinge_hinges=2&CabinetHinge_style=inside&CabinetHinge_eye=1.5&CabinetHinge_play=0.05&CabinetHinge_spacing=2.0&SlideOnLid_hole_width=0&SlideOnLid_second_pin=0&SlideOnLid_second_pin=1&SlideOnLid_spring=both&SlideOnLid_style=rectangular&SlideOnLid_surroundingspaces=2.0&SlideOnLid_bottom_lip=0.0&SlideOnLid_edge_width=1.0&SlideOnLid_extra_length=0.0&SlideOnLid_finger=3.0&SlideOnLid_play=0.05&SlideOnLid_space=2.0&SlideOnLid_width=1.0&Click_angle=5.0&Click_bottom_radius=0.1&Click_depth=3.0&RoundedTriangleEdge_height=50.0&RoundedTriangleEdge_r_hole=2.0&RoundedTriangleEdge_radius=30.0&RoundedTriangleEdge_outset=1.0&Mounting_d_head=6.5&Mounting_d_shaft=3.0&Mounting_margin=0.125&Mounting_num=2&Mounting_side=back&Mounting_style=straight+edge%2C+within&HandleEdge_height=20.0&HandleEdge_hole_height=75.0&HandleEdge_hole_width=40%3A40&HandleEdge_on_sides=0&HandleEdge_on_sides=1&HandleEdge_radius=10.0&HandleEdge_outset=1.0&Flex_stretch=1.05&Flex_connection=1.0&Flex_distance=0.5&Flex_width=5.0&Lid_handle=none&Lid_style=flatbrim&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&top_edge=e&bottom_edge=h&x=85&y=60&h=60&outside=0&outside=1&vertical_edges=finger+joints&thickness=3.0&burn=0.1&format=svg&labels=0&labels=1&reference=100.0&tabs=0.0&qr_code=0&qr_code=1&inner_corners=loop&spacing=0.5&debug=0&language=en&render=2
+Url short: http://127.0.0.8:8000/UniversalBox?Lid_style=flatbrim&x=85&y=60&h=60&spacing=0.5
+SettingsUrl: http://127.0.0.8:8000/UniversalBox?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=0.0&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&Hinge_grip_percentage=0&Hinge_outset=0&Hinge_outset=1&Hinge_pinwidth=0.5&Hinge_axle=2.0&Hinge_grip_length=0&Hinge_hingestrength=1&CabinetHinge_bore=3.2&CabinetHinge_eyes_per_hinge=5&CabinetHinge_hinges=2&CabinetHinge_style=inside&CabinetHinge_eye=1.5&CabinetHinge_play=0.05&CabinetHinge_spacing=2.0&SlideOnLid_hole_width=0&SlideOnLid_second_pin=0&SlideOnLid_second_pin=1&SlideOnLid_spring=both&SlideOnLid_style=rectangular&SlideOnLid_surroundingspaces=2.0&SlideOnLid_bottom_lip=0.0&SlideOnLid_edge_width=1.0&SlideOnLid_extra_length=0.0&SlideOnLid_finger=3.0&SlideOnLid_play=0.05&SlideOnLid_space=2.0&SlideOnLid_width=1.0&Click_angle=5.0&Click_bottom_radius=0.1&Click_depth=3.0&RoundedTriangleEdge_height=50.0&RoundedTriangleEdge_r_hole=2.0&RoundedTriangleEdge_radius=30.0&RoundedTriangleEdge_outset=1.0&Mounting_d_head=6.5&Mounting_d_shaft=3.0&Mounting_margin=0.125&Mounting_num=2&Mounting_side=back&Mounting_style=straight+edge%2C+within&HandleEdge_height=20.0&HandleEdge_hole_height=75.0&HandleEdge_hole_width=40%3A40&HandleEdge_on_sides=0&HandleEdge_on_sides=1&HandleEdge_radius=10.0&HandleEdge_outset=1.0&Flex_stretch=1.05&Flex_connection=1.0&Flex_distance=0.5&Flex_width=5.0&Lid_handle=none&Lid_style=flatbrim&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&top_edge=e&bottom_edge=h&x=85&y=60&h=60&outside=0&outside=1&vertical_edges=finger+joints&thickness=3.0&burn=0.1&format=svg&labels=0&labels=1&reference=100.0&tabs=0.0&qr_code=0&qr_code=1&inner_corners=loop&spacing=0.5&debug=0&language=en&render=2
+SettingsUrl short: http://127.0.0.8:8000/UniversalBox?Lid_style=flatbrim&x=85&y=60&h=60&spacing=0.5
+-->
+<title>UniversalBox</title>
+<metadata>
+<rdf:RDF><cc:Work>
+<dc:title>Box - UniversalBox</dc:title>
+<dc:date>2026-04-17 14:08:19</dc:date>
+<dc:source>http://127.0.0.8:8000/UniversalBox?FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_bottom_stabilizers=0.0&amp;Stackable_height=2.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=4.0&amp;Hinge_grip_percentage=0&amp;Hinge_outset=0&amp;Hinge_outset=1&amp;Hinge_pinwidth=0.5&amp;Hinge_axle=2.0&amp;Hinge_grip_length=0&amp;Hinge_hingestrength=1&amp;CabinetHinge_bore=3.2&amp;CabinetHinge_eyes_per_hinge=5&amp;CabinetHinge_hinges=2&amp;CabinetHinge_style=inside&amp;CabinetHinge_eye=1.5&amp;CabinetHinge_play=0.05&amp;CabinetHinge_spacing=2.0&amp;SlideOnLid_hole_width=0&amp;SlideOnLid_second_pin=0&amp;SlideOnLid_second_pin=1&amp;SlideOnLid_spring=both&amp;SlideOnLid_style=rectangular&amp;SlideOnLid_surroundingspaces=2.0&amp;SlideOnLid_bottom_lip=0.0&amp;SlideOnLid_edge_width=1.0&amp;SlideOnLid_extra_length=0.0&amp;SlideOnLid_finger=3.0&amp;SlideOnLid_play=0.05&amp;SlideOnLid_space=2.0&amp;SlideOnLid_width=1.0&amp;Click_angle=5.0&amp;Click_bottom_radius=0.1&amp;Click_depth=3.0&amp;RoundedTriangleEdge_height=50.0&amp;RoundedTriangleEdge_r_hole=2.0&amp;RoundedTriangleEdge_radius=30.0&amp;RoundedTriangleEdge_outset=1.0&amp;Mounting_d_head=6.5&amp;Mounting_d_shaft=3.0&amp;Mounting_margin=0.125&amp;Mounting_num=2&amp;Mounting_side=back&amp;Mounting_style=straight+edge%2C+within&amp;HandleEdge_height=20.0&amp;HandleEdge_hole_height=75.0&amp;HandleEdge_hole_width=40%3A40&amp;HandleEdge_on_sides=0&amp;HandleEdge_on_sides=1&amp;HandleEdge_radius=10.0&amp;HandleEdge_outset=1.0&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;Lid_handle=none&amp;Lid_style=flatbrim&amp;Lid_handle_height=8.0&amp;Lid_height=4.0&amp;Lid_play=0.1&amp;top_edge=e&amp;bottom_edge=h&amp;x=85&amp;y=60&amp;h=60&amp;outside=0&amp;outside=1&amp;vertical_edges=finger+joints&amp;thickness=3.0&amp;burn=0.1&amp;format=svg&amp;labels=0&amp;labels=1&amp;reference=100.0&amp;tabs=0.0&amp;qr_code=0&amp;qr_code=1&amp;inner_corners=loop&amp;spacing=0.5&amp;debug=0&amp;language=en&amp;render=2</dc:source>
+<dc:source>http://127.0.0.8:8000/UniversalBox?Lid_style=flatbrim&amp;x=85&amp;y=60&amp;h=60&amp;spacing=0.5</dc:source>
+<dc:description>Box with various options for different styles and lids
+
+Created with Boxes.py (https://boxes.hackerspace-bamberg.de/)
+Command line: boxes UniversalBox --FingerJoint_style=rectangular --FingerJoint_surroundingspaces=2.0 --FingerJoint_bottom_lip=0.0 --FingerJoint_edge_width=1.0 --FingerJoint_extra_length=0.0 --FingerJoint_finger=2.0 --FingerJoint_play=0.0 --FingerJoint_space=2.0 --FingerJoint_width=1.0 --Stackable_angle=60 --Stackable_bottom_stabilizers=0.0 --Stackable_height=2.0 --Stackable_holedistance=1.0 --Stackable_width=4.0 --Hinge_grip_percentage=0 --Hinge_outset=0 --Hinge_outset=1 --Hinge_pinwidth=0.5 --Hinge_axle=2.0 --Hinge_grip_length=0 --Hinge_hingestrength=1 --CabinetHinge_bore=3.2 --CabinetHinge_eyes_per_hinge=5 --CabinetHinge_hinges=2 --CabinetHinge_style=inside --CabinetHinge_eye=1.5 --CabinetHinge_play=0.05 --CabinetHinge_spacing=2.0 --SlideOnLid_hole_width=0 --SlideOnLid_second_pin=0 --SlideOnLid_second_pin=1 --SlideOnLid_spring=both --SlideOnLid_style=rectangular --SlideOnLid_surroundingspaces=2.0 --SlideOnLid_bottom_lip=0.0 --SlideOnLid_edge_width=1.0 --SlideOnLid_extra_length=0.0 --SlideOnLid_finger=3.0 --SlideOnLid_play=0.05 --SlideOnLid_space=2.0 --SlideOnLid_width=1.0 --Click_angle=5.0 --Click_bottom_radius=0.1 --Click_depth=3.0 --RoundedTriangleEdge_height=50.0 --RoundedTriangleEdge_r_hole=2.0 --RoundedTriangleEdge_radius=30.0 --RoundedTriangleEdge_outset=1.0 --Mounting_d_head=6.5 --Mounting_d_shaft=3.0 --Mounting_margin=0.125 --Mounting_num=2 --Mounting_side=back '--Mounting_style=straight edge, within' --HandleEdge_height=20.0 --HandleEdge_hole_height=75.0 --HandleEdge_hole_width=40:40 --HandleEdge_on_sides=0 --HandleEdge_on_sides=1 --HandleEdge_radius=10.0 --HandleEdge_outset=1.0 --Flex_stretch=1.05 --Flex_connection=1.0 --Flex_distance=0.5 --Flex_width=5.0 --Lid_handle=none --Lid_style=flatbrim --Lid_handle_height=8.0 --Lid_height=4.0 --Lid_play=0.1 --top_edge=e --bottom_edge=h --x=85 --y=60 --h=60 --outside=0 --outside=1 '--vertical_edges=finger joints' --thickness=3.0 --burn=0.1 --format=svg --labels=0 --labels=1 --reference=100.0 --tabs=0.0 --qr_code=0 --qr_code=1 --inner_corners=loop --spacing=0.5 --debug=0
+Command line short: boxes UniversalBox --Lid_style=flatbrim --x=85 --y=60 --h=60 --qr_code=0 --qr_code=1 --spacing=0.5
+Url: http://127.0.0.8:8000/UniversalBox?FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_bottom_stabilizers=0.0&amp;Stackable_height=2.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=4.0&amp;Hinge_grip_percentage=0&amp;Hinge_outset=0&amp;Hinge_outset=1&amp;Hinge_pinwidth=0.5&amp;Hinge_axle=2.0&amp;Hinge_grip_length=0&amp;Hinge_hingestrength=1&amp;CabinetHinge_bore=3.2&amp;CabinetHinge_eyes_per_hinge=5&amp;CabinetHinge_hinges=2&amp;CabinetHinge_style=inside&amp;CabinetHinge_eye=1.5&amp;CabinetHinge_play=0.05&amp;CabinetHinge_spacing=2.0&amp;SlideOnLid_hole_width=0&amp;SlideOnLid_second_pin=0&amp;SlideOnLid_second_pin=1&amp;SlideOnLid_spring=both&amp;SlideOnLid_style=rectangular&amp;SlideOnLid_surroundingspaces=2.0&amp;SlideOnLid_bottom_lip=0.0&amp;SlideOnLid_edge_width=1.0&amp;SlideOnLid_extra_length=0.0&amp;SlideOnLid_finger=3.0&amp;SlideOnLid_play=0.05&amp;SlideOnLid_space=2.0&amp;SlideOnLid_width=1.0&amp;Click_angle=5.0&amp;Click_bottom_radius=0.1&amp;Click_depth=3.0&amp;RoundedTriangleEdge_height=50.0&amp;RoundedTriangleEdge_r_hole=2.0&amp;RoundedTriangleEdge_radius=30.0&amp;RoundedTriangleEdge_outset=1.0&amp;Mounting_d_head=6.5&amp;Mounting_d_shaft=3.0&amp;Mounting_margin=0.125&amp;Mounting_num=2&amp;Mounting_side=back&amp;Mounting_style=straight+edge%2C+within&amp;HandleEdge_height=20.0&amp;HandleEdge_hole_height=75.0&amp;HandleEdge_hole_width=40%3A40&amp;HandleEdge_on_sides=0&amp;HandleEdge_on_sides=1&amp;HandleEdge_radius=10.0&amp;HandleEdge_outset=1.0&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;Lid_handle=none&amp;Lid_style=flatbrim&amp;Lid_handle_height=8.0&amp;Lid_height=4.0&amp;Lid_play=0.1&amp;top_edge=e&amp;bottom_edge=h&amp;x=85&amp;y=60&amp;h=60&amp;outside=0&amp;outside=1&amp;vertical_edges=finger+joints&amp;thickness=3.0&amp;burn=0.1&amp;format=svg&amp;labels=0&amp;labels=1&amp;reference=100.0&amp;tabs=0.0&amp;qr_code=0&amp;qr_code=1&amp;inner_corners=loop&amp;spacing=0.5&amp;debug=0&amp;language=en&amp;render=2
+Url short: http://127.0.0.8:8000/UniversalBox?Lid_style=flatbrim&amp;x=85&amp;y=60&amp;h=60&amp;spacing=0.5
+SettingsUrl: http://127.0.0.8:8000/UniversalBox?FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_bottom_stabilizers=0.0&amp;Stackable_height=2.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=4.0&amp;Hinge_grip_percentage=0&amp;Hinge_outset=0&amp;Hinge_outset=1&amp;Hinge_pinwidth=0.5&amp;Hinge_axle=2.0&amp;Hinge_grip_length=0&amp;Hinge_hingestrength=1&amp;CabinetHinge_bore=3.2&amp;CabinetHinge_eyes_per_hinge=5&amp;CabinetHinge_hinges=2&amp;CabinetHinge_style=inside&amp;CabinetHinge_eye=1.5&amp;CabinetHinge_play=0.05&amp;CabinetHinge_spacing=2.0&amp;SlideOnLid_hole_width=0&amp;SlideOnLid_second_pin=0&amp;SlideOnLid_second_pin=1&amp;SlideOnLid_spring=both&amp;SlideOnLid_style=rectangular&amp;SlideOnLid_surroundingspaces=2.0&amp;SlideOnLid_bottom_lip=0.0&amp;SlideOnLid_edge_width=1.0&amp;SlideOnLid_extra_length=0.0&amp;SlideOnLid_finger=3.0&amp;SlideOnLid_play=0.05&amp;SlideOnLid_space=2.0&amp;SlideOnLid_width=1.0&amp;Click_angle=5.0&amp;Click_bottom_radius=0.1&amp;Click_depth=3.0&amp;RoundedTriangleEdge_height=50.0&amp;RoundedTriangleEdge_r_hole=2.0&amp;RoundedTriangleEdge_radius=30.0&amp;RoundedTriangleEdge_outset=1.0&amp;Mounting_d_head=6.5&amp;Mounting_d_shaft=3.0&amp;Mounting_margin=0.125&amp;Mounting_num=2&amp;Mounting_side=back&amp;Mounting_style=straight+edge%2C+within&amp;HandleEdge_height=20.0&amp;HandleEdge_hole_height=75.0&amp;HandleEdge_hole_width=40%3A40&amp;HandleEdge_on_sides=0&amp;HandleEdge_on_sides=1&amp;HandleEdge_radius=10.0&amp;HandleEdge_outset=1.0&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;Lid_handle=none&amp;Lid_style=flatbrim&amp;Lid_handle_height=8.0&amp;Lid_height=4.0&amp;Lid_play=0.1&amp;top_edge=e&amp;bottom_edge=h&amp;x=85&amp;y=60&amp;h=60&amp;outside=0&amp;outside=1&amp;vertical_edges=finger+joints&amp;thickness=3.0&amp;burn=0.1&amp;format=svg&amp;labels=0&amp;labels=1&amp;reference=100.0&amp;tabs=0.0&amp;qr_code=0&amp;qr_code=1&amp;inner_corners=loop&amp;spacing=0.5&amp;debug=0&amp;language=en&amp;render=2
+SettingsUrl short: http://127.0.0.8:8000/UniversalBox?Lid_style=flatbrim&amp;x=85&amp;y=60&amp;h=60&amp;spacing=0.5
+</dc:description>
+</cc:Work></rdf:RDF></metadata>
+<g id="p-0" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 10.100 379.000 H 110.100 V 369.000 H 10.100 V 379.000 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="6px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 60.100 371.000 )">100.0mm, burn:0.10mm</text>
+</g>
+<g id="p-1" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 16.100 361.300 H 17.600 V 359.800 H 16.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 359.800 H 17.600 V 358.300 H 16.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 358.300 H 17.600 V 356.800 H 16.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 356.800 H 17.600 V 355.300 H 16.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 355.300 H 17.600 V 353.800 H 16.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 353.800 H 17.600 V 352.300 H 16.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 352.300 H 17.600 V 350.800 H 16.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 349.300 H 17.600 V 347.800 H 16.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 347.800 H 17.600 V 346.300 H 16.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 346.300 H 17.600 V 344.800 H 16.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 344.800 H 17.600 V 343.300 H 16.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 341.800 H 17.600 V 340.300 H 16.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 331.300 H 17.600 V 329.800 H 16.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 325.300 H 17.600 V 323.800 H 16.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 322.300 H 17.600 V 320.800 H 16.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 319.300 H 17.600 V 317.800 H 16.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 316.300 H 17.600 V 314.800 H 16.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 314.800 H 17.600 V 313.300 H 16.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 313.300 H 17.600 V 311.800 H 16.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 311.800 H 17.600 V 310.300 H 16.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 310.300 H 17.600 V 308.800 H 16.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 308.800 H 17.600 V 307.300 H 16.100 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 16.100 307.300 H 17.600 V 305.800 H 16.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 361.300 H 19.100 V 359.800 H 17.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 352.300 H 19.100 V 350.800 H 17.600 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 349.300 H 19.100 V 347.800 H 17.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 347.800 H 19.100 V 346.300 H 17.600 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 340.300 H 19.100 V 338.800 H 17.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 334.300 H 19.100 V 332.800 H 17.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 332.800 H 19.100 V 331.300 H 17.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 325.300 H 19.100 V 323.800 H 17.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 323.800 H 19.100 V 322.300 H 17.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 322.300 H 19.100 V 320.800 H 17.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 319.300 H 19.100 V 317.800 H 17.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 316.300 H 19.100 V 314.800 H 17.600 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 17.600 307.300 H 19.100 V 305.800 H 17.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 361.300 H 20.600 V 359.800 H 19.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 358.300 H 20.600 V 356.800 H 19.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 356.800 H 20.600 V 355.300 H 19.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 355.300 H 20.600 V 353.800 H 19.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 352.300 H 20.600 V 350.800 H 19.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 349.300 H 20.600 V 347.800 H 19.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 346.300 H 20.600 V 344.800 H 19.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 344.800 H 20.600 V 343.300 H 19.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 343.300 H 20.600 V 341.800 H 19.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 341.800 H 20.600 V 340.300 H 19.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 340.300 H 20.600 V 338.800 H 19.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 338.800 H 20.600 V 337.300 H 19.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 337.300 H 20.600 V 335.800 H 19.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 334.300 H 20.600 V 332.800 H 19.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 331.300 H 20.600 V 329.800 H 19.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 329.800 H 20.600 V 328.300 H 19.100 V 329.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 326.800 H 20.600 V 325.300 H 19.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 323.800 H 20.600 V 322.300 H 19.100 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 320.800 H 20.600 V 319.300 H 19.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 316.300 H 20.600 V 314.800 H 19.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 313.300 H 20.600 V 311.800 H 19.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 311.800 H 20.600 V 310.300 H 19.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 310.300 H 20.600 V 308.800 H 19.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 19.100 307.300 H 20.600 V 305.800 H 19.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 361.300 H 22.100 V 359.800 H 20.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 358.300 H 22.100 V 356.800 H 20.600 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 356.800 H 22.100 V 355.300 H 20.600 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 355.300 H 22.100 V 353.800 H 20.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 352.300 H 22.100 V 350.800 H 20.600 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 346.300 H 22.100 V 344.800 H 20.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 341.800 H 22.100 V 340.300 H 20.600 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 337.300 H 22.100 V 335.800 H 20.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 335.800 H 22.100 V 334.300 H 20.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 334.300 H 22.100 V 332.800 H 20.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 329.800 H 22.100 V 328.300 H 20.600 V 329.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 325.300 H 22.100 V 323.800 H 20.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 323.800 H 22.100 V 322.300 H 20.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 322.300 H 22.100 V 320.800 H 20.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 316.300 H 22.100 V 314.800 H 20.600 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 313.300 H 22.100 V 311.800 H 20.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 311.800 H 22.100 V 310.300 H 20.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 310.300 H 22.100 V 308.800 H 20.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 20.600 307.300 H 22.100 V 305.800 H 20.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 361.300 H 23.600 V 359.800 H 22.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 358.300 H 23.600 V 356.800 H 22.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 356.800 H 23.600 V 355.300 H 22.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 355.300 H 23.600 V 353.800 H 22.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 352.300 H 23.600 V 350.800 H 22.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 349.300 H 23.600 V 347.800 H 22.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 347.800 H 23.600 V 346.300 H 22.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 343.300 H 23.600 V 341.800 H 22.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 341.800 H 23.600 V 340.300 H 22.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 340.300 H 23.600 V 338.800 H 22.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 332.800 H 23.600 V 331.300 H 22.100 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 329.800 H 23.600 V 328.300 H 22.100 V 329.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 328.300 H 23.600 V 326.800 H 22.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 316.300 H 23.600 V 314.800 H 22.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 313.300 H 23.600 V 311.800 H 22.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 311.800 H 23.600 V 310.300 H 22.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 310.300 H 23.600 V 308.800 H 22.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 22.100 307.300 H 23.600 V 305.800 H 22.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 361.300 H 25.100 V 359.800 H 23.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 352.300 H 25.100 V 350.800 H 23.600 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 347.800 H 25.100 V 346.300 H 23.600 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 343.300 H 25.100 V 341.800 H 23.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 340.300 H 25.100 V 338.800 H 23.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 338.800 H 25.100 V 337.300 H 23.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 335.800 H 25.100 V 334.300 H 23.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 331.300 H 25.100 V 329.800 H 23.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 328.300 H 25.100 V 326.800 H 23.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 326.800 H 25.100 V 325.300 H 23.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 325.300 H 25.100 V 323.800 H 23.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 323.800 H 25.100 V 322.300 H 23.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 322.300 H 25.100 V 320.800 H 23.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 319.300 H 25.100 V 317.800 H 23.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 316.300 H 25.100 V 314.800 H 23.600 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 23.600 307.300 H 25.100 V 305.800 H 23.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 361.300 H 26.600 V 359.800 H 25.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 359.800 H 26.600 V 358.300 H 25.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 358.300 H 26.600 V 356.800 H 25.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 356.800 H 26.600 V 355.300 H 25.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 355.300 H 26.600 V 353.800 H 25.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 353.800 H 26.600 V 352.300 H 25.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 352.300 H 26.600 V 350.800 H 25.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 349.300 H 26.600 V 347.800 H 25.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 346.300 H 26.600 V 344.800 H 25.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 343.300 H 26.600 V 341.800 H 25.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 340.300 H 26.600 V 338.800 H 25.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 337.300 H 26.600 V 335.800 H 25.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 334.300 H 26.600 V 332.800 H 25.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 331.300 H 26.600 V 329.800 H 25.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 328.300 H 26.600 V 326.800 H 25.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 325.300 H 26.600 V 323.800 H 25.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 322.300 H 26.600 V 320.800 H 25.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 319.300 H 26.600 V 317.800 H 25.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 316.300 H 26.600 V 314.800 H 25.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 314.800 H 26.600 V 313.300 H 25.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 313.300 H 26.600 V 311.800 H 25.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 311.800 H 26.600 V 310.300 H 25.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 310.300 H 26.600 V 308.800 H 25.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 308.800 H 26.600 V 307.300 H 25.100 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 25.100 307.300 H 26.600 V 305.800 H 25.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 344.800 H 28.100 V 343.300 H 26.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 343.300 H 28.100 V 341.800 H 26.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 341.800 H 28.100 V 340.300 H 26.600 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 340.300 H 28.100 V 338.800 H 26.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 326.800 H 28.100 V 325.300 H 26.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 323.800 H 28.100 V 322.300 H 26.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 322.300 H 28.100 V 320.800 H 26.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 320.800 H 28.100 V 319.300 H 26.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 26.600 319.300 H 28.100 V 317.800 H 26.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 361.300 H 29.600 V 359.800 H 28.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 356.800 H 29.600 V 355.300 H 28.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 355.300 H 29.600 V 353.800 H 28.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 353.800 H 29.600 V 352.300 H 28.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 352.300 H 29.600 V 350.800 H 28.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 350.800 H 29.600 V 349.300 H 28.100 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 349.300 H 29.600 V 347.800 H 28.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 346.300 H 29.600 V 344.800 H 28.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 344.800 H 29.600 V 343.300 H 28.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 343.300 H 29.600 V 341.800 H 28.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 338.800 H 29.600 V 337.300 H 28.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 335.800 H 29.600 V 334.300 H 28.100 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 334.300 H 29.600 V 332.800 H 28.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 328.300 H 29.600 V 326.800 H 28.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 326.800 H 29.600 V 325.300 H 28.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 322.300 H 29.600 V 320.800 H 28.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 317.800 H 29.600 V 316.300 H 28.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 313.300 H 29.600 V 311.800 H 28.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 310.300 H 29.600 V 308.800 H 28.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 308.800 H 29.600 V 307.300 H 28.100 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 28.100 307.300 H 29.600 V 305.800 H 28.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 358.300 H 31.100 V 356.800 H 29.600 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 355.300 H 31.100 V 353.800 H 29.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 353.800 H 31.100 V 352.300 H 29.600 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 350.800 H 31.100 V 349.300 H 29.600 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 349.300 H 31.100 V 347.800 H 29.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 346.300 H 31.100 V 344.800 H 29.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 343.300 H 31.100 V 341.800 H 29.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 341.800 H 31.100 V 340.300 H 29.600 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 337.300 H 31.100 V 335.800 H 29.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 335.800 H 31.100 V 334.300 H 29.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 332.800 H 31.100 V 331.300 H 29.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 328.300 H 31.100 V 326.800 H 29.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 326.800 H 31.100 V 325.300 H 29.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 325.300 H 31.100 V 323.800 H 29.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 323.800 H 31.100 V 322.300 H 29.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 320.800 H 31.100 V 319.300 H 29.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 319.300 H 31.100 V 317.800 H 29.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 314.800 H 31.100 V 313.300 H 29.600 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 313.300 H 31.100 V 311.800 H 29.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 311.800 H 31.100 V 310.300 H 29.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 29.600 308.800 H 31.100 V 307.300 H 29.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 361.300 H 32.600 V 359.800 H 31.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 359.800 H 32.600 V 358.300 H 31.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 358.300 H 32.600 V 356.800 H 31.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 356.800 H 32.600 V 355.300 H 31.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 355.300 H 32.600 V 353.800 H 31.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 352.300 H 32.600 V 350.800 H 31.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 350.800 H 32.600 V 349.300 H 31.100 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 349.300 H 32.600 V 347.800 H 31.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 346.300 H 32.600 V 344.800 H 31.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 344.800 H 32.600 V 343.300 H 31.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 343.300 H 32.600 V 341.800 H 31.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 340.300 H 32.600 V 338.800 H 31.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 338.800 H 32.600 V 337.300 H 31.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 337.300 H 32.600 V 335.800 H 31.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 331.300 H 32.600 V 329.800 H 31.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 328.300 H 32.600 V 326.800 H 31.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 326.800 H 32.600 V 325.300 H 31.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 323.800 H 32.600 V 322.300 H 31.100 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 322.300 H 32.600 V 320.800 H 31.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 320.800 H 32.600 V 319.300 H 31.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 317.800 H 32.600 V 316.300 H 31.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 316.300 H 32.600 V 314.800 H 31.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 31.100 307.300 H 32.600 V 305.800 H 31.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 355.300 H 34.100 V 353.800 H 32.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 353.800 H 34.100 V 352.300 H 32.600 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 350.800 H 34.100 V 349.300 H 32.600 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 349.300 H 34.100 V 347.800 H 32.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 344.800 H 34.100 V 343.300 H 32.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 340.300 H 34.100 V 338.800 H 32.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 337.300 H 34.100 V 335.800 H 32.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 335.800 H 34.100 V 334.300 H 32.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 332.800 H 34.100 V 331.300 H 32.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 331.300 H 34.100 V 329.800 H 32.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 328.300 H 34.100 V 326.800 H 32.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 326.800 H 34.100 V 325.300 H 32.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 319.300 H 34.100 V 317.800 H 32.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 317.800 H 34.100 V 316.300 H 32.600 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 311.800 H 34.100 V 310.300 H 32.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 310.300 H 34.100 V 308.800 H 32.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 308.800 H 34.100 V 307.300 H 32.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 32.600 307.300 H 34.100 V 305.800 H 32.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 359.800 H 35.600 V 358.300 H 34.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 353.800 H 35.600 V 352.300 H 34.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 352.300 H 35.600 V 350.800 H 34.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 350.800 H 35.600 V 349.300 H 34.100 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 347.800 H 35.600 V 346.300 H 34.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 346.300 H 35.600 V 344.800 H 34.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 344.800 H 35.600 V 343.300 H 34.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 338.800 H 35.600 V 337.300 H 34.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 335.800 H 35.600 V 334.300 H 34.100 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 331.300 H 35.600 V 329.800 H 34.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 325.300 H 35.600 V 323.800 H 34.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 322.300 H 35.600 V 320.800 H 34.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 319.300 H 35.600 V 317.800 H 34.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 317.800 H 35.600 V 316.300 H 34.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 316.300 H 35.600 V 314.800 H 34.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 311.800 H 35.600 V 310.300 H 34.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 34.100 307.300 H 35.600 V 305.800 H 34.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 356.800 H 37.100 V 355.300 H 35.600 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 355.300 H 37.100 V 353.800 H 35.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 344.800 H 37.100 V 343.300 H 35.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 343.300 H 37.100 V 341.800 H 35.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 340.300 H 37.100 V 338.800 H 35.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 338.800 H 37.100 V 337.300 H 35.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 337.300 H 37.100 V 335.800 H 35.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 334.300 H 37.100 V 332.800 H 35.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 326.800 H 37.100 V 325.300 H 35.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 320.800 H 37.100 V 319.300 H 35.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 317.800 H 37.100 V 316.300 H 35.600 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 314.800 H 37.100 V 313.300 H 35.600 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 313.300 H 37.100 V 311.800 H 35.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 311.800 H 37.100 V 310.300 H 35.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 35.600 308.800 H 37.100 V 307.300 H 35.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 359.800 H 38.600 V 358.300 H 37.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 356.800 H 38.600 V 355.300 H 37.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 352.300 H 38.600 V 350.800 H 37.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 346.300 H 38.600 V 344.800 H 37.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 341.800 H 38.600 V 340.300 H 37.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 338.800 H 38.600 V 337.300 H 37.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 337.300 H 38.600 V 335.800 H 37.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 334.300 H 38.600 V 332.800 H 37.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 332.800 H 38.600 V 331.300 H 37.100 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 323.800 H 38.600 V 322.300 H 37.100 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 320.800 H 38.600 V 319.300 H 37.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 319.300 H 38.600 V 317.800 H 37.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 311.800 H 38.600 V 310.300 H 37.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 310.300 H 38.600 V 308.800 H 37.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 37.100 307.300 H 38.600 V 305.800 H 37.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 359.800 H 40.100 V 358.300 H 38.600 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 358.300 H 40.100 V 356.800 H 38.600 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 356.800 H 40.100 V 355.300 H 38.600 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 355.300 H 40.100 V 353.800 H 38.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 347.800 H 40.100 V 346.300 H 38.600 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 344.800 H 40.100 V 343.300 H 38.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 340.300 H 40.100 V 338.800 H 38.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 334.300 H 40.100 V 332.800 H 38.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 332.800 H 40.100 V 331.300 H 38.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 331.300 H 40.100 V 329.800 H 38.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 328.300 H 40.100 V 326.800 H 38.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 319.300 H 40.100 V 317.800 H 38.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 317.800 H 40.100 V 316.300 H 38.600 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 316.300 H 40.100 V 314.800 H 38.600 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 313.300 H 40.100 V 311.800 H 38.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 311.800 H 40.100 V 310.300 H 38.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 310.300 H 40.100 V 308.800 H 38.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 308.800 H 40.100 V 307.300 H 38.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 38.600 307.300 H 40.100 V 305.800 H 38.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 361.300 H 41.600 V 359.800 H 40.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 359.800 H 41.600 V 358.300 H 40.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 352.300 H 41.600 V 350.800 H 40.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 350.800 H 41.600 V 349.300 H 40.100 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 347.800 H 41.600 V 346.300 H 40.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 346.300 H 41.600 V 344.800 H 40.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 340.300 H 41.600 V 338.800 H 40.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 338.800 H 41.600 V 337.300 H 40.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 334.300 H 41.600 V 332.800 H 40.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 331.300 H 41.600 V 329.800 H 40.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 328.300 H 41.600 V 326.800 H 40.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 326.800 H 41.600 V 325.300 H 40.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 323.800 H 41.600 V 322.300 H 40.100 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 322.300 H 41.600 V 320.800 H 40.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 320.800 H 41.600 V 319.300 H 40.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 319.300 H 41.600 V 317.800 H 40.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 316.300 H 41.600 V 314.800 H 40.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 314.800 H 41.600 V 313.300 H 40.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 310.300 H 41.600 V 308.800 H 40.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 40.100 307.300 H 41.600 V 305.800 H 40.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 361.300 H 43.100 V 359.800 H 41.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 355.300 H 43.100 V 353.800 H 41.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 349.300 H 43.100 V 347.800 H 41.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 344.800 H 43.100 V 343.300 H 41.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 334.300 H 43.100 V 332.800 H 41.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 332.800 H 43.100 V 331.300 H 41.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 331.300 H 43.100 V 329.800 H 41.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 325.300 H 43.100 V 323.800 H 41.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 323.800 H 43.100 V 322.300 H 41.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 322.300 H 43.100 V 320.800 H 41.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 320.800 H 43.100 V 319.300 H 41.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 319.300 H 43.100 V 317.800 H 41.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 317.800 H 43.100 V 316.300 H 41.600 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 314.800 H 43.100 V 313.300 H 41.600 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 311.800 H 43.100 V 310.300 H 41.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 41.600 310.300 H 43.100 V 308.800 H 41.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 361.300 H 44.600 V 359.800 H 43.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 359.800 H 44.600 V 358.300 H 43.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 353.800 H 44.600 V 352.300 H 43.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 352.300 H 44.600 V 350.800 H 43.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 347.800 H 44.600 V 346.300 H 43.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 344.800 H 44.600 V 343.300 H 43.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 341.800 H 44.600 V 340.300 H 43.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 337.300 H 44.600 V 335.800 H 43.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 335.800 H 44.600 V 334.300 H 43.100 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 332.800 H 44.600 V 331.300 H 43.100 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 329.800 H 44.600 V 328.300 H 43.100 V 329.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 326.800 H 44.600 V 325.300 H 43.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 325.300 H 44.600 V 323.800 H 43.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 323.800 H 44.600 V 322.300 H 43.100 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 322.300 H 44.600 V 320.800 H 43.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 320.800 H 44.600 V 319.300 H 43.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 316.300 H 44.600 V 314.800 H 43.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 314.800 H 44.600 V 313.300 H 43.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 311.800 H 44.600 V 310.300 H 43.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 43.100 307.300 H 44.600 V 305.800 H 43.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 361.300 H 46.100 V 359.800 H 44.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 359.800 H 46.100 V 358.300 H 44.600 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 358.300 H 46.100 V 356.800 H 44.600 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 355.300 H 46.100 V 353.800 H 44.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 353.800 H 46.100 V 352.300 H 44.600 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 350.800 H 46.100 V 349.300 H 44.600 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 349.300 H 46.100 V 347.800 H 44.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 347.800 H 46.100 V 346.300 H 44.600 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 346.300 H 46.100 V 344.800 H 44.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 341.800 H 46.100 V 340.300 H 44.600 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 340.300 H 46.100 V 338.800 H 44.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 338.800 H 46.100 V 337.300 H 44.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 337.300 H 46.100 V 335.800 H 44.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 334.300 H 46.100 V 332.800 H 44.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 332.800 H 46.100 V 331.300 H 44.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 331.300 H 46.100 V 329.800 H 44.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 328.300 H 46.100 V 326.800 H 44.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 325.300 H 46.100 V 323.800 H 44.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 323.800 H 46.100 V 322.300 H 44.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 322.300 H 46.100 V 320.800 H 44.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 319.300 H 46.100 V 317.800 H 44.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 317.800 H 46.100 V 316.300 H 44.600 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 314.800 H 46.100 V 313.300 H 44.600 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 313.300 H 46.100 V 311.800 H 44.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 311.800 H 46.100 V 310.300 H 44.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 44.600 307.300 H 46.100 V 305.800 H 44.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 359.800 H 47.600 V 358.300 H 46.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 352.300 H 47.600 V 350.800 H 46.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 347.800 H 47.600 V 346.300 H 46.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 344.800 H 47.600 V 343.300 H 46.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 335.800 H 47.600 V 334.300 H 46.100 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 326.800 H 47.600 V 325.300 H 46.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 316.300 H 47.600 V 314.800 H 46.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 313.300 H 47.600 V 311.800 H 46.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 46.100 311.800 H 47.600 V 310.300 H 46.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 361.300 H 49.100 V 359.800 H 47.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 355.300 H 49.100 V 353.800 H 47.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 353.800 H 49.100 V 352.300 H 47.600 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 350.800 H 49.100 V 349.300 H 47.600 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 344.800 H 49.100 V 343.300 H 47.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 340.300 H 49.100 V 338.800 H 47.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 338.800 H 49.100 V 337.300 H 47.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 335.800 H 49.100 V 334.300 H 47.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 334.300 H 49.100 V 332.800 H 47.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 323.800 H 49.100 V 322.300 H 47.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 320.800 H 49.100 V 319.300 H 47.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 319.300 H 49.100 V 317.800 H 47.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 313.300 H 49.100 V 311.800 H 47.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 47.600 310.300 H 49.100 V 308.800 H 47.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 361.300 H 50.600 V 359.800 H 49.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 359.800 H 50.600 V 358.300 H 49.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 356.800 H 50.600 V 355.300 H 49.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 355.300 H 50.600 V 353.800 H 49.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 352.300 H 50.600 V 350.800 H 49.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 347.800 H 50.600 V 346.300 H 49.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 346.300 H 50.600 V 344.800 H 49.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 344.800 H 50.600 V 343.300 H 49.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 343.300 H 50.600 V 341.800 H 49.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 340.300 H 50.600 V 338.800 H 49.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 338.800 H 50.600 V 337.300 H 49.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 337.300 H 50.600 V 335.800 H 49.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 331.300 H 50.600 V 329.800 H 49.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 326.800 H 50.600 V 325.300 H 49.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 320.800 H 50.600 V 319.300 H 49.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 314.800 H 50.600 V 313.300 H 49.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 311.800 H 50.600 V 310.300 H 49.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 49.100 307.300 H 50.600 V 305.800 H 49.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 361.300 H 52.100 V 359.800 H 50.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 359.800 H 52.100 V 358.300 H 50.600 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 356.800 H 52.100 V 355.300 H 50.600 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 353.800 H 52.100 V 352.300 H 50.600 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 347.800 H 52.100 V 346.300 H 50.600 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 346.300 H 52.100 V 344.800 H 50.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 344.800 H 52.100 V 343.300 H 50.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 338.800 H 52.100 V 337.300 H 50.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 337.300 H 52.100 V 335.800 H 50.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 335.800 H 52.100 V 334.300 H 50.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 334.300 H 52.100 V 332.800 H 50.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 331.300 H 52.100 V 329.800 H 50.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 322.300 H 52.100 V 320.800 H 50.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 320.800 H 52.100 V 319.300 H 50.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 316.300 H 52.100 V 314.800 H 50.600 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 314.800 H 52.100 V 313.300 H 50.600 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 313.300 H 52.100 V 311.800 H 50.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 310.300 H 52.100 V 308.800 H 50.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 308.800 H 52.100 V 307.300 H 50.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 50.600 307.300 H 52.100 V 305.800 H 50.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 359.800 H 53.600 V 358.300 H 52.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 358.300 H 53.600 V 356.800 H 52.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 356.800 H 53.600 V 355.300 H 52.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 353.800 H 53.600 V 352.300 H 52.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 352.300 H 53.600 V 350.800 H 52.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 350.800 H 53.600 V 349.300 H 52.100 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 341.800 H 53.600 V 340.300 H 52.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 338.800 H 53.600 V 337.300 H 52.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 334.300 H 53.600 V 332.800 H 52.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 331.300 H 53.600 V 329.800 H 52.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 325.300 H 53.600 V 323.800 H 52.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 322.300 H 53.600 V 320.800 H 52.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 317.800 H 53.600 V 316.300 H 52.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 316.300 H 53.600 V 314.800 H 52.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 52.100 314.800 H 53.600 V 313.300 H 52.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 361.300 H 55.100 V 359.800 H 53.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 355.300 H 55.100 V 353.800 H 53.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 346.300 H 55.100 V 344.800 H 53.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 343.300 H 55.100 V 341.800 H 53.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 341.800 H 55.100 V 340.300 H 53.600 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 340.300 H 55.100 V 338.800 H 53.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 335.800 H 55.100 V 334.300 H 53.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 328.300 H 55.100 V 326.800 H 53.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 326.800 H 55.100 V 325.300 H 53.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 323.800 H 55.100 V 322.300 H 53.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 320.800 H 55.100 V 319.300 H 53.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 313.300 H 55.100 V 311.800 H 53.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 311.800 H 55.100 V 310.300 H 53.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 53.600 310.300 H 55.100 V 308.800 H 53.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 361.300 H 56.600 V 359.800 H 55.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 359.800 H 56.600 V 358.300 H 55.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 358.300 H 56.600 V 356.800 H 55.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 356.800 H 56.600 V 355.300 H 55.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 353.800 H 56.600 V 352.300 H 55.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 352.300 H 56.600 V 350.800 H 55.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 350.800 H 56.600 V 349.300 H 55.100 V 350.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 346.300 H 56.600 V 344.800 H 55.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 344.800 H 56.600 V 343.300 H 55.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 341.800 H 56.600 V 340.300 H 55.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 340.300 H 56.600 V 338.800 H 55.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 338.800 H 56.600 V 337.300 H 55.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 334.300 H 56.600 V 332.800 H 55.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 332.800 H 56.600 V 331.300 H 55.100 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 331.300 H 56.600 V 329.800 H 55.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 328.300 H 56.600 V 326.800 H 55.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 325.300 H 56.600 V 323.800 H 55.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 323.800 H 56.600 V 322.300 H 55.100 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 320.800 H 56.600 V 319.300 H 55.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 319.300 H 56.600 V 317.800 H 55.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 317.800 H 56.600 V 316.300 H 55.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 314.800 H 56.600 V 313.300 H 55.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 311.800 H 56.600 V 310.300 H 55.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 310.300 H 56.600 V 308.800 H 55.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 308.800 H 56.600 V 307.300 H 55.100 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 55.100 307.300 H 56.600 V 305.800 H 55.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 361.300 H 58.100 V 359.800 H 56.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 358.300 H 58.100 V 356.800 H 56.600 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 353.800 H 58.100 V 352.300 H 56.600 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 349.300 H 58.100 V 347.800 H 56.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 346.300 H 58.100 V 344.800 H 56.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 337.300 H 58.100 V 335.800 H 56.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 332.800 H 58.100 V 331.300 H 56.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 331.300 H 58.100 V 329.800 H 56.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 328.300 H 58.100 V 326.800 H 56.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 326.800 H 58.100 V 325.300 H 56.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 322.300 H 58.100 V 320.800 H 56.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 319.300 H 58.100 V 317.800 H 56.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 314.800 H 58.100 V 313.300 H 56.600 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 313.300 H 58.100 V 311.800 H 56.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 311.800 H 58.100 V 310.300 H 56.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 310.300 H 58.100 V 308.800 H 56.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 56.600 307.300 H 58.100 V 305.800 H 56.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 361.300 H 59.600 V 359.800 H 58.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 352.300 H 59.600 V 350.800 H 58.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 349.300 H 59.600 V 347.800 H 58.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 341.800 H 59.600 V 340.300 H 58.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 340.300 H 59.600 V 338.800 H 58.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 338.800 H 59.600 V 337.300 H 58.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 337.300 H 59.600 V 335.800 H 58.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 331.300 H 59.600 V 329.800 H 58.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 328.300 H 59.600 V 326.800 H 58.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 326.800 H 59.600 V 325.300 H 58.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 325.300 H 59.600 V 323.800 H 58.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 323.800 H 59.600 V 322.300 H 58.100 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 322.300 H 59.600 V 320.800 H 58.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 319.300 H 59.600 V 317.800 H 58.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 317.800 H 59.600 V 316.300 H 58.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 316.300 H 59.600 V 314.800 H 58.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 314.800 H 59.600 V 313.300 H 58.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 313.300 H 59.600 V 311.800 H 58.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 311.800 H 59.600 V 310.300 H 58.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 310.300 H 59.600 V 308.800 H 58.100 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 308.800 H 59.600 V 307.300 H 58.100 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 58.100 307.300 H 59.600 V 305.800 H 58.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 349.300 H 61.100 V 347.800 H 59.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 346.300 H 61.100 V 344.800 H 59.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 344.800 H 61.100 V 343.300 H 59.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 343.300 H 61.100 V 341.800 H 59.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 340.300 H 61.100 V 338.800 H 59.600 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 338.800 H 61.100 V 337.300 H 59.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 335.800 H 61.100 V 334.300 H 59.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 334.300 H 61.100 V 332.800 H 59.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 332.800 H 61.100 V 331.300 H 59.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 331.300 H 61.100 V 329.800 H 59.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 325.300 H 61.100 V 323.800 H 59.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 322.300 H 61.100 V 320.800 H 59.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 319.300 H 61.100 V 317.800 H 59.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 313.300 H 61.100 V 311.800 H 59.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 59.600 308.800 H 61.100 V 307.300 H 59.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 361.300 H 62.600 V 359.800 H 61.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 359.800 H 62.600 V 358.300 H 61.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 358.300 H 62.600 V 356.800 H 61.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 356.800 H 62.600 V 355.300 H 61.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 355.300 H 62.600 V 353.800 H 61.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 353.800 H 62.600 V 352.300 H 61.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 352.300 H 62.600 V 350.800 H 61.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 349.300 H 62.600 V 347.800 H 61.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 347.800 H 62.600 V 346.300 H 61.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 344.800 H 62.600 V 343.300 H 61.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 343.300 H 62.600 V 341.800 H 61.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 338.800 H 62.600 V 337.300 H 61.100 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 335.800 H 62.600 V 334.300 H 61.100 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 332.800 H 62.600 V 331.300 H 61.100 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 329.800 H 62.600 V 328.300 H 61.100 V 329.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 328.300 H 62.600 V 326.800 H 61.100 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 326.800 H 62.600 V 325.300 H 61.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 325.300 H 62.600 V 323.800 H 61.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 319.300 H 62.600 V 317.800 H 61.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 316.300 H 62.600 V 314.800 H 61.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 313.300 H 62.600 V 311.800 H 61.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 311.800 H 62.600 V 310.300 H 61.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 61.100 307.300 H 62.600 V 305.800 H 61.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 361.300 H 64.100 V 359.800 H 62.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 352.300 H 64.100 V 350.800 H 62.600 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 349.300 H 64.100 V 347.800 H 62.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 347.800 H 64.100 V 346.300 H 62.600 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 346.300 H 64.100 V 344.800 H 62.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 343.300 H 64.100 V 341.800 H 62.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 338.800 H 64.100 V 337.300 H 62.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 337.300 H 64.100 V 335.800 H 62.600 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 332.800 H 64.100 V 331.300 H 62.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 331.300 H 64.100 V 329.800 H 62.600 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 325.300 H 64.100 V 323.800 H 62.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 323.800 H 64.100 V 322.300 H 62.600 V 323.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 322.300 H 64.100 V 320.800 H 62.600 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 319.300 H 64.100 V 317.800 H 62.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 313.300 H 64.100 V 311.800 H 62.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 308.800 H 64.100 V 307.300 H 62.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 62.600 307.300 H 64.100 V 305.800 H 62.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 361.300 H 65.600 V 359.800 H 64.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 358.300 H 65.600 V 356.800 H 64.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 356.800 H 65.600 V 355.300 H 64.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 355.300 H 65.600 V 353.800 H 64.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 352.300 H 65.600 V 350.800 H 64.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 349.300 H 65.600 V 347.800 H 64.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 344.800 H 65.600 V 343.300 H 64.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 343.300 H 65.600 V 341.800 H 64.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 341.800 H 65.600 V 340.300 H 64.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 340.300 H 65.600 V 338.800 H 64.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 337.300 H 65.600 V 335.800 H 64.100 V 337.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 334.300 H 65.600 V 332.800 H 64.100 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 332.800 H 65.600 V 331.300 H 64.100 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 325.300 H 65.600 V 323.800 H 64.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 320.800 H 65.600 V 319.300 H 64.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 319.300 H 65.600 V 317.800 H 64.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 317.800 H 65.600 V 316.300 H 64.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 316.300 H 65.600 V 314.800 H 64.100 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 314.800 H 65.600 V 313.300 H 64.100 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 313.300 H 65.600 V 311.800 H 64.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 64.100 311.800 H 65.600 V 310.300 H 64.100 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 361.300 H 67.100 V 359.800 H 65.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 358.300 H 67.100 V 356.800 H 65.600 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 356.800 H 67.100 V 355.300 H 65.600 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 355.300 H 67.100 V 353.800 H 65.600 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 352.300 H 67.100 V 350.800 H 65.600 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 349.300 H 67.100 V 347.800 H 65.600 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 346.300 H 67.100 V 344.800 H 65.600 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 343.300 H 67.100 V 341.800 H 65.600 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 341.800 H 67.100 V 340.300 H 65.600 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 334.300 H 67.100 V 332.800 H 65.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 332.800 H 67.100 V 331.300 H 65.600 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 328.300 H 67.100 V 326.800 H 65.600 V 328.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 326.800 H 67.100 V 325.300 H 65.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 325.300 H 67.100 V 323.800 H 65.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 319.300 H 67.100 V 317.800 H 65.600 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 316.300 H 67.100 V 314.800 H 65.600 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 310.300 H 67.100 V 308.800 H 65.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 308.800 H 67.100 V 307.300 H 65.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 65.600 307.300 H 67.100 V 305.800 H 65.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 361.300 H 68.600 V 359.800 H 67.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 358.300 H 68.600 V 356.800 H 67.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 356.800 H 68.600 V 355.300 H 67.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 355.300 H 68.600 V 353.800 H 67.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 352.300 H 68.600 V 350.800 H 67.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 346.300 H 68.600 V 344.800 H 67.100 V 346.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 343.300 H 68.600 V 341.800 H 67.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 341.800 H 68.600 V 340.300 H 67.100 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 340.300 H 68.600 V 338.800 H 67.100 V 340.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 335.800 H 68.600 V 334.300 H 67.100 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 326.800 H 68.600 V 325.300 H 67.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 325.300 H 68.600 V 323.800 H 67.100 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 322.300 H 68.600 V 320.800 H 67.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 320.800 H 68.600 V 319.300 H 67.100 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 313.300 H 68.600 V 311.800 H 67.100 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 67.100 307.300 H 68.600 V 305.800 H 67.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 361.300 H 70.100 V 359.800 H 68.600 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 352.300 H 70.100 V 350.800 H 68.600 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 344.800 H 70.100 V 343.300 H 68.600 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 341.800 H 70.100 V 340.300 H 68.600 V 341.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 338.800 H 70.100 V 337.300 H 68.600 V 338.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 335.800 H 70.100 V 334.300 H 68.600 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 334.300 H 70.100 V 332.800 H 68.600 V 334.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 326.800 H 70.100 V 325.300 H 68.600 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 325.300 H 70.100 V 323.800 H 68.600 V 325.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 320.800 H 70.100 V 319.300 H 68.600 V 320.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 316.300 H 70.100 V 314.800 H 68.600 V 316.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 314.800 H 70.100 V 313.300 H 68.600 V 314.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 313.300 H 70.100 V 311.800 H 68.600 V 313.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 311.800 H 70.100 V 310.300 H 68.600 V 311.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 310.300 H 70.100 V 308.800 H 68.600 V 310.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 308.800 H 70.100 V 307.300 H 68.600 V 308.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 68.600 307.300 H 70.100 V 305.800 H 68.600 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 361.300 H 71.600 V 359.800 H 70.100 V 361.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 359.800 H 71.600 V 358.300 H 70.100 V 359.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 358.300 H 71.600 V 356.800 H 70.100 V 358.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 356.800 H 71.600 V 355.300 H 70.100 V 356.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 355.300 H 71.600 V 353.800 H 70.100 V 355.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 353.800 H 71.600 V 352.300 H 70.100 V 353.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 352.300 H 71.600 V 350.800 H 70.100 V 352.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 349.300 H 71.600 V 347.800 H 70.100 V 349.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 347.800 H 71.600 V 346.300 H 70.100 V 347.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 344.800 H 71.600 V 343.300 H 70.100 V 344.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 343.300 H 71.600 V 341.800 H 70.100 V 343.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 335.800 H 71.600 V 334.300 H 70.100 V 335.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 332.800 H 71.600 V 331.300 H 70.100 V 332.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 331.300 H 71.600 V 329.800 H 70.100 V 331.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 326.800 H 71.600 V 325.300 H 70.100 V 326.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 322.300 H 71.600 V 320.800 H 70.100 V 322.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 319.300 H 71.600 V 317.800 H 70.100 V 319.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 317.800 H 71.600 V 316.300 H 70.100 V 317.800 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+  <path d="M 70.100 307.300 H 71.600 V 305.800 H 70.100 V 307.300 Z" stroke="rgb(0,255,0)" stroke-width="0.20" />
+</g>
+<g id="p-2" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <text dominant-baseline="hanging" font-size="6px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="left" transform="matrix( 1.000 0.000 0.000 1.000 78.450 356.150 )">http://127.0.0.8:8000/UniversalBox?Lid_style=flatbrim&amp;x=85&amp;y=60&amp;h=60&amp;spacing=0.5</text>
+</g>
+<g id="p-3" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 22.600 294.900 H 19.700 C 19.600 294.900 19.700 295.000 19.700 294.900 V 292.100 C 19.700 292.000 19.600 292.100 19.700 292.100 H 25.500 C 25.600 292.100 25.500 292.000 25.500 292.100 V 294.900 C 25.500 295.000 25.600 294.900 25.500 294.900 H 22.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 34.600 294.900 H 31.700 C 31.600 294.900 31.700 295.000 31.700 294.900 V 292.100 C 31.700 292.000 31.600 292.100 31.700 292.100 H 37.500 C 37.600 292.100 37.500 292.000 37.500 292.100 V 294.900 C 37.500 295.000 37.600 294.900 37.500 294.900 H 34.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 46.600 294.900 H 43.700 C 43.600 294.900 43.700 295.000 43.700 294.900 V 292.100 C 43.700 292.000 43.600 292.100 43.700 292.100 H 49.500 C 49.600 292.100 49.500 292.000 49.500 292.100 V 294.900 C 49.500 295.000 49.600 294.900 49.500 294.900 H 46.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 58.600 294.900 H 55.700 C 55.600 294.900 55.700 295.000 55.700 294.900 V 292.100 C 55.700 292.000 55.600 292.100 55.700 292.100 H 61.500 C 61.600 292.100 61.500 292.000 61.500 292.100 V 294.900 C 61.500 295.000 61.600 294.900 61.500 294.900 H 58.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 70.600 294.900 H 67.700 C 67.600 294.900 67.700 295.000 67.700 294.900 V 292.100 C 67.700 292.000 67.600 292.100 67.700 292.100 H 73.500 C 73.600 292.100 73.500 292.000 73.500 292.100 V 294.900 C 73.500 295.000 73.600 294.900 73.500 294.900 H 70.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 82.600 294.900 H 79.700 C 79.600 294.900 79.700 295.000 79.700 294.900 V 292.100 C 79.700 292.000 79.600 292.100 79.700 292.100 H 85.500 C 85.600 292.100 85.500 292.000 85.500 292.100 V 294.900 C 85.500 295.000 85.600 294.900 85.500 294.900 H 82.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 13.100 298.100 H 92.100 H 95.100 C 95.155 298.100 95.200 298.055 95.200 298.000 V 289.000 C 95.200 288.945 95.155 288.900 95.100 288.900 H 92.200 C 92.100 288.900 92.200 289.000 92.200 288.900 V 283.100 C 92.200 283.000 92.100 283.100 92.200 283.100 H 95.100 C 95.155 283.100 95.200 283.055 95.200 283.000 V 277.000 C 95.200 276.945 95.155 276.900 95.100 276.900 H 92.200 C 92.100 276.900 92.200 277.000 92.200 276.900 V 271.100 C 92.200 271.000 92.100 271.100 92.200 271.100 H 95.100 C 95.155 271.100 95.200 271.055 95.200 271.000 V 265.000 C 95.200 264.945 95.155 264.900 95.100 264.900 H 92.200 C 92.100 264.900 92.200 265.000 92.200 264.900 V 259.100 C 92.200 259.000 92.100 259.100 92.200 259.100 H 95.100 C 95.155 259.100 95.200 259.055 95.200 259.000 V 253.000 C 95.200 252.945 95.155 252.900 95.100 252.900 H 92.200 C 92.100 252.900 92.200 253.000 92.200 252.900 V 247.100 C 92.200 247.000 92.100 247.100 92.200 247.100 H 95.100 C 95.155 247.100 95.200 247.055 95.200 247.000 V 238.000 C 95.200 237.945 95.155 237.900 95.100 237.900 H 92.100 H 13.100 H 10.100 C 10.045 237.900 10.000 237.945 10.000 238.000 V 247.000 C 10.000 247.055 10.045 247.100 10.100 247.100 H 13.000 C 13.100 247.100 13.000 247.000 13.000 247.100 V 252.900 C 13.000 253.000 13.100 252.900 13.000 252.900 H 10.100 C 10.045 252.900 10.000 252.945 10.000 253.000 V 259.000 C 10.000 259.055 10.045 259.100 10.100 259.100 H 13.000 C 13.100 259.100 13.000 259.000 13.000 259.100 V 264.900 C 13.000 265.000 13.100 264.900 13.000 264.900 H 10.100 C 10.045 264.900 10.000 264.945 10.000 265.000 V 271.000 C 10.000 271.055 10.045 271.100 10.100 271.100 H 13.000 C 13.100 271.100 13.000 271.000 13.000 271.100 V 276.900 C 13.000 277.000 13.100 276.900 13.000 276.900 H 10.100 C 10.045 276.900 10.000 276.945 10.000 277.000 V 283.000 C 10.000 283.055 10.045 283.100 10.100 283.100 H 13.000 C 13.100 283.100 13.000 283.000 13.000 283.100 V 288.900 C 13.000 289.000 13.100 288.900 13.000 288.900 H 10.100 C 10.045 288.900 10.000 288.945 10.000 289.000 V 298.000 C 10.000 298.055 10.045 298.100 10.100 298.100 H 13.100 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 52.600 266.100 )">front</text>
+</g>
+<g id="p-4" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 22.600 233.200 H 19.700 C 19.600 233.200 19.700 233.300 19.700 233.200 V 230.400 C 19.700 230.300 19.600 230.400 19.700 230.400 H 25.500 C 25.600 230.400 25.500 230.300 25.500 230.400 V 233.200 C 25.500 233.300 25.600 233.200 25.500 233.200 H 22.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 34.600 233.200 H 31.700 C 31.600 233.200 31.700 233.300 31.700 233.200 V 230.400 C 31.700 230.300 31.600 230.400 31.700 230.400 H 37.500 C 37.600 230.400 37.500 230.300 37.500 230.400 V 233.200 C 37.500 233.300 37.600 233.200 37.500 233.200 H 34.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 46.600 233.200 H 43.700 C 43.600 233.200 43.700 233.300 43.700 233.200 V 230.400 C 43.700 230.300 43.600 230.400 43.700 230.400 H 49.500 C 49.600 230.400 49.500 230.300 49.500 230.400 V 233.200 C 49.500 233.300 49.600 233.200 49.500 233.200 H 46.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 58.600 233.200 H 55.700 C 55.600 233.200 55.700 233.300 55.700 233.200 V 230.400 C 55.700 230.300 55.600 230.400 55.700 230.400 H 61.500 C 61.600 230.400 61.500 230.300 61.500 230.400 V 233.200 C 61.500 233.300 61.600 233.200 61.500 233.200 H 58.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 70.600 233.200 H 67.700 C 67.600 233.200 67.700 233.300 67.700 233.200 V 230.400 C 67.700 230.300 67.600 230.400 67.700 230.400 H 73.500 C 73.600 230.400 73.500 230.300 73.500 230.400 V 233.200 C 73.500 233.300 73.600 233.200 73.500 233.200 H 70.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 82.600 233.200 H 79.700 C 79.600 233.200 79.700 233.300 79.700 233.200 V 230.400 C 79.700 230.300 79.600 230.400 79.700 230.400 H 85.500 C 85.600 230.400 85.500 230.300 85.500 230.400 V 233.200 C 85.500 233.300 85.600 233.200 85.500 233.200 H 82.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 13.100 236.400 H 92.100 H 95.100 C 95.155 236.400 95.200 236.355 95.200 236.300 V 227.300 C 95.200 227.245 95.155 227.200 95.100 227.200 H 92.200 C 92.100 227.200 92.200 227.300 92.200 227.200 V 221.400 C 92.200 221.300 92.100 221.400 92.200 221.400 H 95.100 C 95.155 221.400 95.200 221.355 95.200 221.300 V 215.300 C 95.200 215.245 95.155 215.200 95.100 215.200 H 92.200 C 92.100 215.200 92.200 215.300 92.200 215.200 V 209.400 C 92.200 209.300 92.100 209.400 92.200 209.400 H 95.100 C 95.155 209.400 95.200 209.355 95.200 209.300 V 203.300 C 95.200 203.245 95.155 203.200 95.100 203.200 H 92.200 C 92.100 203.200 92.200 203.300 92.200 203.200 V 197.400 C 92.200 197.300 92.100 197.400 92.200 197.400 H 95.100 C 95.155 197.400 95.200 197.355 95.200 197.300 V 191.300 C 95.200 191.245 95.155 191.200 95.100 191.200 H 92.200 C 92.100 191.200 92.200 191.300 92.200 191.200 V 185.400 C 92.200 185.300 92.100 185.400 92.200 185.400 H 95.100 C 95.155 185.400 95.200 185.355 95.200 185.300 V 176.300 C 95.200 176.245 95.155 176.200 95.100 176.200 H 92.100 H 13.100 H 10.100 C 10.045 176.200 10.000 176.245 10.000 176.300 V 185.300 C 10.000 185.355 10.045 185.400 10.100 185.400 H 13.000 C 13.100 185.400 13.000 185.300 13.000 185.400 V 191.200 C 13.000 191.300 13.100 191.200 13.000 191.200 H 10.100 C 10.045 191.200 10.000 191.245 10.000 191.300 V 197.300 C 10.000 197.355 10.045 197.400 10.100 197.400 H 13.000 C 13.100 197.400 13.000 197.300 13.000 197.400 V 203.200 C 13.000 203.300 13.100 203.200 13.000 203.200 H 10.100 C 10.045 203.200 10.000 203.245 10.000 203.300 V 209.300 C 10.000 209.355 10.045 209.400 10.100 209.400 H 13.000 C 13.100 209.400 13.000 209.300 13.000 209.400 V 215.200 C 13.000 215.300 13.100 215.200 13.000 215.200 H 10.100 C 10.045 215.200 10.000 215.245 10.000 215.300 V 221.300 C 10.000 221.355 10.045 221.400 10.100 221.400 H 13.000 C 13.100 221.400 13.000 221.300 13.000 221.400 V 227.200 C 13.000 227.300 13.100 227.200 13.000 227.200 H 10.100 C 10.045 227.200 10.000 227.245 10.000 227.300 V 236.300 C 10.000 236.355 10.045 236.400 10.100 236.400 H 13.100 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 52.600 204.400 )">back</text>
+</g>
+<g id="p-5" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 13.100 171.700 H 19.500 C 19.600 171.700 19.500 171.600 19.500 171.700 V 174.600 C 19.500 174.655 19.545 174.700 19.600 174.700 H 25.600 C 25.655 174.700 25.700 174.655 25.700 174.600 V 171.700 C 25.700 171.600 25.600 171.700 25.700 171.700 H 31.500 C 31.600 171.700 31.500 171.600 31.500 171.700 V 174.600 C 31.500 174.655 31.545 174.700 31.600 174.700 H 37.600 C 37.655 174.700 37.700 174.655 37.700 174.600 V 171.700 C 37.700 171.600 37.600 171.700 37.700 171.700 H 43.500 C 43.600 171.700 43.500 171.600 43.500 171.700 V 174.600 C 43.500 174.655 43.545 174.700 43.600 174.700 H 49.600 C 49.655 174.700 49.700 174.655 49.700 174.600 V 171.700 C 49.700 171.600 49.600 171.700 49.700 171.700 H 55.500 C 55.600 171.700 55.500 171.600 55.500 171.700 V 174.600 C 55.500 174.655 55.545 174.700 55.600 174.700 H 61.600 C 61.655 174.700 61.700 174.655 61.700 174.600 V 171.700 C 61.700 171.600 61.600 171.700 61.700 171.700 H 67.500 C 67.600 171.700 67.500 171.600 67.500 171.700 V 174.600 C 67.500 174.655 67.545 174.700 67.600 174.700 H 73.600 C 73.655 174.700 73.700 174.655 73.700 174.600 V 171.700 C 73.700 171.600 73.600 171.700 73.700 171.700 H 79.500 C 79.600 171.700 79.500 171.600 79.500 171.700 V 174.600 C 79.500 174.655 79.545 174.700 79.600 174.700 H 85.600 C 85.655 174.700 85.700 174.655 85.700 174.600 V 171.700 C 85.700 171.600 85.600 171.700 85.700 171.700 H 92.100 C 92.155 171.700 92.200 171.655 92.200 171.600 V 165.700 C 92.200 165.600 92.100 165.700 92.200 165.700 H 95.100 C 95.155 165.700 95.200 165.655 95.200 165.600 V 159.600 C 95.200 159.545 95.155 159.500 95.100 159.500 H 92.200 C 92.100 159.500 92.200 159.600 92.200 159.500 V 153.700 C 92.200 153.600 92.100 153.700 92.200 153.700 H 95.100 C 95.155 153.700 95.200 153.655 95.200 153.600 V 147.600 C 95.200 147.545 95.155 147.500 95.100 147.500 H 92.200 C 92.100 147.500 92.200 147.600 92.200 147.500 V 141.700 C 92.200 141.600 92.100 141.700 92.200 141.700 H 95.100 C 95.155 141.700 95.200 141.655 95.200 141.600 V 135.600 C 95.200 135.545 95.155 135.500 95.100 135.500 H 92.200 C 92.100 135.500 92.200 135.600 92.200 135.500 V 129.700 C 92.200 129.600 92.100 129.700 92.200 129.700 H 95.100 C 95.155 129.700 95.200 129.655 95.200 129.600 V 123.600 C 95.200 123.545 95.155 123.500 95.100 123.500 H 92.200 C 92.100 123.500 92.200 123.600 92.200 123.500 V 117.600 C 92.200 117.545 92.155 117.500 92.100 117.500 H 85.700 C 85.600 117.500 85.700 117.600 85.700 117.500 V 114.600 C 85.700 114.545 85.655 114.500 85.600 114.500 H 79.600 C 79.545 114.500 79.500 114.545 79.500 114.600 V 117.500 C 79.500 117.600 79.600 117.500 79.500 117.500 H 73.700 C 73.600 117.500 73.700 117.600 73.700 117.500 V 114.600 C 73.700 114.545 73.655 114.500 73.600 114.500 H 67.600 C 67.545 114.500 67.500 114.545 67.500 114.600 V 117.500 C 67.500 117.600 67.600 117.500 67.500 117.500 H 61.700 C 61.600 117.500 61.700 117.600 61.700 117.500 V 114.600 C 61.700 114.545 61.655 114.500 61.600 114.500 H 55.600 C 55.545 114.500 55.500 114.545 55.500 114.600 V 117.500 C 55.500 117.600 55.600 117.500 55.500 117.500 H 49.700 C 49.600 117.500 49.700 117.600 49.700 117.500 V 114.600 C 49.700 114.545 49.655 114.500 49.600 114.500 H 43.600 C 43.545 114.500 43.500 114.545 43.500 114.600 V 117.500 C 43.500 117.600 43.600 117.500 43.500 117.500 H 37.700 C 37.600 117.500 37.700 117.600 37.700 117.500 V 114.600 C 37.700 114.545 37.655 114.500 37.600 114.500 H 31.600 C 31.545 114.500 31.500 114.545 31.500 114.600 V 117.500 C 31.500 117.600 31.600 117.500 31.500 117.500 H 25.700 C 25.600 117.500 25.700 117.600 25.700 117.500 V 114.600 C 25.700 114.545 25.655 114.500 25.600 114.500 H 19.600 C 19.545 114.500 19.500 114.545 19.500 114.600 V 117.500 C 19.500 117.600 19.600 117.500 19.500 117.500 H 13.100 C 13.045 117.500 13.000 117.545 13.000 117.600 V 123.500 C 13.000 123.600 13.100 123.500 13.000 123.500 H 10.100 C 10.045 123.500 10.000 123.545 10.000 123.600 V 129.600 C 10.000 129.655 10.045 129.700 10.100 129.700 H 13.000 C 13.100 129.700 13.000 129.600 13.000 129.700 V 135.500 C 13.000 135.600 13.100 135.500 13.000 135.500 H 10.100 C 10.045 135.500 10.000 135.545 10.000 135.600 V 141.600 C 10.000 141.655 10.045 141.700 10.100 141.700 H 13.000 C 13.100 141.700 13.000 141.600 13.000 141.700 V 147.500 C 13.000 147.600 13.100 147.500 13.000 147.500 H 10.100 C 10.045 147.500 10.000 147.545 10.000 147.600 V 153.600 C 10.000 153.655 10.045 153.700 10.100 153.700 H 13.000 C 13.100 153.700 13.000 153.600 13.000 153.700 V 159.500 C 13.000 159.600 13.100 159.500 13.000 159.500 H 10.100 C 10.045 159.500 10.000 159.545 10.000 159.600 V 165.600 C 10.000 165.655 10.045 165.700 10.100 165.700 H 13.000 C 13.100 165.700 13.000 165.600 13.000 165.700 V 171.600 C 13.000 171.655 13.045 171.700 13.100 171.700 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 52.600 142.700 )">bottom</text>
+</g>
+<g id="p-6" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 22.600 108.300 H 19.700 C 19.600 108.300 19.700 108.400 19.700 108.300 V 105.500 C 19.700 105.400 19.600 105.500 19.700 105.500 H 25.500 C 25.600 105.500 25.500 105.400 25.500 105.500 V 108.300 C 25.500 108.400 25.600 108.300 25.500 108.300 H 22.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 34.600 108.300 H 31.700 C 31.600 108.300 31.700 108.400 31.700 108.300 V 105.500 C 31.700 105.400 31.600 105.500 31.700 105.500 H 37.500 C 37.600 105.500 37.500 105.400 37.500 105.500 V 108.300 C 37.500 108.400 37.600 108.300 37.500 108.300 H 34.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 46.600 108.300 H 43.700 C 43.600 108.300 43.700 108.400 43.700 108.300 V 105.500 C 43.700 105.400 43.600 105.500 43.700 105.500 H 49.500 C 49.600 105.500 49.500 105.400 49.500 105.500 V 108.300 C 49.500 108.400 49.600 108.300 49.500 108.300 H 46.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 58.600 108.300 H 55.700 C 55.600 108.300 55.700 108.400 55.700 108.300 V 105.500 C 55.700 105.400 55.600 105.500 55.700 105.500 H 61.500 C 61.600 105.500 61.500 105.400 61.500 105.500 V 108.300 C 61.500 108.400 61.600 108.300 61.500 108.300 H 58.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 70.600 108.300 H 67.700 C 67.600 108.300 67.700 108.400 67.700 108.300 V 105.500 C 67.700 105.400 67.600 105.500 67.700 105.500 H 73.500 C 73.600 105.500 73.500 105.400 73.500 105.500 V 108.300 C 73.500 108.400 73.600 108.300 73.500 108.300 H 70.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 82.600 108.300 H 79.700 C 79.600 108.300 79.700 108.400 79.700 108.300 V 105.500 C 79.700 105.400 79.600 105.500 79.700 105.500 H 85.500 C 85.600 105.500 85.500 105.400 85.500 105.500 V 108.300 C 85.500 108.400 85.600 108.300 85.500 108.300 H 82.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 13.100 113.000 H 92.100 H 95.100 C 95.155 113.000 95.200 112.955 95.200 112.900 V 109.900 V 55.900 V 52.900 C 95.200 52.845 95.155 52.800 95.100 52.800 H 92.100 H 13.100 H 10.100 C 10.045 52.800 10.000 52.845 10.000 52.900 V 55.900 V 109.900 V 112.900 C 10.000 112.955 10.045 113.000 10.100 113.000 H 13.100 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <path d="M 90.500 100.900 V 103.800 C 90.500 103.900 90.600 103.800 90.500 103.800 H 87.700 C 87.600 103.800 87.700 103.900 87.700 103.800 V 98.000 C 87.700 97.900 87.600 98.000 87.700 98.000 H 90.500 C 90.600 98.000 90.500 97.900 90.500 98.000 V 100.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 90.500 88.900 V 91.800 C 90.500 91.900 90.600 91.800 90.500 91.800 H 87.700 C 87.600 91.800 87.700 91.900 87.700 91.800 V 86.000 C 87.700 85.900 87.600 86.000 87.700 86.000 H 90.500 C 90.600 86.000 90.500 85.900 90.500 86.000 V 88.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 90.500 76.900 V 79.800 C 90.500 79.900 90.600 79.800 90.500 79.800 H 87.700 C 87.600 79.800 87.700 79.900 87.700 79.800 V 74.000 C 87.700 73.900 87.600 74.000 87.700 74.000 H 90.500 C 90.600 74.000 90.500 73.900 90.500 74.000 V 76.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 90.500 64.900 V 67.800 C 90.500 67.900 90.600 67.800 90.500 67.800 H 87.700 C 87.600 67.800 87.700 67.900 87.700 67.800 V 62.000 C 87.700 61.900 87.600 62.000 87.700 62.000 H 90.500 C 90.600 62.000 90.500 61.900 90.500 62.000 V 64.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 82.600 57.500 H 85.500 C 85.600 57.500 85.500 57.400 85.500 57.500 V 60.300 C 85.500 60.400 85.600 60.300 85.500 60.300 H 79.700 C 79.600 60.300 79.700 60.400 79.700 60.300 V 57.500 C 79.700 57.400 79.600 57.500 79.700 57.500 H 82.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 70.600 57.500 H 73.500 C 73.600 57.500 73.500 57.400 73.500 57.500 V 60.300 C 73.500 60.400 73.600 60.300 73.500 60.300 H 67.700 C 67.600 60.300 67.700 60.400 67.700 60.300 V 57.500 C 67.700 57.400 67.600 57.500 67.700 57.500 H 70.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 58.600 57.500 H 61.500 C 61.600 57.500 61.500 57.400 61.500 57.500 V 60.300 C 61.500 60.400 61.600 60.300 61.500 60.300 H 55.700 C 55.600 60.300 55.700 60.400 55.700 60.300 V 57.500 C 55.700 57.400 55.600 57.500 55.700 57.500 H 58.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 46.600 57.500 H 49.500 C 49.600 57.500 49.500 57.400 49.500 57.500 V 60.300 C 49.500 60.400 49.600 60.300 49.500 60.300 H 43.700 C 43.600 60.300 43.700 60.400 43.700 60.300 V 57.500 C 43.700 57.400 43.600 57.500 43.700 57.500 H 46.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 34.600 57.500 H 37.500 C 37.600 57.500 37.500 57.400 37.500 57.500 V 60.300 C 37.500 60.400 37.600 60.300 37.500 60.300 H 31.700 C 31.600 60.300 31.700 60.400 31.700 60.300 V 57.500 C 31.700 57.400 31.600 57.500 31.700 57.500 H 34.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 22.600 57.500 H 25.500 C 25.600 57.500 25.500 57.400 25.500 57.500 V 60.300 C 25.500 60.400 25.600 60.300 25.500 60.300 H 19.700 C 19.600 60.300 19.700 60.400 19.700 60.300 V 57.500 C 19.700 57.400 19.600 57.500 19.700 57.500 H 22.600 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 14.700 64.900 V 62.000 C 14.700 61.900 14.600 62.000 14.700 62.000 H 17.500 C 17.600 62.000 17.500 61.900 17.500 62.000 V 67.800 C 17.500 67.900 17.600 67.800 17.500 67.800 H 14.700 C 14.600 67.800 14.700 67.900 14.700 67.800 V 64.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 14.700 76.900 V 74.000 C 14.700 73.900 14.600 74.000 14.700 74.000 H 17.500 C 17.600 74.000 17.500 73.900 17.500 74.000 V 79.800 C 17.500 79.900 17.600 79.800 17.500 79.800 H 14.700 C 14.600 79.800 14.700 79.900 14.700 79.800 V 76.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 14.700 88.900 V 86.000 C 14.700 85.900 14.600 86.000 14.700 86.000 H 17.500 C 17.600 86.000 17.500 85.900 17.500 86.000 V 91.800 C 17.500 91.900 17.600 91.800 17.500 91.800 H 14.700 C 14.600 91.800 14.700 91.900 14.700 91.800 V 88.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 14.700 100.900 V 98.000 C 14.700 97.900 14.600 98.000 14.700 98.000 H 17.500 C 17.600 98.000 17.500 97.900 17.500 98.000 V 103.800 C 17.500 103.900 17.600 103.800 17.500 103.800 H 14.700 C 14.600 103.800 14.700 103.900 14.700 103.800 V 100.900 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 52.600 81.000 )">lid top</text>
+</g>
+<g id="p-7" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 10.100 48.300 H 16.500 C 16.600 48.300 16.500 48.200 16.500 48.300 V 51.200 C 16.500 51.255 16.545 51.300 16.600 51.300 H 22.600 C 22.655 51.300 22.700 51.255 22.700 51.200 V 48.300 C 22.700 48.200 22.600 48.300 22.700 48.300 H 28.500 C 28.600 48.300 28.500 48.200 28.500 48.300 V 51.200 C 28.500 51.255 28.545 51.300 28.600 51.300 H 34.600 C 34.655 51.300 34.700 51.255 34.700 51.200 V 48.300 C 34.700 48.200 34.600 48.300 34.700 48.300 H 40.500 C 40.600 48.300 40.500 48.200 40.500 48.300 V 51.200 C 40.500 51.255 40.545 51.300 40.600 51.300 H 46.600 C 46.655 51.300 46.700 51.255 46.700 51.200 V 48.300 C 46.700 48.200 46.600 48.300 46.700 48.300 H 52.500 C 52.600 48.300 52.500 48.200 52.500 48.300 V 51.200 C 52.500 51.255 52.545 51.300 52.600 51.300 H 58.600 C 58.655 51.300 58.700 51.255 58.700 51.200 V 48.300 C 58.700 48.200 58.600 48.300 58.700 48.300 H 64.500 C 64.600 48.300 64.500 48.200 64.500 48.300 V 51.200 C 64.500 51.255 64.545 51.300 64.600 51.300 H 70.600 C 70.655 51.300 70.700 51.255 70.700 51.200 V 48.300 C 70.700 48.200 70.600 48.300 70.700 48.300 H 76.500 C 76.600 48.300 76.500 48.200 76.500 48.300 V 51.200 C 76.500 51.255 76.545 51.300 76.600 51.300 H 82.600 C 82.655 51.300 82.700 51.255 82.700 51.200 V 48.300 C 82.700 48.200 82.600 48.300 82.700 48.300 H 89.100 C 89.155 48.300 89.200 48.255 89.200 48.200 V 42.200 C 89.200 42.145 89.155 42.100 89.100 42.100 H 10.100 C 10.045 42.100 10.000 42.145 10.000 42.200 V 48.200 C 10.000 48.255 10.045 48.300 10.100 48.300 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 49.600 44.800 )">lid brim</text>
+</g>
+<g id="p-8" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 10.100 37.600 H 16.500 C 16.600 37.600 16.500 37.500 16.500 37.600 V 40.500 C 16.500 40.555 16.545 40.600 16.600 40.600 H 22.600 C 22.655 40.600 22.700 40.555 22.700 40.500 V 37.600 C 22.700 37.500 22.600 37.600 22.700 37.600 H 28.500 C 28.600 37.600 28.500 37.500 28.500 37.600 V 40.500 C 28.500 40.555 28.545 40.600 28.600 40.600 H 34.600 C 34.655 40.600 34.700 40.555 34.700 40.500 V 37.600 C 34.700 37.500 34.600 37.600 34.700 37.600 H 40.500 C 40.600 37.600 40.500 37.500 40.500 37.600 V 40.500 C 40.500 40.555 40.545 40.600 40.600 40.600 H 46.600 C 46.655 40.600 46.700 40.555 46.700 40.500 V 37.600 C 46.700 37.500 46.600 37.600 46.700 37.600 H 52.500 C 52.600 37.600 52.500 37.500 52.500 37.600 V 40.500 C 52.500 40.555 52.545 40.600 52.600 40.600 H 58.600 C 58.655 40.600 58.700 40.555 58.700 40.500 V 37.600 C 58.700 37.500 58.600 37.600 58.700 37.600 H 64.500 C 64.600 37.600 64.500 37.500 64.500 37.600 V 40.500 C 64.500 40.555 64.545 40.600 64.600 40.600 H 70.600 C 70.655 40.600 70.700 40.555 70.700 40.500 V 37.600 C 70.700 37.500 70.600 37.600 70.700 37.600 H 76.500 C 76.600 37.600 76.500 37.500 76.500 37.600 V 40.500 C 76.500 40.555 76.545 40.600 76.600 40.600 H 82.600 C 82.655 40.600 82.700 40.555 82.700 40.500 V 37.600 C 82.700 37.500 82.600 37.600 82.700 37.600 H 89.100 C 89.155 37.600 89.200 37.555 89.200 37.500 V 31.500 C 89.200 31.445 89.155 31.400 89.100 31.400 H 10.100 C 10.045 31.400 10.000 31.445 10.000 31.500 V 37.500 C 10.000 37.555 10.045 37.600 10.100 37.600 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 49.600 34.100 )">lid brim</text>
+</g>
+<g id="p-9" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 10.100 26.900 H 16.000 C 16.100 26.900 16.000 26.800 16.000 26.900 V 29.800 C 16.000 29.855 16.045 29.900 16.100 29.900 H 22.100 C 22.155 29.900 22.200 29.855 22.200 29.800 V 26.900 C 22.200 26.800 22.100 26.900 22.200 26.900 H 28.000 C 28.100 26.900 28.000 26.800 28.000 26.900 V 29.800 C 28.000 29.855 28.045 29.900 28.100 29.900 H 34.100 C 34.155 29.900 34.200 29.855 34.200 29.800 V 26.900 C 34.200 26.800 34.100 26.900 34.200 26.900 H 40.000 C 40.100 26.900 40.000 26.800 40.000 26.900 V 29.800 C 40.000 29.855 40.045 29.900 40.100 29.900 H 46.100 C 46.155 29.900 46.200 29.855 46.200 29.800 V 26.900 C 46.200 26.800 46.100 26.900 46.200 26.900 H 52.000 C 52.100 26.900 52.000 26.800 52.000 26.900 V 29.800 C 52.000 29.855 52.045 29.900 52.100 29.900 H 58.100 C 58.155 29.900 58.200 29.855 58.200 29.800 V 26.900 C 58.200 26.800 58.100 26.900 58.200 26.900 H 64.100 C 64.155 26.900 64.200 26.855 64.200 26.800 V 20.800 C 64.200 20.745 64.155 20.700 64.100 20.700 H 10.100 C 10.045 20.700 10.000 20.745 10.000 20.800 V 26.800 C 10.000 26.855 10.045 26.900 10.100 26.900 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 37.100 23.400 )">lid brim</text>
+</g>
+<g id="p-10" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 10.100 16.200 H 16.000 C 16.100 16.200 16.000 16.100 16.000 16.200 V 19.100 C 16.000 19.155 16.045 19.200 16.100 19.200 H 22.100 C 22.155 19.200 22.200 19.155 22.200 19.100 V 16.200 C 22.200 16.100 22.100 16.200 22.200 16.200 H 28.000 C 28.100 16.200 28.000 16.100 28.000 16.200 V 19.100 C 28.000 19.155 28.045 19.200 28.100 19.200 H 34.100 C 34.155 19.200 34.200 19.155 34.200 19.100 V 16.200 C 34.200 16.100 34.100 16.200 34.200 16.200 H 40.000 C 40.100 16.200 40.000 16.100 40.000 16.200 V 19.100 C 40.000 19.155 40.045 19.200 40.100 19.200 H 46.100 C 46.155 19.200 46.200 19.155 46.200 19.100 V 16.200 C 46.200 16.100 46.100 16.200 46.200 16.200 H 52.000 C 52.100 16.200 52.000 16.100 52.000 16.200 V 19.100 C 52.000 19.155 52.045 19.200 52.100 19.200 H 58.100 C 58.155 19.200 58.200 19.155 58.200 19.100 V 16.200 C 58.200 16.100 58.100 16.200 58.200 16.200 H 64.100 C 64.155 16.200 64.200 16.155 64.200 16.100 V 10.100 C 64.200 10.045 64.155 10.000 64.100 10.000 H 10.100 C 10.045 10.000 10.000 10.045 10.000 10.100 V 16.100 C 10.000 16.155 10.045 16.200 10.100 16.200 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 37.100 12.700 )">lid brim</text>
+</g>
+<g id="p-11" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 108.800 294.900 H 105.900 C 105.800 294.900 105.900 295.000 105.900 294.900 V 292.100 C 105.900 292.000 105.800 292.100 105.900 292.100 H 111.700 C 111.800 292.100 111.700 292.000 111.700 292.100 V 294.900 C 111.700 295.000 111.800 294.900 111.700 294.900 H 108.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 120.800 294.900 H 117.900 C 117.800 294.900 117.900 295.000 117.900 294.900 V 292.100 C 117.900 292.000 117.800 292.100 117.900 292.100 H 123.700 C 123.800 292.100 123.700 292.000 123.700 292.100 V 294.900 C 123.700 295.000 123.800 294.900 123.700 294.900 H 120.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 132.800 294.900 H 129.900 C 129.800 294.900 129.900 295.000 129.900 294.900 V 292.100 C 129.900 292.000 129.800 292.100 129.900 292.100 H 135.700 C 135.800 292.100 135.700 292.000 135.700 292.100 V 294.900 C 135.700 295.000 135.800 294.900 135.700 294.900 H 132.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 144.800 294.900 H 141.900 C 141.800 294.900 141.900 295.000 141.900 294.900 V 292.100 C 141.900 292.000 141.800 292.100 141.900 292.100 H 147.700 C 147.800 292.100 147.700 292.000 147.700 292.100 V 294.900 C 147.700 295.000 147.800 294.900 147.700 294.900 H 144.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 99.800 298.100 H 153.800 C 153.855 298.100 153.900 298.055 153.900 298.000 V 289.100 C 153.900 289.000 153.800 289.100 153.900 289.100 H 156.800 C 156.855 289.100 156.900 289.055 156.900 289.000 V 283.000 C 156.900 282.945 156.855 282.900 156.800 282.900 H 153.900 C 153.800 282.900 153.900 283.000 153.900 282.900 V 277.100 C 153.900 277.000 153.800 277.100 153.900 277.100 H 156.800 C 156.855 277.100 156.900 277.055 156.900 277.000 V 271.000 C 156.900 270.945 156.855 270.900 156.800 270.900 H 153.900 C 153.800 270.900 153.900 271.000 153.900 270.900 V 265.100 C 153.900 265.000 153.800 265.100 153.900 265.100 H 156.800 C 156.855 265.100 156.900 265.055 156.900 265.000 V 259.000 C 156.900 258.945 156.855 258.900 156.800 258.900 H 153.900 C 153.800 258.900 153.900 259.000 153.900 258.900 V 253.100 C 153.900 253.000 153.800 253.100 153.900 253.100 H 156.800 C 156.855 253.100 156.900 253.055 156.900 253.000 V 247.000 C 156.900 246.945 156.855 246.900 156.800 246.900 H 153.900 C 153.800 246.900 153.900 247.000 153.900 246.900 V 238.000 C 153.900 237.945 153.855 237.900 153.800 237.900 H 99.800 C 99.745 237.900 99.700 237.945 99.700 238.000 V 246.900 C 99.700 247.000 99.800 246.900 99.700 246.900 H 96.800 C 96.745 246.900 96.700 246.945 96.700 247.000 V 253.000 C 96.700 253.055 96.745 253.100 96.800 253.100 H 99.700 C 99.800 253.100 99.700 253.000 99.700 253.100 V 258.900 C 99.700 259.000 99.800 258.900 99.700 258.900 H 96.800 C 96.745 258.900 96.700 258.945 96.700 259.000 V 265.000 C 96.700 265.055 96.745 265.100 96.800 265.100 H 99.700 C 99.800 265.100 99.700 265.000 99.700 265.100 V 270.900 C 99.700 271.000 99.800 270.900 99.700 270.900 H 96.800 C 96.745 270.900 96.700 270.945 96.700 271.000 V 277.000 C 96.700 277.055 96.745 277.100 96.800 277.100 H 99.700 C 99.800 277.100 99.700 277.000 99.700 277.100 V 282.900 C 99.700 283.000 99.800 282.900 99.700 282.900 H 96.800 C 96.745 282.900 96.700 282.945 96.700 283.000 V 289.000 C 96.700 289.055 96.745 289.100 96.800 289.100 H 99.700 C 99.800 289.100 99.700 289.000 99.700 289.100 V 298.000 C 99.700 298.055 99.745 298.100 99.800 298.100 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 126.800 266.100 )">left</text>
+</g>
+<g id="p-12" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+  <path d="M 108.800 233.200 H 105.900 C 105.800 233.200 105.900 233.300 105.900 233.200 V 230.400 C 105.900 230.300 105.800 230.400 105.900 230.400 H 111.700 C 111.800 230.400 111.700 230.300 111.700 230.400 V 233.200 C 111.700 233.300 111.800 233.200 111.700 233.200 H 108.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 120.800 233.200 H 117.900 C 117.800 233.200 117.900 233.300 117.900 233.200 V 230.400 C 117.900 230.300 117.800 230.400 117.900 230.400 H 123.700 C 123.800 230.400 123.700 230.300 123.700 230.400 V 233.200 C 123.700 233.300 123.800 233.200 123.700 233.200 H 120.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 132.800 233.200 H 129.900 C 129.800 233.200 129.900 233.300 129.900 233.200 V 230.400 C 129.900 230.300 129.800 230.400 129.900 230.400 H 135.700 C 135.800 230.400 135.700 230.300 135.700 230.400 V 233.200 C 135.700 233.300 135.800 233.200 135.700 233.200 H 132.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 144.800 233.200 H 141.900 C 141.800 233.200 141.900 233.300 141.900 233.200 V 230.400 C 141.900 230.300 141.800 230.400 141.900 230.400 H 147.700 C 147.800 230.400 147.700 230.300 147.700 230.400 V 233.200 C 147.700 233.300 147.800 233.200 147.700 233.200 H 144.800 Z" stroke="rgb(0,0,255)" stroke-width="0.20" />
+  <path d="M 99.800 236.400 H 153.800 C 153.855 236.400 153.900 236.355 153.900 236.300 V 227.400 C 153.900 227.300 153.800 227.400 153.900 227.400 H 156.800 C 156.855 227.400 156.900 227.355 156.900 227.300 V 221.300 C 156.900 221.245 156.855 221.200 156.800 221.200 H 153.900 C 153.800 221.200 153.900 221.300 153.900 221.200 V 215.400 C 153.900 215.300 153.800 215.400 153.900 215.400 H 156.800 C 156.855 215.400 156.900 215.355 156.900 215.300 V 209.300 C 156.900 209.245 156.855 209.200 156.800 209.200 H 153.900 C 153.800 209.200 153.900 209.300 153.900 209.200 V 203.400 C 153.900 203.300 153.800 203.400 153.900 203.400 H 156.800 C 156.855 203.400 156.900 203.355 156.900 203.300 V 197.300 C 156.900 197.245 156.855 197.200 156.800 197.200 H 153.900 C 153.800 197.200 153.900 197.300 153.900 197.200 V 191.400 C 153.900 191.300 153.800 191.400 153.900 191.400 H 156.800 C 156.855 191.400 156.900 191.355 156.900 191.300 V 185.300 C 156.900 185.245 156.855 185.200 156.800 185.200 H 153.900 C 153.800 185.200 153.900 185.300 153.900 185.200 V 176.300 C 153.900 176.245 153.855 176.200 153.800 176.200 H 99.800 C 99.745 176.200 99.700 176.245 99.700 176.300 V 185.200 C 99.700 185.300 99.800 185.200 99.700 185.200 H 96.800 C 96.745 185.200 96.700 185.245 96.700 185.300 V 191.300 C 96.700 191.355 96.745 191.400 96.800 191.400 H 99.700 C 99.800 191.400 99.700 191.300 99.700 191.400 V 197.200 C 99.700 197.300 99.800 197.200 99.700 197.200 H 96.800 C 96.745 197.200 96.700 197.245 96.700 197.300 V 203.300 C 96.700 203.355 96.745 203.400 96.800 203.400 H 99.700 C 99.800 203.400 99.700 203.300 99.700 203.400 V 209.200 C 99.700 209.300 99.800 209.200 99.700 209.200 H 96.800 C 96.745 209.200 96.700 209.245 96.700 209.300 V 215.300 C 96.700 215.355 96.745 215.400 96.800 215.400 H 99.700 C 99.800 215.400 99.700 215.300 99.700 215.400 V 221.200 C 99.700 221.300 99.800 221.200 99.700 221.200 H 96.800 C 96.745 221.200 96.700 221.245 96.700 221.300 V 227.300 C 96.700 227.355 96.745 227.400 96.800 227.400 H 99.700 C 99.800 227.400 99.700 227.300 99.700 227.400 V 236.300 C 99.700 236.355 99.745 236.400 99.800 236.400 Z" stroke="rgb(0,0,0)" stroke-width="0.20" />
+  <text dominant-baseline="hanging" font-size="4px" style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)" text-anchor="middle" transform="matrix( 1.000 0.000 0.000 1.000 126.800 204.400 )">right</text>
+</g>
+</svg>
