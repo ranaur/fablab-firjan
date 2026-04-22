@@ -1,0 +1,40 @@
+{
+    "Passes vs Speed": {
+        "BorderCut": {
+            "index": 2,
+            "maxPower": 20,
+            "maxPower2": 20,
+            "name": "C02",
+            "speed": 100,
+            "type": "Cut"
+        },
+        "MaterialCut": {
+            "index": 0,
+            "maxPower": 20,
+            "maxPower2": 20,
+            "name": "C00",
+            "speed": 100,
+            "type": "Cut"
+        },
+        "TextCut": {
+            "index": 1,
+            "maxPower": 20,
+            "maxPower2": 20,
+            "name": "C01",
+            "speed": 100,
+            "type": "Cut"
+        },
+        "XCenter": 650,
+        "XCount": 10,
+        "XMax": 300,
+        "XMin": 10,
+        "XParam": 0,
+        "XSize": 5,
+        "YCenter": 500,
+        "YCount": 10,
+        "YMax": 10,
+        "YMin": 1,
+        "YParam": 3,
+        "YSize": 5
+    }
+}
