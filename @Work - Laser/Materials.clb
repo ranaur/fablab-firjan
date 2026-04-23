@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightBurnLibrary DisplayName="Materials">
+    <Material name="HOLLER">
+        <Entry Thickness="2.0000" Desc="Comment">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HOLLER/2.0000/Comment"/>
+                <minPower Value="0"/>
+                <maxPower Value="0"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.0000" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HOLLER/2.0000/Cut"/>
+                <minPower Value="60"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="30"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
     <Material name="MDF">
         <Entry Thickness="3.0000" Desc="Cut">
             <CutSetting type="Cut">
@@ -42,14 +74,61 @@
             </CutSetting>
         </Entry>
         <Entry Thickness="3.0000" Desc="Comment">
-            <CutSetting type="Offset">
+            <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
                 <LinkPath Value="MDF/3.0000/Comment"/>
                 <minPower Value="0"/>
                 <maxPower Value="0"/>
                 <maxPower2 Value="20"/>
-                <speed Value="100"/>
+                <speed Value="400"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Cut_copy"/>
+                <minPower Value="80"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="18"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="XPS">
+        <Entry Thickness="5.0000" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="XPS/5.0000/Cut"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="5.0000" Desc="Comment">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="XPS/5.0000/Comment"/>
+                <minPower Value="0"/>
+                <maxPower Value="0"/>
+                <maxPower2 Value="20"/>
+                <speed Value="400"/>
                 <dotTime Value="1"/>
                 <priority Value="0"/>
                 <tabCount Value="1"/>

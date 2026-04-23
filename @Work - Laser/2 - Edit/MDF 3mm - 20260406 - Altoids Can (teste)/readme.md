@@ -14,4 +14,4 @@ https://boxes.hackerspace-bamberg.de/UniversalBox?FingerJoint_style=rectangular&
 
 # TODO
 
-Acertar a tampa para gastar menos material (colocar uns pinos)
+Refazer usando o flatbrim
