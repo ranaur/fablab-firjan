@@ -4,6 +4,14 @@ MTG card size: 63x88mm (interno)
 	com protetor (1mm): 65x90mm (interno)
 Altoids can: 97,5 x 62,5 x 20,5 (externo)
 
+## Caixa deitada:
+    (1 mm de cada lado usando o sleeve)
+
+92 (largura) x 67 de altura X n comprimento
+
+
+
+
 70 x 97 x 30 (interno)'MDF 3mm - 20260406 - Altoids Can (teste)'
 69 x 95 mín
 Folga 1mm por lado + 1mm + thickness em um dos lados => 72 x 102 x 
