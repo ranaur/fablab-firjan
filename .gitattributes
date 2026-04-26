@@ -9,3 +9,12 @@
 /@Inbox/Lego[[:space:]]Man[[:space:]]Modular[[:space:]]_[[:space:]]Easy[[:space:]]Print[[:space:]]-[[:space:]]6687741.zip filter=lfs diff=lfs merge=lfs -text
 /@Work[[:space:]]-[[:space:]]Filamento/Super[[:space:]]Mario/mario+p1s_stls.zip filter=lfs diff=lfs merge=lfs -text
 *.cxdlp filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Parametized/KeyV2_[[:space:]]Parametric[[:space:]]Mechanical[[:space:]]Keycap[[:space:]]Library[[:space:]]-[[:space:]]2783650.zip filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Parametized/Lego[[:space:]]Man[[:space:]]Modular[[:space:]]_[[:space:]]Easy[[:space:]]Print[[:space:]]-[[:space:]]6687741.zip filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Parametized/Mario[[:space:]]Kart[[:space:]]-[[:space:]]Baby[[:space:]]Princess[[:space:]]Peach[[:space:]]-[[:space:]]4486923.zip filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Parametized/Mario[[:space:]]Kart[[:space:]]Downforce_monopoly[[:space:]]+[[:space:]]remixed_new[[:space:]]racers![[:space:]]-[[:space:]]5454030[[:space:]]-[[:space:]]part[[:space:]]1[[:space:]]of[[:space:]]2.zip filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Parametized/Mario[[:space:]]Kart[[:space:]]Downforce_monopoly[[:space:]]+[[:space:]]remixed_new[[:space:]]racers![[:space:]]-[[:space:]]5454030[[:space:]]-[[:space:]]part[[:space:]]2[[:space:]]of[[:space:]]2.zip filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Parametized/Small[[:space:]]Piece[[:space:]]Boxes[[:space:]]-[[:space:]]5889050.zip filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Princess[[:space:]]Peach[[:space:]]Motorist[[:space:]]-[[:space:]]6165970[[:space:]]-[[:space:]]part[[:space:]]1[[:space:]]of[[:space:]]2.zip filter=lfs diff=lfs merge=lfs -text
+/@Inbox/Princess[[:space:]]Peach[[:space:]]Motorist[[:space:]]-[[:space:]]6165970[[:space:]]-[[:space:]]part[[:space:]]2[[:space:]]of[[:space:]]2.zip filter=lfs diff=lfs merge=lfs -text
+/@Work[[:space:]]-[[:space:]]Filamento/Super[[:space:]]Mario/Princess[[:space:]]Peach[[:space:]](Easy[[:space:]]Print!)[[:space:]]-[[:space:]]7052643.zip filter=lfs diff=lfs merge=lfs -text
