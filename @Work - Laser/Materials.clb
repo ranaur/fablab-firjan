@@ -92,11 +92,28 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="MDF/3.0000/Cut_copy"/>
+                <LinkPath Value="MDF/6.0000/Cut"/>
                 <minPower Value="80"/>
                 <maxPower Value="80"/>
                 <maxPower2 Value="20"/>
                 <speed Value="18"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="PAPEL">
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="180gr">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Cut_copy"/>
+                <minPower Value="50"/>
+                <maxPower Value="50"/>
+                <maxPower2 Value="20"/>
+                <speed Value="60"/>
                 <dotTime Value="1"/>
                 <priority Value="0"/>
                 <tabCount Value="1"/>

@@ -2,10 +2,10 @@
 
 ## Data
 
-Game Box size: 23.40 x 11.50 x 4.00 in https://boardgamegeek.com/thread/1243794/box-sizedimensions
-    (59,44 x 29,21 x 10,16) cm
+Tamaho da caixa do jogo:
 
-28,5 x 9 x 47 cm => tamanho da caixa
+Externo: (59,44 x 29,21 x 10,16) cm
+Interno: 28,5 x 9 x 47 cm
 
 ## Components
 
