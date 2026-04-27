@@ -27,10 +27,10 @@
     <CutSetting type="Cut">
         <index Value="0"/>
         <name Value="C00"/>
-        <minPower Value="75"/>
-        <maxPower Value="75"/>
+        <minPower Value="80"/>
+        <maxPower Value="80"/>
         <maxPower2 Value="20"/>
-        <speed Value="25"/>
+        <speed Value="18"/>
         <dotTime Value="1"/>
         <subname Value="Cut External"/>
         <priority Value="1"/>
