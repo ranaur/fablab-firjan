@@ -4,12 +4,13 @@ total_minutes=0
 total_seconds=0
 
 for file in *; do
+    #echo -n "$file : "
     # Remove trailing slash if dir
     file_name="${file%/}"
 
     # Remove trailing slash if dir
-    extension="${file_name##*.}"
-    file_name="${file_name%.*}"
+    extension="${file_name##*.[a-zA-Z]}"
+    file_name="${file_name%%.[a-zA-Z]*}"
 
     # Extract part after "- "
     time_part="${file_name##*- }"
@@ -19,9 +20,13 @@ for file in *; do
         minutes="${BASH_REMATCH[1]}"
         seconds="${BASH_REMATCH[2]}"
 
+        #echo Adding ... $minutes:$seconds
         # Add to totals
         total_minutes=$((total_minutes + 10#$minutes))
         total_seconds=$((total_seconds + 10#$seconds))
+    else
+        :
+        #echo Skipping ... $time_part
     fi
 done
 
