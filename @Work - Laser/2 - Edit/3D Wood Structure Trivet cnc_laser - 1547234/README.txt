@@ -1,0 +1,4 @@
+3D Wood Structure Trivet cnc/laser by ZenziWerken on Thingiverse: https://www.thingiverse.com/thing:1547234
+
+Summary:
+The drawing seems like a quite simple design, but it took some time to figure out the interlocking slots and the needed count of parts. Glued together the trivet is strong enough to carry a pretty heavy pot or pan. This build was done on a desktop cnc-machine by Stepcraft from 6 mm birch plywood using a spiral-toothed 1.2 mm flute.A laser cutter might be a good alternative tool to rebuild the design. Visit https://www.zenziwerken.de/en/Household-Items/Trivets for more interesting trivet designs.
