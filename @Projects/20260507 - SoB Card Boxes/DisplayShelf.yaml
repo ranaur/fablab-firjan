@@ -1,0 +1,41 @@
+# Exported current parameters for DisplayShelf
+# Values same as defaults are commented
+
+box_type: DisplayShelf
+name: "displayshelf_example"
+generate: true
+args:
+  FingerJoint_bottom_lip: 0.0
+  FingerJoint_edge_width: 1.0
+  FingerJoint_extra_length: 0.0
+  FingerJoint_finger: 2.0
+  FingerJoint_play: 0.0
+  FingerJoint_space: 2.0
+  # FingerJoint_style: rectangular
+  FingerJoint_surroundingspaces: 2.0
+  FingerJoint_width: 1.0
+  angle: 30.0
+  bottom_distance: 0
+  burn: 0.1
+  debug: 0
+  divider_wall_height: 20.0
+  # format: svg
+  front_wall_height: 20.0
+  h: 60
+  include_back: 1
+  include_bottom: 1
+  include_front: 0
+  # inner_corners: loop
+  labels: 1
+  num: 1
+  # output: box.svg
+  outside: 1
+  qr_code: 1
+  reference: 100.0
+  slope_top: 0
+  spacing: 0.5
+  sx: 73:36:36:36:73
+  tabs: 0.0
+  thickness: 3.0
+  top_distance: 0.0
+  y: 100
