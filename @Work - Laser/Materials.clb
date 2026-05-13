@@ -103,6 +103,36 @@
                 <tabCountMax Value="1"/>
             </CutSetting>
         </Entry>
+        <Entry Thickness="3.0000" Desc="Image">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Image"/>
+                <minPower Value="0.01"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <ditherMode Value="grayscale"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Soft Fill">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Fill_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="400"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
     </Material>
     <Material name="PAPEL">
         <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="180gr">
@@ -124,7 +154,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="PAPEL/180gr/Cut_copy"/>
+                <LinkPath Value="PAPEL/180gr/Comment"/>
                 <minPower Value="50"/>
                 <maxPower Value="50"/>
                 <maxPower2 Value="20"/>
