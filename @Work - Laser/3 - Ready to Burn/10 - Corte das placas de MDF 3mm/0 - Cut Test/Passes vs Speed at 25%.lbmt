@@ -1,0 +1,56 @@
+{
+    "Passes vs Speed (novo)": {
+        "BorderCut": {
+            "doOutput": false,
+            "dotTime": 1,
+            "index": 2,
+            "maxPower": 80,
+            "maxPower2": 20,
+            "name": "C02",
+            "priority": 0,
+            "speed": 15,
+            "tabCount": 1,
+            "tabCountMax": 1,
+            "type": "Cut"
+        },
+        "MaterialCut": {
+            "dotTime": 1,
+            "forceConstantPower": true,
+            "index": 0,
+            "maxPower": 25,
+            "maxPower2": 20,
+            "minPower": 25,
+            "name": "C00",
+            "priority": 0,
+            "speed": 100,
+            "tabCount": 1,
+            "tabCountMax": 1,
+            "type": "Cut"
+        },
+        "TextCut": {
+            "dotTime": 1,
+            "index": 1,
+            "maxPower": 25,
+            "maxPower2": 20,
+            "minPower": 15,
+            "name": "C01",
+            "priority": 0,
+            "speed": 60,
+            "tabCount": 1,
+            "tabCountMax": 1,
+            "type": "Cut"
+        },
+        "XCenter": 650,
+        "XCount": 10,
+        "XMax": 300,
+        "XMin": 10,
+        "XParam": 0,
+        "XSize": 5,
+        "YCenter": 500,
+        "YCount": 10,
+        "YMax": 10,
+        "YMin": 1,
+        "YParam": 3,
+        "YSize": 5
+    }
+}
