@@ -1,0 +1,124 @@
+# Generated YAML configuration for UniversalBox
+# Full format with Defaults and Boxes sections
+# This file can be used with boxes_generator.py or the build command
+
+Defaults:
+    # reference: 0
+
+Boxes:
+  - box_type: UniversalBox
+    name: "UniversalBox_example"
+    generate: true
+    args:
+      ### Settings for Finger Joints
+      # FingerJoint_bottom_lip: 0.0 # height of the bottom lips sticking out  (multiples of thickness) FingerHoleEdge only!
+      # FingerJoint_edge_width: 1.0 # space below holes of FingerHoleEdge (multiples of thickness)
+      # FingerJoint_extra_length: 0.0 # extra material to grind away burn marks (multiples of thickness)
+      FingerJoint_finger: 5.0 # width of the fingers (multiples of thickness)
+      # FingerJoint_play: 0.0 # extra space to allow finger move in and out (multiples of thickness)
+      FingerJoint_space: 5.0 # space between fingers (multiples of thickness)
+      # FingerJoint_style: rectangular # style of the fingers # [rectangular, springs, barbs, snap]
+      FingerJoint_surroundingspaces: 2.0 # space at the start and end in multiple of normal spaces
+      # FingerJoint_width: 1.0 # width of finger holes (multiples of thickness)
+
+      ### Settings for Stackable Edges
+      # Stackable_angle: 60 # inside angle of the feet
+      # Stackable_bottom_stabilizers: 0.0 # height of strips to be glued to the inside of bottom edges (multiples of thickness)
+      # Stackable_height: 2.0 # height of the feet (multiples of thickness)
+      # Stackable_holedistance: 1.0 # distance from finger holes to bottom edge (multiples of thickness)
+      # Stackable_width: 4.0 # width of the feet (multiples of thickness)
+
+      ### Settings for Hinges and HingePins
+      # Hinge_axle: 2.0 # diameter of the pin hole (multiples of thickness)
+      # Hinge_grip_length: 0 # fixed length of the grips on he lids (multiples of thickness)
+      # Hinge_grip_percentage: 0
+      # Hinge_hingestrength: 1 # thickness of the arc holding the pin in place (multiples of thickness)
+      # Hinge_outset: True # have lid overlap at the sides (similar to OutSetEdge)
+      # Hinge_pinwidth: 0.5 # set to lower value to get disks surrounding the pins
+
+      ### Settings for Cabinet Hinges
+      # CabinetHinge_bore: 3.2 # diameter of the pin hole in mm
+      # CabinetHinge_eye: 1.5 # radius of the eye (multiples of thickness)
+      # CabinetHinge_eyes_per_hinge: 5 # pieces per hinge
+      # CabinetHinge_hinges: 2 # number of hinges per edge
+      # CabinetHinge_play: 0.05 # space between eyes (multiples of thickness)
+      # CabinetHinge_spacing: 2.0 # minimum space around the hinge (multiples of thickness)
+      # CabinetHinge_style: inside # style of hinge used
+
+      ### Settings for Slide-on Lids
+      # SlideOnLid_bottom_lip: 0.0 # height of the bottom lips sticking out  (multiples of thickness) FingerHoleEdge only!
+      # SlideOnLid_edge_width: 1.0 # space below holes of FingerHoleEdge (multiples of thickness)
+      # SlideOnLid_extra_length: 0.0 # extra material to grind away burn marks (multiples of thickness)
+      # SlideOnLid_finger: 3.0 # width of the fingers (multiples of thickness)
+      # SlideOnLid_hole_width: 0 # width of the "finger hole" in mm
+      # SlideOnLid_play: 0.05 # extra space to allow finger move in and out (multiples of thickness)
+      # SlideOnLid_second_pin: True # additional pin for better positioning
+      # SlideOnLid_space: 2.0 # space between fingers (multiples of thickness)
+      # SlideOnLid_spring: both # position(s) of the extra locking springs in the lid
+      # SlideOnLid_style: rectangular # style of the fingers
+      # SlideOnLid_surroundingspaces: 2.0 # space at the start and end in multiple of normal spaces
+      # SlideOnLid_width: 1.0 # width of finger holes (multiples of thickness)
+
+      ### Settings for Click-on Lids
+      # Click_angle: 5.0 # angle of the hooks bending outward
+      # Click_bottom_radius: 0.1 # radius at the bottom (multiples of thickness)
+      # Click_depth: 3.0 # length of the hooks (multiples of thickness)
+
+      ### Settings for RoundedTriangleEdge
+      # RoundedTriangleEdge_height: 50.0 # height above the wall
+      # RoundedTriangleEdge_outset: 1.0 # extend the triangle along the length of the edge (multiples of thickness)
+      # RoundedTriangleEdge_r_hole: 2.0 # radius of hole
+      # RoundedTriangleEdge_radius: 30.0 # radius of top corner
+
+      ### Settings for Mounting Edge
+      # Mounting_d_head: "6.5" # head diameter of mounting screw (in mm)
+      # Mounting_d_shaft: "3.0" # shaft diameter of mounting screw (in mm)
+      # Mounting_margin: "0.125" # minimum space left and right without holes (fraction of the edge length)
+      # Mounting_num: "2" # number of mounting holes (integer)
+      # Mounting_side: "back" # side of box (not all valid configurations make sense...)
+      # Mounting_style: "straight edge, within" # edge style
+
+      ### Settings for HandleEdge
+      # HandleEdge_height: 20.0 # height above the wall in mm
+      # HandleEdge_hole_height: 75.0 # height of hole(s) in percentage of maximum hole height (handle height - 2 * material thickness)
+      # HandleEdge_hole_width: 40:40 # width of hole(s) in percentage of maximum hole width (width of edge - (n+1) * material thickness)
+      # HandleEdge_on_sides: True # added to side panels if checked, to front and back otherwise (only used with top_edge parameter)
+      # HandleEdge_outset: 1.0 # extend the handle along the length of the edge (multiples of thickness)
+      # HandleEdge_radius: 10.0 # radius of corners in mm
+
+      ### Settings for Flex
+      # Flex_connection: 1.0 # width of the gaps in the cuts (multiples of thickness)
+      # Flex_distance: 0.5 # width of the pattern perpendicular to the cuts (multiples of thickness)
+      # Flex_stretch: 1.05 # Hint of how much the flex part should be shortened
+      # Flex_width: 5.0 # width of the pattern in direction of the cuts (multiples of thickness)
+
+      ### Settings for the Lid
+      # Lid_brim_height: 1.0 # height of the brim in multiple of thickness (for flatbrim lids)
+      # Lid_brim_spacing: 0.15 # space between the brim and the walls (for flatbrim lids)
+      # Lid_fang_size: 1.0 # size of the fangs in multiples of thickness (for fangbrim lids)
+      # Lid_handle: none # type of handle # [none, long_rounded, long_trapezoid, long_doublerounded, knob]
+      # Lid_handle_height: 8.0 # height of the handle in multiples of thickness (if applicable)
+      # Lid_height: 4.0 # height of the brim in multiples of thickness (if any)
+      # Lid_play: 0.1 # play when sliding the lid on in multiples of thickness (if applicable)
+      Lid_style: fangbrim # type of lid to create # [none, flat, chest, overthetop, ontop, flatbrim, fangbrim]
+
+      ### UniversalBox Settings
+      # bottom_edge: "h" # edge type for bottom edge # [too many! Run box_cli list edges to see valid values!]
+      h: 150.0 # inner height in mm (unless outside selected)
+      outside: true # treat sizes as outside measurements [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#outside)
+      # top_edge: "e" # edge type for top edge # [too many! Run box_cli list edges to see valid values!]
+      # vertical_edges: "finger joints" # connections used for the vertical edges
+      x: 200.0 # inner width in mm (unless outside selected)
+      y: 200.0 # inner depth in mm (unless outside selected)
+
+      ### Default Settings
+      # burn: 0.1 # burn correction (in mm)(bigger values for tighter fit) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#burn)
+      # debug: false # print surrounding boxes for some structures [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#debug)
+      # format: svg # format of resulting file [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#format)
+      # inner_corners: loop # style for inner corners [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#inner-corners)
+      # labels: true # label the parts (where available)
+      qr_code: true # Add a QR Code with link or command line to the generated output
+      # reference: 100.0 # print reference rectangle with given length (in mm)(zero to disable) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#reference)
+      # spacing: 0.5 # spacing around parts (multiples of thickness [: extra space in mm]) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#spacing)
+      # tabs: 0.0 # width of tabs holding the parts in place (in mm)(not supported everywhere) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#tabs)
+      thickness: 3.0 # thickness of the material (in mm) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#thickness)
