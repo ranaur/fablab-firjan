@@ -1,0 +1,53 @@
+# Generated YAML configuration for Console2
+# Full format with Defaults and Boxes sections
+# This file can be used with boxes_generator.py or the build command
+
+Defaults:
+    # reference: 0
+
+Boxes:
+  - box_type: Console2
+    name: "Console2_example"
+    generate: true
+    args:
+      ### Settings for Finger Joints
+      # FingerJoint_bottom_lip: 0.0 # height of the bottom lips sticking out  (multiples of thickness) FingerHoleEdge only!
+      # FingerJoint_edge_width: 1.0 # space below holes of FingerHoleEdge (multiples of thickness)
+      # FingerJoint_extra_length: 0.0 # extra material to grind away burn marks (multiples of thickness)
+      # FingerJoint_finger: 2.0 # width of the fingers (multiples of thickness)
+      # FingerJoint_play: 0.0 # extra space to allow finger move in and out (multiples of thickness)
+      # FingerJoint_space: 2.0 # space between fingers (multiples of thickness)
+      # FingerJoint_style: rectangular # style of the fingers # [rectangular, springs, barbs, snap]
+      # FingerJoint_surroundingspaces: 0.5 # space at the start and end in multiple of normal spaces
+      # FingerJoint_width: 1.0 # width of finger holes (multiples of thickness)
+
+      ### Settings for Stackable Edges
+      # Stackable_angle: 60 # inside angle of the feet
+      # Stackable_bottom_stabilizers: 0.0 # height of strips to be glued to the inside of bottom edges (multiples of thickness)
+      # Stackable_height: 2.0 # height of the feet (multiples of thickness)
+      # Stackable_holedistance: 1.0 # distance from finger holes to bottom edge (multiples of thickness)
+      # Stackable_width: 4.0 # width of the feet (multiples of thickness)
+
+      ### Console2 Settings
+      angle: 37 # angle of the front panel (90°=upright)
+      bottom_edge: f # edge type for bottom edge # [too many! Run box_cli list edges to see valid values!]
+      front_height: 5 # height of the front below the panel (in mm)
+      glued_panel: false # the panel is glued and not held by finger joints
+      h: 60 # inner height in mm (unless outside selected)
+      # outside: false # treat sizes as outside measurements [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#outside)
+      removable_backwall: false # have latches at the backwall
+      removable_panel: false # The panel is held by tabs and can be removed
+      # x: 100.0 # inner width in mm (unless outside selected)
+      y: 150 # inner depth in mm (unless outside selected)
+
+      ### Default Settings
+      # burn: 0.1 # burn correction (in mm)(bigger values for tighter fit) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#burn)
+      # debug: false # print surrounding boxes for some structures [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#debug)
+      # format: svg # format of resulting file [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#format)
+      # inner_corners: loop # style for inner corners [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#inner-corners)
+      # labels: true # label the parts (where available)
+      qr_code: true # Add a QR Code with link or command line to the generated output
+      # reference: 100.0 # print reference rectangle with given length (in mm)(zero to disable) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#reference)
+      # spacing: 1.7
+      # tabs: 0.0 # width of tabs holding the parts in place (in mm)(not supported everywhere) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#tabs)
+      # thickness: 3.0 # thickness of the material (in mm) [🛈](https://florianfesti.github.io/boxes/html/usermanual.html#thickness)
