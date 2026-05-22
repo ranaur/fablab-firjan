@@ -1,6 +1,5 @@
 # Exported current parameters for UniversalBox
 # Values same as defaults are commented
-
 box_type: UniversalBox
 name: "universalbox_example"
 generate: true
@@ -79,7 +78,7 @@ args:
   #burn: 0.1
   #debug: 0
   # format: svg
-  h: 66
+  h: 68
   # inner_corners: loop
   #labels: 1
   # output: box.svg
@@ -91,5 +90,5 @@ args:
   thickness: 3.0
   top_edge: S
   # vertical_edges: finger joints
-  x: 106
+  x: 104
   y: 56.8
