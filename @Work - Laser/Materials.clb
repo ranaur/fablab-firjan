@@ -137,7 +137,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="MDF/3.0000/Engrave_copy"/>
+                <LinkPath Value="MDF/3.0000/Soft Engrave"/>
                 <minPower Value="30"/>
                 <maxPower Value="30"/>
                 <maxPower2 Value="20"/>
