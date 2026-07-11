@@ -4,14 +4,14 @@ ESSE PROJETO FOI ARQUIVADO!
 
 Favor ver os projetos maker-*
 
-[https://github.com/ranaur/maker-laser](https://github.com/ranaur/maker-laser.git)
-[https://github.com/ranaur/maker-3d-filament](https://github.com/ranaur/maker-3d-filament.git)
-[https://github.com/ranaur/maker-3d-resin](https://github.com/ranaur/maker-3d-resin)
-[https://github.com/ranaur/maker-cnc-router](https://github.com/ranaur/maker-cnc-router)
+* [https://github.com/ranaur/maker-laser](https://github.com/ranaur/maker-laser.git)
+* [https://github.com/ranaur/maker-3d-filament](https://github.com/ranaur/maker-3d-filament.git)
+* [https://github.com/ranaur/maker-3d-resin](https://github.com/ranaur/maker-3d-resin)
+* [https://github.com/ranaur/maker-cnc-router](https://github.com/ranaur/maker-cnc-router)
 
 e
 
-[https://github.com/ranaur/design-firjan](https://github.com/ranaur/design-firjan)
+* [https://github.com/ranaur/design-firjan](https://github.com/ranaur/design-firjan)
 
 Meus projetos a fazer ou feitos no Fablab. Salvo quando o arquivo foi baixado na internet, ou mencione outra licença, todos os arquivos que fiz ou modifiquei sequem a licença CC0 1.0 Universal em anexo.
 # Diretórios
